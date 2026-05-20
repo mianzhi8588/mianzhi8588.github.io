@@ -9,56 +9,24 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+[**Download my full PDF Resume here**](\Haoyang Wang.pdf)
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Education
+* [cite_start]**M.S. in Mechanical Engineering**, Beijing University of Chemical Technology (Sept. 2024 - Present) [cite: 7, 8]
+  * [cite_start]Major GPA: 3.54/4.0 [cite: 9]
+* [cite_start]**B.A. in Business Administration**, Beijing University of Chemical Technology (Sept. 2023 - Jul. 2024) [cite: 7, 14]
+* [cite_start]**B.Eng. in Process Equipment and Control Engineering (Mechanical)**, Beijing University of Chemical Technology (Sept. 2019 - Jul. 2023) [cite: 7, 11]
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Selected Research Experience
+[cite_start]**Inertial Sensor Recovery & Dexterous Hand Control** (Sept. 2025 - Present) [cite: 24]
+* [cite_start]*Role: Research Assistant / Algorithm Intern* [cite: 25, 26]
+* [cite_start]Designed a lightweight signal-recovery framework for short-term IMU overload, leveraging multi-axis coupling to reconstruct saturated channels via overload detection, threshold gating, low-pass filtering, and physics-/geometry-constrained extrapolation with adaptive window selection[cite: 29].
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+[cite_start]**Multimodal Robotic Arm Research** (Mar. 2026 - Present) [cite: 33]
+* [cite_start]*Role: Project Leader* [cite: 34]
+* [cite_start]Built a 6-DOF arm with 3D-printed structure, controlled via Arduino UNO with ESP32-CAM/OV2640 vision and INMP441 audio modules[cite: 35].
+* [cite_start]Designed an audio-vision-LLM pipeline that parses natural-language commands into task plans, using audio cues to compensate for the absence of tactile sensing during grasping[cite: 38].
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Technical Skills
+* [cite_start]**Programming:** Python (PyTorch, PyQt5, FastAPI, OpenCV), MATLAB (Simulink), C, Embedded (STM32, Arduino) [cite: 76]
+* [cite_start]**Engineering:** SolidWorks, Creo, AutoCAD, ANSYS, Adams, LabVIEW [cite: 76]
