@@ -10,7 +10,7 @@
 title                    : "Haoyang Wang"
 name                     : &name "Haoyang Wang"
 description              : &description "Haoyang Wang's academic portfolio. M.S. student at BUCT, seeking PhD opportunities in Embodied AI."
-url                      : https://haoyangwang.github.io  # 把“你的用户名”改成你的真名拼音
+url                      : url : "https://mianzhi8588.github.io"  
 
 # Site Author
 author:
