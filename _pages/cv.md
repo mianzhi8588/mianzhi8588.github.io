@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[**Download my full PDF Resume here**](\Haoyang Wang.pdf)
+[**Download my full PDF Resume here**](/Haoyang_Wang.pdf)
 
 ## Education
 * [cite_start]**M.S. in Mechanical Engineering**, Beijing University of Chemical Technology (Sept. 2024 - Present) [cite: 7, 8]
