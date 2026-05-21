@@ -1,14 +1,15 @@
 ---
-title: "Paper Title Number 2"
+title: "TFMNet: An Interpretable Time-Frequency Mode Network for Mechanical Equipment Fault Diagnosis under Variable Speed Conditions"
 collection: publications
-category: manuscripts
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides2.pdf'
-paperurl: 'https://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+category: underreview
+permalink: /publication/2026-tfmnet-variable-speed-fault-diagnosis
+excerpt: "A manuscript under review on interpretable time-frequency representation learning for mechanical equipment fault diagnosis under variable speed conditions."
+date: 2026-05-01
+venue: "Advanced Engineering Informatics, Under Review"
+paperurl: ""
+citation: "Chen, G., Wang, H., and Tang, G. TFMNet: An Interpretable Time-Frequency Mode Network for Mechanical Equipment Fault Diagnosis under Variable Speed Conditions. Advanced Engineering Informatics, under review."
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+This manuscript develops an interpretable time-frequency mode network for mechanical equipment fault diagnosis under variable speed conditions.
+
+**Status:** Under review.
