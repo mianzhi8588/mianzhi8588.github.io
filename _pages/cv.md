@@ -79,6 +79,14 @@ A PyQt5-based desktop application for bearing fault diagnosis, model training, a
 A backend system for modular quotation, pricing calculation, user authentication, file management, and result storage.  
 [View project](/portfolio/2026-harvard-ilab-cloud-quotation-backend)
 
+**Dynamics Study of Liquid Droplet Impact on Thin Films**  
+An experimental project on droplet impingement dynamics, high-speed imaging, and morphological evolution under varying impact conditions.  
+[View project](/portfolio/2021-droplet-impact-thin-films)
+
+**Advanced Radiative Cooling Film Technology by Electrospinning**  
+A project on passive radiative cooling films, electrospun thin-film fabrication, and experimental thermal-performance evaluation.  
+[View project](/portfolio/2022-radiative-cooling-film-electrospinning)
+
 ## Academic Exchange and Outreach
 
 **Academic Exchange Program, Singapore — NUS & NTU**
