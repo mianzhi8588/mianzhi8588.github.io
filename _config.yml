@@ -24,13 +24,13 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : 
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : "https://orcid.org/0009-0004-3822-8083"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : 
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
@@ -67,7 +67,7 @@ author:
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
-  xing             : # Username
+  weixing          : why1508911735
   youtube          : # Username
   zhihu            : # Username
 
