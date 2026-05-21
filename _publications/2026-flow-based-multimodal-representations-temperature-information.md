@@ -1,7 +1,7 @@
 ---
 title: "Temperature-Conditioned Flow-Based Multimodal Representation Learning for Intrinsic Fault Manifolds"
 collection: publications
-category: under review
+category: underreview
 permalink: /publication/2026-flow-based-multimodal-representations-temperature-information
 excerpt: "A working paper on flow-based multimodal fault representation learning with temperature information."
 date: 2026-05-21
