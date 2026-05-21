@@ -21,86 +21,76 @@ I am currently seeking PhD and research opportunities in robotic manipulation, i
 *M.S. in Mechanical Engineering, Sept. 2024 – Present*  
 Beijing, China  
 
-- Research areas: intelligent fault diagnosis, sensor signal recovery, multimodal robotic systems
-- Selected coursework: Embedded Systems, Engineering Testing and Signal Analysis, Mechanical Virtual Design and Application
+- Research interests: multimodal robotics, intelligent control, sensor signal recovery, and mechanical fault diagnosis
+- Selected coursework: Embedded Systems; Engineering Testing and Signal Analysis; Mechanical Virtual Design and Application
 
 **Beijing University of Chemical Technology**  
 *B.Eng. in Process Equipment and Control Engineering, Sept. 2019 – Jul. 2023*  
 Beijing, China  
 
-- Selected coursework: Mechanical Principles, Mechanical Design, Process Equipment Design, C Language
+- Selected coursework: Mechanical Principles; Mechanical Design; Process Equipment Design; C Language
 
 **Additional Coursework in Business Administration**  
 *Sept. 2023 – Jul. 2024*  
 
-- Selected coursework: Production and Operations Management, Organizational Behavior, Marketing
+- Selected coursework: Production and Operations Management; Organizational Behavior; Marketing
 
 ## Research and Engineering Experience
 
-### The Future Laboratory, Tsinghua University
-
-*Research Assistant, Sept. 2025 – Present*
+**The Future Laboratory, Tsinghua University**  
+*Research Assistant, Sept. 2025 – Present*  
 
 - Conduct research on multimodal robotic control, sensor signal recovery, and hardware-oriented intelligent systems.
-- Developed signal-recovery methods for short-term inertial sensor overload.
-- Implemented control strategies for multi-DOF robotic hands and interactive robotic systems.
-- Explored the integration of recovered sensor signals into closed-loop robotic feedback.
+- Work on inertial sensor recovery, dexterous robotic hand control, and interactive robotic systems.
+- Related projects: [Inertial Sensor Recovery and Dexterous Hand Control](/portfolio/2025-inertial-sensor-recovery-dexterous-hand)
 
-### Harvard Innovation Lab Startup Team
-
-*Algorithm Intern, Apr. 2026 – Present*
+**Harvard Innovation Lab Startup Team**  
+*Algorithm Intern, Apr. 2026 – Present*  
 
 - Contributed to the backend development of a cloud-based quotation and pricing system.
-- Built modular Python components for calculation logic, API services, user authentication, file management, and result storage.
-- Deployed backend services using FastAPI, Git/GitHub, and AWS EC2.
+- Built modular Python components, FastAPI services, authentication functions, file-management workflows, and AWS EC2 deployment.
+- Related project: [Cloud-Based Quotation Backend for Supply Chain Pricing](/portfolio/2026-harvard-ilab-cloud-quotation-backend)
 
-### China Development Research Foundation
-
-*Student Intern, Apr. 2024 – Jul. 2024*
+**China Development Research Foundation**  
+*Student Intern, Apr. 2024 – Jul. 2024*  
 
 - Supported research and documentation for social organization evaluation projects.
-- Organized institutional materials, reviewed historical records, and examined relevant government policies and peer organizations.
+- Organized institutional materials, reviewed historical records, and examined relevant policy documents and peer organizations.
 
-## Selected Research Projects
+## Selected Projects
 
-### Inertial Sensor Recovery and Dexterous Hand Control
+**Low-Cost Multimodal Robotic Arm Platform**  
+A 6-DOF robotic arm platform integrating 3D-printed structures, Arduino-based servo control, ESP32-CAM vision, INMP441 audio input, and LLM-based command interpretation.  
+[View project](/portfolio/2026-multimodal-robotic-arm-platform)
 
-- Designed a lightweight signal-recovery framework for short-term IMU overload.
-- Combined overload detection, threshold gating, filtering, and geometry-constrained extrapolation to reconstruct saturated sensor signals.
-- Validated the approach through public datasets, MATLAB simulations, and self-collected IMU recordings.
-- Integrated recovered sensor signals into robotic hand control experiments.
+**Inertial Sensor Recovery and Dexterous Hand Control**  
+A signal-recovery framework for short-term IMU overload, with downstream integration into robotic hand control experiments.  
+[View project](/portfolio/2025-inertial-sensor-recovery-dexterous-hand)
 
-### Multimodal Robotic Arm Research
+**Wind Power Online Detection and Fault Diagnosis Platform**  
+A deep-learning-based platform for abnormal-state detection and fault diagnosis using wind-turbine SCADA data.  
+[View project](/portfolio/2025-wind-power-fault-diagnosis-platform)
 
-- Built a low-cost 6-DOF robotic arm platform with 3D-printed structures and open-loop servo actuation.
-- Integrated visual and audio modules for task-level perception and interaction.
-- Developed servo-smoothing and anti-jerk startup strategies to improve motion stability.
-- Explored audio-visual-LLM interaction for low-cost robotic grasping compensation.
+**Bearing Fault Diagnosis Software**  
+A PyQt5-based desktop application for bearing fault diagnosis, model training, and visual analysis.  
+[View project](/portfolio/2025-bearing-fault-diagnosis-software)
 
-### Wind Power Generation Online Detection and Fault Diagnosis Platform
+**Cloud-Based Quotation Backend for Supply Chain Pricing**  
+A backend system for modular quotation, pricing calculation, user authentication, file management, and result storage.  
+[View project](/portfolio/2026-harvard-ilab-cloud-quotation-backend)
 
-- Built deep-learning models for abnormal-state detection and fault diagnosis using wind-turbine SCADA data.
-- Implemented models including CNN, CNN-LSTM, RNN, One-Class SVM, and Normalizing Flow.
-- Worked on class imbalance, cross-device generalization, and online-inference constraints in industrial fault diagnosis.
-
-### Bearing Fault Diagnosis Software
-
-- Developed a PyQt5-based desktop application for bearing fault diagnosis.
-- Integrated data preprocessing, model training, intelligent diagnosis, and visual analysis modules.
-- Implemented time-domain, frequency-domain, and deep-learning-based diagnostic functions.
-
-### Intelligent Vibration Reduction Support Design
-
-- Designed an active vibration-suppression platform using a voice-coil motor.
-- Modeled system dynamics in MATLAB and conducted Simulink/Simscape simulations.
-- Built a physical test platform with a LabVIEW control interface.
-
-## Academic Exchange
+## Academic Exchange and Outreach
 
 **Academic Exchange Program, Singapore — NUS & NTU**
 
 - Participated in faculty-led academic exchanges on technological innovation systems, AI governance, and social management.
 - Explored how innovation policy, data governance, and institutional frameworks shape technology adoption.
+
+**STEM Outreach**
+
+- Served as a science instructor at Beijing Science Center.
+- Delivered STEM workshops and organized interactive science activities for primary school students.
+- Related page: [Teaching & Outreach](/teaching/)
 
 ## Publications
 
@@ -119,6 +109,8 @@ Beijing, China
 7. Haoyang Wang, Lidong Huang*, and Haozhe Zhang, “Research on the Design and Intelligent Control Method of Active-Passive Collaborative Shock Absorption System for Vibration Suppression,” working paper.
 
 8. Xi Li, Haoyang Wang, and Gang Tang*, “Fault Diagnosis of Control Moment Gyroscope Based on Finite Element Simulation and Cyclic Generative Adversarial Network,” working paper.
+
+For a categorized list, see [Publications](/publications/).
 
 ## Honors and Activities
 
@@ -140,6 +132,6 @@ Beijing, China
 
 **Engineering Software:** SolidWorks, Creo, AutoCAD, ANSYS, Adams, LabVIEW  
 
-**Cloud and Tools:** Git, GitHub  
+**Cloud and Tools:** AWS EC2, Git, GitHub  
 
 **Languages:** Chinese, native; English, proficient; Japanese, basic
