@@ -7,7 +7,7 @@ excerpt: "A revised manuscript on physics-guided multi-domain representation lea
 date: 2026-05-01
 venue: "Engineering Applications of Artificial Intelligence，Under Review"
 paperurl: ""
-citation: "Wang, H., Liu, J., Li, X., Chen, G., and Tang, G. A Physics-Guided Multi-Domain Representation Framework for Intelligent Fault Diagnosis of Rotating Machinery. Revised manuscript."
+citation: "Wang, H., Liu, J., Li, X., Chen, G., and Tang, G.* A Physics-Guided Multi-Domain Representation Framework for Intelligent Fault Diagnosis of Rotating Machinery. Revised manuscript."
 ---
 
 This manuscript proposes a physics-guided multi-domain representation framework for intelligent fault diagnosis of rotating machinery.
