@@ -11,6 +11,8 @@ title                    : "Haoyang Wang"
 name                     : &name "Haoyang Wang"
 description              : &description "Haoyang Wang's academic portfolio. M.S. student at BUCT, seeking PhD opportunities in Embodied AI."
 url                      : "https://mianzhi8588.github.io"  
+baseurl                  : ""
+repository               : "mianzhi8588/mianzhi8588.github.io"
 
 # Site Author
 author:
@@ -154,7 +156,7 @@ analytics:
 # Reading Files
 include:
   - .htaccess
-  - _
+  - _pages
   - files
 exclude:
   - "*.sublime-project"
