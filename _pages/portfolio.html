@@ -1,14 +1,14 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "Projects"
 permalink: /portfolio/
 author_profile: true
 ---
 
 {% include base_path %}
 
+This section presents selected research and engineering projects across multimodal robotics, sensor signal recovery, intelligent fault diagnosis, and cloud-based engineering systems. These projects demonstrate my experience in building AI-enabled physical systems, developing signal-processing algorithms, and translating research prototypes into usable software and hardware platforms.
 
-{% for post in site.portfolio %}
+{% for post in site.portfolio reversed %}
   {% include archive-single.html %}
 {% endfor %}
-
