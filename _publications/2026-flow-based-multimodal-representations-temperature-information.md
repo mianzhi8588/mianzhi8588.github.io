@@ -7,7 +7,7 @@ excerpt: "A working paper on flow-based multimodal fault representation learning
 date: 2026-05-21
 venue: "Mechanical Systems and Signal Processing, Under Review"
 paperurl: ""
-citation: "Wang, H., Li, J., Hu, L., Feng, G., Chen, G. and Tang, G. Temperature-Conditioned Flow-Based Multimodal
+citation: "Wang, H., Li, J., Hu, L., Feng, G., Chen, G. and Tang, G*. Temperature-Conditioned Flow-Based Multimodal
 Representation Learning for Intrinsic Fault Manifolds, Under Review."
 ---
 
