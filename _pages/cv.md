@@ -140,6 +140,6 @@ Beijing, China
 
 **Engineering Software:** SolidWorks, Creo, AutoCAD, ANSYS, Adams, LabVIEW  
 
-**Cloud and Tools:** AWS EC2, Git, GitHub  
+**Cloud and Tools:** Git, GitHub  
 
 **Languages:** Chinese, native; English, proficient; Japanese, basic
