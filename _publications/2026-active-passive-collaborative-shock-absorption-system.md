@@ -7,7 +7,7 @@ excerpt: "A working paper on active-passive collaborative shock absorption syste
 date: 2026-05-01
 venue: "Working Paper"
 paperurl: ""
-citation: "Wang, H., He, L., and Zhu, H. Research on the Design and Intelligent Control Method of Active-Passive Collaborative Shock Absorption System for Vibration Suppression. Working paper."
+citation: "Wang, H., He, L.*, and Zhu, H. Research on the Design and Intelligent Control Method of Active-Passive Collaborative Shock Absorption System for Vibration Suppression. Working paper."
 ---
 
 This working paper studies the design and intelligent control method of an active-passive collaborative shock absorption system for vibration suppression.
