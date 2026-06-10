@@ -35,9 +35,9 @@ This project explores a low-cost multimodal robotic arm platform for task-level 
 ## Running Demonstration Videos
 
 <figure style="text-align:center;">
-  <video controls preload="metadata" playsinline
+  <video controls muted preload="auto" playsinline
          style="width:100%; max-width:800px; aspect-ratio:16/9; object-fit:contain; display:block; background:#000; border-radius:8px;">
-    <source src="{{ '/files/arm_video1.mp4' | relative_url }}" type="video/mp4">
+    <source src="{{ '/files/arm_video1.mp4' | relative_url }}#t=0.001" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <figcaption style="font-size:0.9em; color:#666; margin-top:8px;">
@@ -48,9 +48,9 @@ This project explores a low-cost multimodal robotic arm platform for task-level 
 <br>
 
 <figure style="text-align:center;">
- <video controls preload="metadata" playsinline
+ <video controls muted preload="auto" playsinline
          style="width:100%; max-width:800px; aspect-ratio:16/9; object-fit:contain; display:block; background:#000; border-radius:8px;">
-    <source src="{{ '/files/arm_video2.mp4' | relative_url }}" type="video/mp4">
+    <source src="{{ '/files/arm_video2.mp4' | relative_url }}#t=0.001" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <figcaption style="font-size:0.9em; color:#666; margin-top:8px;">
@@ -61,9 +61,9 @@ This project explores a low-cost multimodal robotic arm platform for task-level 
 <br>
 
 <figure style="text-align:center;">
-  <video controls preload="metadata" playsinline
+  <video controls muted preload="auto" playsinline
          style="width:100%; max-width:800px; aspect-ratio:16/9; object-fit:contain; display:block; background:#000; border-radius:8px;">
-    <source src="{{ '/files/arm_video3.mp4' | relative_url }}" type="video/mp4">
+    <source src="{{ '/files/arm_video3.mp4' | relative_url }}#t=0.001" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <figcaption style="font-size:0.9em; color:#666; margin-top:8px;">
