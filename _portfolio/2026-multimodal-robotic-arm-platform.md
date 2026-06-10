@@ -10,7 +10,7 @@ date: 2026-05-01
 
 This project explores a low-cost multimodal robotic arm platform for task-level interaction and grasping compensation. The system integrates a 6-DOF robotic arm, 3D-printed structures, Arduino-based servo control, ESP32-CAM visual sensing, INMP441 audio input, and LLM-based command interpretation.
 
-## System Interface
+## System Runtime Interfaces
 
 <figure style="text-align:center;">
   <img src="{{ '/images/image_hear.png' | relative_url }}" 
@@ -32,7 +32,7 @@ This project explores a low-cost multimodal robotic arm platform for task-level 
   </figcaption>
 </figure>
 
-## System Demonstrations
+## Running Demonstration Videos
 
 <figure style="text-align:center;">
   <video width="100%" controls style="max-width:800px;">
@@ -53,6 +53,18 @@ This project explores a low-cost multimodal robotic arm platform for task-level 
   </video>
   <figcaption style="font-size:0.9em; color:#666; margin-top:8px;">
     Video 2. Demonstration of robotic arm motion in Mojoco environment.
+  </figcaption>
+</figure>
+
+<br>
+
+<figure style="text-align:center;">
+  <video width="100%" controls style="max-width:800px;">
+    <source src="{{ '/files/arm_video3.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <figcaption style="font-size:0.9em; color:#666; margin-top:8px;">
+    Video 3. Kinematic forward and inverse solution video.
   </figcaption>
 </figure>
 
