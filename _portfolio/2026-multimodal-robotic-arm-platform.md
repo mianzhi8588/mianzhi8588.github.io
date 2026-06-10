@@ -6,15 +6,55 @@ excerpt: "A low-cost robotic arm platform integrating vision, audio, servo contr
 date: 2026-05-01
 ---
 
-<!-- Image placeholder 1: system photo -->
-![Robotic arm system placeholder](/images/projects-robotic-arm-system.jpg)
-
-<!-- Image placeholder 2: architecture diagram -->
-![Robotic arm pipeline placeholder](/images/projects-robotic-arm-pipeline.jpg)
-
 ## Overview
 
 This project explores a low-cost multimodal robotic arm platform for task-level interaction and grasping compensation. The system integrates a 6-DOF robotic arm, 3D-printed structures, Arduino-based servo control, ESP32-CAM visual sensing, INMP441 audio input, and LLM-based command interpretation.
+
+## System Interface
+
+<figure style="text-align:center;">
+  <img src="{{ '/images/image_hear.png' | relative_url }}" 
+       alt="Speech recognition interface for robotic arm control" 
+       style="width:100%; max-width:800px; display:block; margin:auto;">
+  <figcaption style="font-size:0.9em; color:#666; margin-top:8px;">
+    Figure 1. Speech-command recognition interface for robotic arm control. The system listens to spoken instructions and converts them into task-level commands.
+  </figcaption>
+</figure>
+
+<br>
+
+<figure style="text-align:center;">
+  <img src="{{ '/images/image_action.png' | relative_url }}" 
+       alt="LLM-based command interpretation for robotic arm action execution" 
+       style="width:100%; max-width:800px; display:block; margin:auto;">
+  <figcaption style="font-size:0.9em; color:#666; margin-top:8px;">
+    Figure 2. LLM-based command interpretation interface. Natural-language commands are analyzed and mapped to robotic actions such as grasping or object manipulation.
+  </figcaption>
+</figure>
+
+## System Demonstrations
+
+<figure style="text-align:center;">
+  <video width="100%" controls style="max-width:800px;">
+    <source src="{{ '/files/arm_video1.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <figcaption style="font-size:0.9em; color:#666; margin-top:8px;">
+    Video 1. Demonstration of the robotic arm responding to a task-level command.
+  </figcaption>
+</figure>
+
+<br>
+
+<figure style="text-align:center;">
+  <video width="100%" controls style="max-width:800px;">
+    <source src="{{ '/files/arm_video2.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <figcaption style="font-size:0.9em; color:#666; margin-top:8px;">
+    Video 2. Demonstration of robotic arm motion in Mojoco environment.
+  </figcaption>
+</figure>
 
 ## My Contributions
 
