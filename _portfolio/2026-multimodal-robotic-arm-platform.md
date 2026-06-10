@@ -5,7 +5,6 @@ permalink: /portfolio/2026-multimodal-robotic-arm-platform
 excerpt: "A low-cost robotic arm platform integrating vision, audio, servo control, and LLM-based command interpretation."
 date: 2026-05-01
 ---
-
 ## Overview
 
 This project explores a low-cost multimodal robotic arm platform for task-level interaction and grasping compensation. The system integrates a 6-DOF robotic arm, 3D-printed structures, Arduino-based servo control, ESP32-CAM visual sensing, INMP441 audio input, and LLM-based command interpretation.
