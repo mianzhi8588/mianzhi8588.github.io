@@ -86,16 +86,18 @@ My research began with mechanical-system health and fault diagnosis. That work l
     <h3>Dexterous manipulation with TD3 + HER</h3>
   </a>
   <a class="research-media-card" href="{{ '/portfolio/2025-inertial-sensor-recovery-dexterous-hand' | relative_url }}">
-    <div class="research-media-card__visual research-media-card__visual--contain">
-      <img src="{{ '/images/imu-strict-online-exploratory-result.png' | relative_url }}" alt="Exploratory comparison chart for strict-online IMU recovery">
+    <div class="research-media-card__visual research-media-card__visual--portrait">
+      <video autoplay muted loop playsinline preload="metadata" poster="{{ '/images/imu-overrange-data-collection-poster.png' | relative_url }}" aria-label="IMU overrange data collection demonstration">
+        <source src="{{ '/files/imu-overrange-data-collection.mp4' | relative_url }}#t=0.5" type="video/mp4">
+      </video>
     </div>
-    <span>Exploratory result</span>
+    <span>Data collection demo</span>
     <h3>Recovering information beyond IMU range</h3>
   </a>
   <a class="research-media-card" href="{{ '/portfolio/2026-textile-capacitive-sensing-robot-arm' | relative_url }}">
     <div class="research-media-card__visual research-media-card__visual--portrait">
-      <video autoplay muted loop playsinline preload="metadata" aria-label="Textile capacitive sensing prototype demonstration">
-        <source src="{{ '/files/textile-capacitive-sensing-demo.mp4' | relative_url }}#t=0.001" type="video/mp4">
+      <video autoplay muted loop playsinline preload="metadata" poster="{{ '/images/textile-capacitive-sensing-poster.png' | relative_url }}" aria-label="Textile capacitive sensing prototype demonstration">
+        <source src="{{ '/files/textile-capacitive-sensing-demo.mp4' | relative_url }}#t=0.5" type="video/mp4">
       </video>
     </div>
     <span>Prototype demo</span>
@@ -153,6 +155,28 @@ My research began with mechanical-system health and fault diagnosis. That work l
 ## Selected publication
 
 **Yuanhao Geng, Gang Tang, and Haoyang Wang.** “Domain Adaptation With Joint Distribution Alignment Adversarial Learning for Open-Set Bearing Intelligent Fault Diagnosis.” *IEEE Sensors Journal*, 25(14), 26507–26519, 2025. [DOI](https://doi.org/10.1109/JSEN.2025.3576833) · [All publications]({{ '/publications/' | relative_url }})
+
+## Working papers
+
+<div class="working-papers-list">
+  <article>
+    <span>First-author working paper · LLM safety</span>
+    <h3><a href="{{ '/publication/2026-llm-robot-code-safety' | relative_url }}">Safety Evaluation and Repair of LLM-Generated Robot Control Programs</a></h3>
+    <p><strong>Haoyang Wang</strong>, et al. Evaluating physical-safety violations and repair strategies for language-model-generated robot programs.</p>
+  </article>
+  <article>
+    <span>First-author working paper · Dexterous manipulation</span>
+    <h3><a href="{{ '/publication/2026-llm-assisted-dexterous-hand-robot-learning' | relative_url }}">LLM-Assisted Dexterous-Hand Modeling and Reinforcement Learning</a></h3>
+    <p><strong>Haoyang Wang</strong>, et al. An LLM-assisted modeling workflow with TD3 + HER and drop-aware evaluation for sparse-reward manipulation.</p>
+  </article>
+  <article>
+    <span>Co-authored working paper · Flexible sensing</span>
+    <h3><a href="{{ '/publication/2026-textile-capacitive-sensing-robot-control' | relative_url }}">Textile-Integrated Capacitive Sensing for Robot-Arm Control</a></h3>
+    <p>Author list in preparation. Haoyang Wang is a co-author, not the first author. The work studies gesture, contact, and deformation sensing for intuitive robot control.</p>
+  </article>
+</div>
+
+<p class="view-all-link"><a href="{{ '/publications/' | relative_url }}">View published and ongoing papers →</a></p>
 
 ## Current collaborations
 

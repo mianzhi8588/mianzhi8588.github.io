@@ -16,8 +16,8 @@ This project develops a wearable sensing interface by embedding capacitive mater
 ## Prototype demonstration
 
 <figure class="research-media research-media--portrait">
-  <video controls muted playsinline preload="metadata" aria-label="Textile-integrated capacitive sensor prototype demonstration">
-    <source src="{{ '/files/textile-capacitive-sensing-demo.mp4' | relative_url }}#t=0.001" type="video/mp4">
+  <video controls muted playsinline preload="metadata" poster="{{ '/images/textile-capacitive-sensing-poster.png' | relative_url }}" aria-label="Textile-integrated capacitive sensor prototype demonstration">
+    <source src="{{ '/files/textile-capacitive-sensing-demo.mp4' | relative_url }}#t=0.5" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <figcaption>

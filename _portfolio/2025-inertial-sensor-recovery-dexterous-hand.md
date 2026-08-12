@@ -16,8 +16,8 @@ This project develops a lightweight signal-recovery framework for short-term ine
 ## Data collection
 
 <figure class="research-media research-media--portrait">
-  <video controls muted playsinline preload="metadata" aria-label="IMU overrange experiment data collection">
-    <source src="{{ '/files/imu-overrange-data-collection.mp4' | relative_url }}#t=0.001" type="video/mp4">
+  <video controls muted playsinline preload="metadata" poster="{{ '/images/imu-overrange-data-collection-poster.png' | relative_url }}" aria-label="IMU overrange experiment data collection">
+    <source src="{{ '/files/imu-overrange-data-collection.mp4' | relative_url }}#t=0.5" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <figcaption>
