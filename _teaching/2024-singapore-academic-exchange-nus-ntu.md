@@ -9,9 +9,6 @@ location: "Singapore"
 excerpt: "A faculty-led academic exchange focused on technological innovation systems, AI governance, and social management."
 ---
 
-<!-- Image placeholder: upload your photo to /images/academic-exchange-singapore.jpg -->
-![Academic exchange placeholder](/images/academic-exchange-singapore.jpg)
-
 ## Overview
 
 I participated in a faculty-led academic exchange program in Singapore, engaging with academic discussions at NUS and NTU on technological innovation systems, AI governance, and social management.

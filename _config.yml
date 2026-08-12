@@ -9,7 +9,7 @@
 # Basic Site Settings
 title                    : "Haoyang Wang"
 name                     : &name "Haoyang Wang"
-description              : &description "Haoyang Wang's academic portfolio. M.S. student at BUCT, seeking PhD opportunities in Embodied AI."
+description              : &description "Haoyang Wang researches reliable embodied intelligence, multimodal robot perception, intelligent sensing, and robot learning."
 url                      : "https://mianzhi8588.github.io"  
 baseurl                  : ""
 repository               : "mianzhi8588/mianzhi8588.github.io"
@@ -17,7 +17,7 @@ repository               : "mianzhi8588/mianzhi8588.github.io"
 # Site Author
 author:
   name             : "Haoyang Wang"
-  bio              : "M.S. Student in Mechanical Engineering | Seeking PhD in Embodied AI"
+  bio              : "Reliable embodied intelligence · Multimodal robotics · Intelligent sensing"
   location         : "Beijing, China"
   employer         : "Beijing University of Chemical Technology"
   email            : "vwang6925@gmail.com"
@@ -138,14 +138,16 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_image                 : "haoyang-wang-academic-profile.png"
+og_description           : "Haoyang Wang researches reliable embodied intelligence, multimodal robot perception, intelligent sensing, and robot learning."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : "Person"
+  name                   : "Haoyang Wang"
+  links:
+    - "https://github.com/mianzhi8588"
+    - "https://orcid.org/0009-0004-3822-8083"
 
 
 # Analytics

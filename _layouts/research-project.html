@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <article class="page research-project-page" itemscope itemtype="http://schema.org/CreativeWork">
+    <div class="page__inner-wrap">
+      <header class="research-project-header">
+        {% if page.research_area %}<p class="research-project-header__area">{{ page.research_area }}</p>{% endif %}
+        <h1 class="page__title" itemprop="headline">{{ page.title }}</h1>
+        {% if page.excerpt %}<p class="research-project-header__lead">{{ page.excerpt }}</p>{% endif %}
+        <div class="research-project-header__meta">
+          {% if page.status %}<span>{{ page.status }}</span>{% endif %}
+          {% if page.date %}<span>Started {{ page.date | date: "%Y" }}</span>{% endif %}
+        </div>
+      </header>
+
+      <section class="page__content" itemprop="text">
+        {{ content }}
+      </section>
+    </div>
+  </article>
+</div>

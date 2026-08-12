@@ -6,12 +6,6 @@ excerpt: "An experimental study on droplet impingement dynamics, high-speed imag
 date: 2021-11-01
 ---
 
-<!-- Image placeholder 1: experimental setup -->
-![Droplet impact test rig placeholder](/images/projects-droplet-impact-setup.jpg)
-
-<!-- Image placeholder 2: high-speed imaging result -->
-![Droplet impact morphology placeholder](/images/projects-droplet-impact-results.jpg)
-
 ## Overview
 
 This project investigated the dynamics of liquid droplet impact on thin films, focusing on how different impact heights and liquid-film thicknesses affect droplet spreading, crown formation, and morphological evolution.

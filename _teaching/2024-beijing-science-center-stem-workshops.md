@@ -9,9 +9,6 @@ location: "Beijing, China"
 excerpt: "Delivered STEM workshops and organized interactive science activities for primary school students."
 ---
 
-<!-- Image placeholder: upload your photo to /images/teaching-stem-workshop.jpg -->
-![STEM workshop placeholder](/images/teaching-stem-workshop.jpg)
-
 ## Overview
 
 I served as a science instructor at Beijing Science Center, where I delivered STEM workshops for primary school students and helped organize interactive science activities.

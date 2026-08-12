@@ -6,12 +6,6 @@ excerpt: "A cloud-based backend system for modular quotation, pricing calculatio
 date: 2026-04-01
 ---
 
-<!-- Image placeholder 1: system architecture -->
-![Cloud backend architecture placeholder](/images/projects-harvard-ilab-backend-architecture.jpg)
-
-<!-- Image placeholder 2: API workflow -->
-![API workflow placeholder](/images/projects-harvard-ilab-api-workflow.jpg)
-
 ## Overview
 
 This project contributes to a Harvard Innovation Lab startup by developing a cloud-based backend system for quotation and pricing workflows.

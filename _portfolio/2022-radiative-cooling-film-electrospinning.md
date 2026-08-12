@@ -6,12 +6,6 @@ excerpt: "A project on passive radiative cooling films prepared by electrospinni
 date: 2022-11-01
 ---
 
-<!-- Image placeholder 1: electrospinning or film preparation -->
-![Radiative cooling film preparation placeholder](/images/projects-radiative-cooling-film-preparation.jpg)
-
-<!-- Image placeholder 2: insulated-box thermal test -->
-![Radiative cooling thermal test placeholder](/images/projects-radiative-cooling-test.jpg)
-
 ## Overview
 
 This project explored passive radiative cooling film technology as a green cooling approach that can reduce reliance on conventional air-conditioning or electrical refrigeration. The work focused on material selection, electrospun film preparation, and experimental validation of cooling performance.

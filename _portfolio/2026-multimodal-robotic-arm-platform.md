@@ -1,13 +1,16 @@
 ---
-title: "Low-Cost Multimodal Robotic Arm Platform"
+layout: research-project
+title: "Language-Conditioned Agentic Control for a 6-DOF Robotic Manipulator"
 collection: portfolio
 permalink: /portfolio/2026-multimodal-robotic-arm-platform
-excerpt: "A low-cost robotic arm platform integrating vision, audio, servo control, and LLM-based command interpretation."
+excerpt: "A low-cost 6-DOF arm integrating vision, audio, servo control, and constrained LLM-agent primitives for task-level manipulation."
 date: 2026-05-01
+status: "Ongoing research"
+research_area: "Embodied AI · Multimodal Manipulation"
 ---
 ## Overview
 
-This project explores a low-cost multimodal robotic arm platform for task-level interaction and grasping compensation. The system integrates a 6-DOF robotic arm, 3D-printed structures, Arduino-based servo control, ESP32-CAM visual sensing, INMP441 audio input, and LLM-based command interpretation.
+This project explores language-conditioned task execution and multimodal grasping compensation on a low-cost robotic arm. The system integrates a 6-DOF 3D-printed arm (under 150 RMB), Arduino-based servo control, ESP32-CAM visual sensing, INMP441 audio input, and LLM-based command interpretation.
 
 ## System Runtime Interfaces
 
@@ -53,7 +56,7 @@ This project explores a low-cost multimodal robotic arm platform for task-level 
     Your browser does not support the video tag.
   </video>
   <figcaption style="font-size:0.9em; color:#666; margin-top:8px;">
-    Video 2. Demonstration of robotic arm motion in Mojoco environment.
+    Video 2. Demonstration of robotic arm motion in a MuJoCo environment.
   </figcaption>
 </figure>
 
@@ -77,6 +80,7 @@ This project explores a low-cost multimodal robotic arm platform for task-level 
 - Developed servo-smoothing interpolation and anti-jerk startup strategies to improve motion stability.
 - Implemented OpenCV-based visual-servo error correction for grasping accuracy compensation.
 - Explored an audio-vision-LLM pipeline for natural-language command parsing and task execution.
+- Extended the system toward a tool-using LLM agent that selects among constrained robot primitives—including perception, pose estimation, inverse kinematics, motion execution, verification, and failure recovery—instead of directly controlling low-level motors.
 
 ## Technical Stack
 

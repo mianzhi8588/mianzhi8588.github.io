@@ -6,12 +6,6 @@ excerpt: "An active vibration-suppression platform using a voice-coil motor, MAT
 date: 2023-06-01
 ---
 
-<!-- Image placeholder 1: physical test platform -->
-![Vibration suppression platform placeholder](/images/projects-vibration-platform.jpg)
-
-<!-- Image placeholder 2: simulation or frequency response -->
-![Vibration suppression simulation placeholder](/images/projects-vibration-simulation.jpg)
-
 ## Overview
 
 This undergraduate design project developed an active vibration-suppression platform using a voice-coil motor to generate controllable force and displacement.

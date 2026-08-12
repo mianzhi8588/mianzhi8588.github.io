@@ -6,12 +6,6 @@ excerpt: "A PyQt5-based desktop application for bearing fault diagnosis, model t
 date: 2025-01-01
 ---
 
-<!-- Image placeholder 1: software interface -->
-![Bearing diagnosis software placeholder](/images/projects-bearing-software-ui.jpg)
-
-<!-- Image placeholder 2: diagnosis visualization -->
-![Bearing diagnosis visualization placeholder](/images/projects-bearing-diagnosis-results.jpg)
-
 ## Overview
 
 This project develops a desktop software system for bearing fault diagnosis, converting research-stage scripts into a more usable tool for data preprocessing, model training, intelligent diagnosis, and visual analysis.
