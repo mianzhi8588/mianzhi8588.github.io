@@ -23,14 +23,19 @@ author_profile: true
 <div class="research-detail-grid">
   <article class="research-detail-card research-detail-card--featured">
     <div class="research-detail-card__media">
-      <img src="{{ '/images/arm-video2-poster.png' | relative_url }}" alt="Robot simulation environment used in current manipulation research">
-      <span class="media-label">Simulation environment</span>
+      <div class="safety-evidence-grid" aria-label="Three examples of robot safety violation evidence">
+        <figure><img src="{{ '/images/llm-safety-release-instability.png' | relative_url }}" alt="MuJoCo evidence frame showing release instability"><figcaption>Release instability</figcaption></figure>
+        <figure><img src="{{ '/images/llm-safety-grasp-slip.png' | relative_url }}" alt="MuJoCo evidence frame showing grasp slip and object drop"><figcaption>Grasp slip / drop</figcaption></figure>
+        <figure><img src="{{ '/images/llm-safety-restricted-transport.png' | relative_url }}" alt="MuJoCo evidence frame showing unverified transport near a restricted region"><figcaption>Restricted transport</figcaption></figure>
+      </div>
+      <span class="media-label">Pilot violation evidence</span>
     </div>
     <div class="research-detail-card__body">
       <p class="research-kicker">Robot-code reliability · Working paper</p>
       <h3><a href="{{ '/portfolio/2026-llm-robot-code-safety' | relative_url }}">Hidden Safety Violations in LLM-Generated Robot Code</a></h3>
       <p>This project studies programs that complete an assigned robot task yet violate physical constraints. A MuJoCo-based evaluation layer checks collisions, joint and velocity limits, grasp stability, dropped objects, and restricted workspaces, then supports targeted repair before execution on hardware.</p>
       <p class="research-detail-card__question"><strong>Research question:</strong> How should functional success and physical safety be evaluated separately for generated robot programs?</p>
+      <p class="research-detail-card__note">These are real evidence frames from the local safety-analysis workflow; no unrelated project video is used here.</p>
       <a class="academic-link" href="{{ '/portfolio/2026-llm-robot-code-safety' | relative_url }}">Explore the evaluation workflow →</a>
     </div>
   </article>

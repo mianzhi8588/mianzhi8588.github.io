@@ -7,22 +7,17 @@ author_profile: true
 
 {% include base_path %}
 
-<section class="academic-page-hero academic-page-hero--publications">
-  <p class="academic-page-hero__eyebrow">Research outputs</p>
-  <h2>Publications, manuscripts, and work in progress</h2>
-  <p class="academic-page-hero__lead">This page separates peer-reviewed publications, manuscripts under review, work preparing for submission, and active working papers. Status labels are intentionally explicit so that ongoing work is not presented as accepted or published research.</p>
-  <div class="publication-status-key"><span><i class="status-dot status-dot--published"></i>Published</span><span><i class="status-dot status-dot--review"></i>Under review</span><span><i class="status-dot status-dot--preparing"></i>Preparing for submission</span><span><i class="status-dot status-dot--working"></i>Working paper</span></div>
-</section>
+<p class="publications-intro">Peer-reviewed publications, manuscripts under review, and ongoing research outputs are listed by status. Working papers are not presented as accepted or published articles.</p>
 
 ## Published
 
-<article class="publication-feature">
+<article class="publication-feature publication-feature--text-only">
   <div class="publication-feature__meta"><span class="publication-badge publication-badge--published">Published · 2025</span><p>IEEE Sensors Journal</p></div>
   <div class="publication-feature__copy">
     <h3><a href="{{ '/publication/2025-domain-adaptation-open-set-bearing-fault-diagnosis' | relative_url }}">Domain Adaptation With Joint Distribution Alignment Adversarial Learning for Open-Set Bearing Intelligent Fault Diagnosis</a></h3>
     <p class="publication-authors">Yuanhao Geng, Gang Tang*, and Haoyang Wang</p>
-    <p>The study addresses bearing diagnosis when operating distributions shift and target samples may include previously unseen fault categories. Joint distribution alignment and adversarial adaptation are used to improve transfer while retaining the ability to recognize open-set conditions.</p>
-    <a class="academic-link" href="{{ '/publication/2025-domain-adaptation-open-set-bearing-fault-diagnosis' | relative_url }}">Publication details →</a>
+    <p>IEEE Sensors Journal, 25(14), 26507–26519, 2025. The study addresses cross-domain bearing diagnosis when the target domain may contain previously unseen fault categories. It combines joint distribution alignment, adversarial adaptation, and open-set recognition to improve transfer under changing operating distributions.</p>
+    <a class="academic-link" href="https://doi.org/10.1109/JSEN.2025.3576833">DOI: 10.1109/JSEN.2025.3576833 →</a>
   </div>
 </article>
 
@@ -33,23 +28,21 @@ author_profile: true
   <article><span class="publication-badge publication-badge--review">Under review</span><p class="publication-venue">Engineering Applications of Artificial Intelligence</p><h3><a href="{{ '/publication/2026-physics-guided-multi-domain-representation-framework' | relative_url }}">A Physics-Guided Multi-Domain Representation Framework for Intelligent Fault Diagnosis of Rotating Machinery</a></h3><p>A multi-domain diagnostic framework that incorporates physically meaningful signal structure to improve representation quality and interpretability.</p></article>
 </div>
 
-## Manuscript pipeline
-
-<div class="publication-media-grid">
-  <article class="publication-media-card publication-media-card--wide">
-    <div class="publication-media-card__visual publication-media-card__visual--contain"><img src="{{ '/images/imu-strict-online-exploratory-result.png' | relative_url }}" alt="Exploratory online IMU recovery comparison"></div>
-    <div class="publication-media-card__copy"><span class="publication-badge publication-badge--preparing">Preparing for submission</span><h3><a href="{{ '/publication/2026-inertial-perception-recovery-overrange-conditions' | relative_url }}">Inertial Perception Recovery beyond the Hardware Dynamic Range under Short-Term Overrange Conditions</a></h3><p>Online recovery of clipped inertial signals using overload detection, cross-axis motion structure, adaptive temporal context, filtering, and geometry-constrained extrapolation.</p><p class="publication-media-card__note">Shown: an exploratory result from the research process, not a final manuscript figure.</p></div>
-  </article>
-  <article class="publication-media-card"><div class="publication-media-card__visual"><img src="{{ '/images/dexterous-hand-rl-training-poster.png' | relative_url }}" alt="Dexterous hand reinforcement-learning simulation"></div><div class="publication-media-card__copy"><span class="publication-badge publication-badge--working">Working paper</span><h3><a href="{{ '/publication/2026-llm-assisted-dexterous-hand-robot-learning' | relative_url }}">LLM-Generated Dexterous-Hand Models for Reinforcement Learning</a></h3><p>Prompt-guided hand-model generation, model refinement, and drop-aware reinforcement-learning evaluation.</p></div></article>
-  <article class="publication-media-card"><div class="publication-media-card__visual"><img src="{{ '/images/arm-video1-poster.png' | relative_url }}" alt="Low-cost multimodal robotic arm prototype"></div><div class="publication-media-card__copy"><span class="publication-badge publication-badge--working">Working paper</span><h3><a href="{{ '/publication/2026-audio-visual-multimodal-grasping-compensation-robotic-arm' | relative_url }}">Audio-Visual Multimodal Grasping Compensation for a Low-Cost Robotic Arm</a></h3><p>Language-conditioned perception, grasp compensation, constrained motion, visual verification, and recovery primitives.</p></div></article>
-</div>
+## Preparing for submission
 
 <div class="working-papers-list working-papers-list--rich">
-  <article><span>Working paper · Robot-code safety</span><h3><a href="{{ '/publication/2026-llm-robot-code-safety' | relative_url }}">Hidden Safety Violations in LLM-Generated Robot Code</a></h3><p>Evaluates physical-safety violations that can remain hidden even when generated programs satisfy a functional task specification.</p></article>
+  <article><span>Preparing for submission · Inertial sensing</span><h3><a href="{{ '/publication/2026-inertial-perception-recovery-overrange-conditions' | relative_url }}">Inertial Perception Recovery beyond the Hardware Dynamic Range under Short-Term Overrange Conditions</a></h3><p>Online recovery of clipped inertial signals using overload detection, cross-axis motion structure, adaptive temporal context, filtering, and geometry-constrained extrapolation.</p></article>
   <article><span>Manuscript being revised · Fault diagnosis</span><h3><a href="{{ '/publication/2026-flow-based-multimodal-representations-temperature-information' | relative_url }}">Temperature-Conditioned Flow-Based Multimodal Representation Learning for Intrinsic Fault Manifolds</a></h3><p>A completed manuscript currently being revised for resubmission, with emphasis on temperature-conditioned representations and intrinsic fault structure.</p></article>
-  <article><span>Working paper · Vibration control</span><h3><a href="{{ '/publication/2026-active-passive-collaborative-shock-absorption-system' | relative_url }}">Active–Passive Collaborative Shock Absorption for Vibration Suppression</a></h3><p>Mechanical design and intelligent control methods for collaborative vibration attenuation across active and passive elements.</p></article>
-  <article><span>Working paper · Fault diagnosis</span><h3><a href="{{ '/publication/2026-control-moment-gyroscope-fault-diagnosis' | relative_url }}">Control Moment Gyroscope Fault Diagnosis Using Simulation and Cyclic Generative Models</a></h3><p>Combines finite-element simulation with data-generation and diagnostic methods for fault conditions that are difficult to reproduce experimentally.</p></article>
 </div>
 
-<aside class="academic-integrity-note"><strong>Status and disclosure.</strong> Working papers describe active research directions and may evolve before submission. Visuals on this page provide research context; they are not substitutes for peer-reviewed figures, full methods, or final reported results.</aside>
+## Working papers
 
+<div class="working-papers-list working-papers-list--rich">
+  <article><span>Robot-code safety</span><h3><a href="{{ '/publication/2026-llm-robot-code-safety' | relative_url }}">Hidden Safety Violations in LLM-Generated Robot Code</a></h3><p>Evaluates physical-safety violations that can remain hidden even when generated programs satisfy a functional task specification.</p></article>
+  <article><span>Dexterous manipulation</span><h3><a href="{{ '/publication/2026-llm-assisted-dexterous-hand-robot-learning' | relative_url }}">LLM-Generated Dexterous-Hand Models for Reinforcement Learning</a></h3><p>Prompt-guided model generation and refinement, followed by TD3 + HER training and drop-aware evaluation for sparse-reward manipulation.</p></article>
+  <article><span>Multimodal robotic manipulation</span><h3><a href="{{ '/publication/2026-audio-visual-multimodal-grasping-compensation-robotic-arm' | relative_url }}">Audio-Visual Multimodal Grasping Compensation for a Low-Cost Robotic Arm</a></h3><p>Language-conditioned perception, grasp compensation, constrained motion, visual verification, and recovery primitives.</p></article>
+  <article><span>Vibration control</span><h3><a href="{{ '/publication/2026-active-passive-collaborative-shock-absorption-system' | relative_url }}">Active–Passive Collaborative Shock Absorption for Vibration Suppression</a></h3><p>Mechanical design and intelligent control methods for collaborative vibration attenuation across active and passive elements.</p></article>
+  <article><span>Fault diagnosis</span><h3><a href="{{ '/publication/2026-control-moment-gyroscope-fault-diagnosis' | relative_url }}">Control Moment Gyroscope Fault Diagnosis Using Simulation and Cyclic Generative Models</a></h3><p>Combines finite-element simulation with data-generation and diagnostic methods for conditions that are difficult to reproduce experimentally.</p></article>
+</div>
+
+<aside class="academic-integrity-note"><strong>Figure policy.</strong> Unpublished and working papers are listed without figures. The published article will receive selected figures only when an author-held or publisher-authorized source file is available; placeholder PDFs and figures from unrelated work are not used.</aside>
