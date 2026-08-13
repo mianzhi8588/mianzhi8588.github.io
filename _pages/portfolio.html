@@ -28,12 +28,12 @@ author_profile: true
         <figure><img src="{{ '/images/llm-safety-grasp-slip.png' | relative_url }}" alt="MuJoCo evidence frame showing grasp slip and object drop"><figcaption>Grasp slip / drop</figcaption></figure>
         <figure><img src="{{ '/images/llm-safety-restricted-transport.png' | relative_url }}" alt="MuJoCo evidence frame showing unverified transport near a restricted region"><figcaption>Restricted transport</figcaption></figure>
       </div>
-      <span class="media-label">Pilot violation evidence</span>
+      <span class="media-label">Representative evaluation scenes</span>
     </div>
     <div class="research-detail-card__body">
       <p class="research-kicker">Robot-code reliability · Working paper</p>
       <h3><a href="{{ '/portfolio/2026-llm-robot-code-safety' | relative_url }}">Hidden Safety Violations in LLM-Generated Robot Code</a></h3>
-      <p>This project studies programs that complete an assigned robot task yet violate physical constraints. A MuJoCo-based evaluation layer checks collisions, joint and velocity limits, grasp stability, dropped objects, and restricted workspaces, then supports targeted repair before execution on hardware.</p>
+      <p>This project studies programs that appear functionally successful but still create unsafe physical behavior. Public evidence illustrates representative failure scenes; prompts, evaluation rules, model comparisons, and numerical limits remain private while the study is ongoing.</p>
       <p class="research-detail-card__question"><strong>Research question:</strong> How should functional success and physical safety be evaluated separately for generated robot programs?</p>
       <p class="research-detail-card__note">These are real evidence frames from the local safety-analysis workflow; no unrelated project video is used here.</p>
       <a class="academic-link" href="{{ '/portfolio/2026-llm-robot-code-safety' | relative_url }}">Explore the evaluation workflow →</a>
@@ -42,30 +42,29 @@ author_profile: true
 
   <article class="research-detail-card research-detail-card--featured">
     <div class="research-detail-card__media research-detail-card__media--video">
-      <video controls muted loop playsinline preload="metadata" poster="{{ '/images/dexterous-hex-prism-keyframes.png' | relative_url }}" aria-label="Dexterous hand rotating a hexagonal prism continuously around the vertical axis">
-        <source src="{{ '/files/dexterous-hex-prism-multiturn-rotate-z.mp4' | relative_url }}" type="video/mp4">
+      <video controls muted loop playsinline preload="metadata" poster="{{ '/images/dexterous-hex-prism-public-poster.png' | relative_url }}" aria-label="Short dexterous-hand demonstration with a hexagonal prism">
+        <source src="{{ '/files/dexterous-hex-prism-public.webm' | relative_url }}" type="video/webm">
       </video>
-      <span class="media-label">Continuous multi-turn Rotate-Z</span>
+      <span class="media-label">Representative manipulation</span>
     </div>
     <div class="research-detail-card__body">
       <p class="research-kicker">Dexterous manipulation · Working paper</p>
       <h3><a href="{{ '/portfolio/2026-dexterous-manipulation-reinforcement-learning' | relative_url }}">LLM-Generated Hand Models & Reinforcement Learning</a></h3>
-      <p>Prompt-guided generation and iterative refinement of CAD, URDF, and MJCF assets are combined with reinforcement learning and drop-aware evaluation. The current Rotate-Z task tests whether the hand can maintain contact while producing controlled single-turn and multi-turn object rotation.</p>
-      <div class="dexterous-result-preview"><img src="{{ '/images/dexterous-multiturn-training-curves.png' | relative_url }}" alt="Training and deterministic evaluation curves for continuous multi-turn Rotate-Z"><p><strong>Current result view.</strong> Training progress, deterministic evaluation, the 720° acceptance threshold, and object-loss behavior. This is a research-stage result rather than a final paper figure.</p></div>
-      <a class="academic-link" href="{{ '/portfolio/2026-dexterous-manipulation-reinforcement-learning' | relative_url }}">View modeling and training evidence →</a>
+      <p>LLM-assisted hand-model generation is combined with simulation-based policy learning for dexterous object manipulation. This 11.4-second public clip demonstrates the behavior while omitting training settings, thresholds, and quantitative results.</p>
+      <a class="academic-link" href="{{ '/portfolio/2026-dexterous-manipulation-reinforcement-learning' | relative_url }}">View public model and behavior evidence →</a>
     </div>
   </article>
 
   <article class="research-detail-card">
-    <div class="research-detail-card__media research-detail-card__media--contain">
-      <img src="{{ '/images/imu-strict-online-exploratory-result.png' | relative_url }}" alt="Exploratory comparison of online IMU recovery methods">
-      <span class="media-label">Exploratory result</span>
+    <div class="research-detail-card__media">
+      <img src="{{ '/images/imu-overrange-public-poster.png' | relative_url }}" alt="Public view of an IMU overrange data-collection session">
+      <span class="media-label">Data collection</span>
     </div>
     <div class="research-detail-card__body">
       <p class="research-kicker">Signal recovery · Preparing for submission</p>
       <h3><a href="{{ '/portfolio/2025-inertial-perception-overrange-recovery' | relative_url }}">Inertial Sensor Overrange Recovery</a></h3>
-      <p>A lightweight online framework detects short-duration overload, exploits cross-axis motion structure, adapts its observation window, and reconstructs clipped motion without future context. Evaluation uses public human-motion sequences alongside controlled MATLAB and self-recorded tests.</p>
-      <p class="research-detail-card__note">The chart is an exploratory result from the broader research process and is not presented as a manuscript figure.</p>
+      <p>This project studies online recovery from short-duration inertial-sensor saturation through controlled experiments and external datasets. Implementation settings and current quantitative results are withheld until submission.</p>
+      <p class="research-detail-card__note">The public page presents the research question and data-collection context without releasing method parameters or comparison tables.</p>
       <a class="academic-link" href="{{ '/portfolio/2025-inertial-perception-overrange-recovery' | relative_url }}">See experiments and data collection →</a>
     </div>
   </article>
@@ -78,9 +77,9 @@ author_profile: true
     <div class="research-detail-card__body">
       <p class="research-kicker">Multimodal manipulation · Working paper</p>
       <h3><a href="{{ '/portfolio/2026-multimodal-robotic-arm-platform' | relative_url }}">Language-Conditioned Agentic Control for a 6-DOF Manipulator</a></h3>
-      <p>This low-cost system translates natural-language goals into constrained perception and control primitives. The pipeline connects speech or text input, target grounding, pose estimation, inverse kinematics, action execution, visual verification, and recovery from common failures.</p>
+      <p>This platform studies how natural-language goals can be connected to perception, motion, and execution feedback on a compact robotic arm. Public materials show the system concept without exposing the current control implementation.</p>
       <p class="research-detail-card__question"><strong>System emphasis:</strong> full-stack integration and recoverable task execution, rather than treating low cost as the research contribution by itself.</p>
-      <a class="academic-link" href="{{ '/portfolio/2026-multimodal-robotic-arm-platform' | relative_url }}">View the architecture and three demonstrations →</a>
+      <a class="academic-link" href="{{ '/portfolio/2026-multimodal-robotic-arm-platform' | relative_url }}">View the public system overview →</a>
     </div>
   </article>
 
@@ -92,7 +91,7 @@ author_profile: true
     <div class="research-detail-card__body">
       <p class="research-kicker">Wearable sensing · Early-stage research</p>
       <h3><a href="{{ '/portfolio/2026-textile-capacitive-sensing-robot-arm' | relative_url }}">Textile-Integrated Capacitive Sensing for Robot Control</a></h3>
-      <p>A textile interface captures contact, deformation, and gesture-related capacitance changes, then maps calibrated signals to robot commands. Current work emphasizes repeatability, drift, latency, user variation, and robust command segmentation.</p>
+      <p>Textile-integrated capacitive elements are explored as intuitive robot inputs. The public page focuses on the interaction concept while material composition, circuit design, and calibration settings remain private during development.</p>
       <a class="academic-link" href="{{ '/portfolio/2026-textile-capacitive-sensing-robot-arm' | relative_url }}">Inspect the sensing prototype →</a>
     </div>
   </article>

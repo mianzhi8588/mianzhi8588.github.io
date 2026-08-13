@@ -20,36 +20,18 @@ This project develops a lightweight signal-recovery framework for short-term ine
 ## Data collection
 
 <figure class="research-media research-media--portrait">
-  <video controls playsinline preload="metadata" poster="{{ '/images/imu-overrange-data-collection-poster.png' | relative_url }}" aria-label="IMU overrange experiment data collection">
-    <source src="{{ '/files/imu-overrange-data-collection-web.webm' | relative_url }}" type="video/webm">
-    <source src="{{ '/files/imu-overrange-data-collection.mp4' | relative_url }}" type="video/mp4">
+  <video controls muted loop playsinline preload="metadata" poster="{{ '/images/imu-overrange-public-poster.png' | relative_url }}" aria-label="IMU overrange experiment data collection">
+    <source src="{{ '/files/imu-overrange-public.webm' | relative_url }}" type="video/webm">
     Your browser does not support the video tag.
   </video>
   <figcaption>
-    Physical data collection for the short-term IMU overrange study. The recordings complement HuGaDB evaluation and MATLAB simulation.
+    Physical data collection for the short-term IMU overrange study. The clip is formatted for public presentation and does not expose acquisition settings.
   </figcaption>
 </figure>
-
-## Recovery framework
-
-- Detect short-term overload and activate recovery through threshold gating.
-- Use multi-axis coupling to reconstruct saturated channels.
-- Combine low-pass filtering with physics- and geometry-constrained extrapolation.
-- Select recovery windows adaptively to balance local continuity and robustness.
-- Maintain a low memory footprint suitable for real-time implementation.
 
 ## Evaluation
 
-The framework is evaluated with the HuGaDB human-gait dataset (approximately 58 Hz, 636 trials), MATLAB simulations, and self-collected IMU recordings. Comparisons include Kalman filtering, CLPE, and ARLS. The current exploratory comparison below is a supporting result and is not presented as a finalized paper figure.
-
-<figure class="research-media research-media--result">
-  <a href="{{ '/images/imu-strict-online-exploratory-result.png' | relative_url }}">
-    <img src="{{ '/images/imu-strict-online-exploratory-result.png' | relative_url }}" alt="Exploratory strict-online raw-IMU comparison across modeling levels">
-  </a>
-  <figcaption>
-    Exploratory strict-online comparison across modeling levels. This figure documents a current experimental result rather than a finalized publication figure.
-  </figcaption>
-</figure>
+The study combines controlled data collection, simulation, and external datasets to examine recovery under short-duration sensor saturation. Exact signal-processing stages, parameter choices, comparison methods, and current numerical results are intentionally omitted until the manuscript is ready for submission.
 
 ## Related manuscript
 

@@ -27,69 +27,66 @@ My current work extends across **intelligent sensing, robot learning, robotic ma
 <p class="section-intro">My current projects span robot-code evaluation, dexterous manipulation, inertial signal recovery, multimodal robotic control, and wearable sensing.</p>
 
 <div class="current-research-grid">
-  <article class="current-research-card current-research-card--wide">
+  <article class="current-research-card current-research-card--wide current-research-card--media-left">
+    <div class="current-research-card__visual">
+      <video controls muted loop playsinline preload="metadata" poster="{{ '/images/llm-safety-evidence-sequence-poster.png' | relative_url }}" aria-label="Representative robot-code safety evaluation scenes">
+        <source src="{{ '/files/llm-safety-evidence-sequence.webm' | relative_url }}" type="video/webm">
+      </video>
+    </div>
     <div class="current-research-card__copy">
       <span>LLM-based robotics · George Mason University collaboration</span>
       <h3><a href="{{ '/portfolio/2026-llm-robot-code-safety' | relative_url }}">Hidden Safety Violations in LLM-Generated Robot Code</a></h3>
-      <p>A MuJoCo-based Franka Emika Panda testbed for detecting collisions, velocity violations, grasp failures, object drops, and restricted-workspace violations in functionally correct robot programs.</p>
-      <a class="project-evidence" href="{{ '/portfolio/2026-llm-robot-code-safety' | relative_url }}">Safety evaluation and repair workflow →</a>
+      <p>A behavior-level study of why robot programs that appear to finish a task can still create unsafe physical behavior. Public materials show representative scenes; evaluation rules, prompts, model comparisons, and numerical thresholds remain private while the study is ongoing.</p>
+      <a class="project-evidence" href="{{ '/portfolio/2026-llm-robot-code-safety' | relative_url }}">Public safety-evaluation overview →</a>
     </div>
   </article>
 
   <article class="current-research-card">
     <div class="current-research-card__visual">
-      <video controls muted playsinline preload="metadata" poster="{{ '/images/dexterous-hand-rl-training-poster.png' | relative_url }}" aria-label="Dexterous-hand reinforcement-learning training demonstration">
-        <source src="{{ '/files/dexterous-hand-rl-training-web.webm' | relative_url }}" type="video/webm">
-        <source src="{{ '/files/dexterous-hand-rl-training.mp4' | relative_url }}" type="video/mp4">
+      <video controls muted loop playsinline preload="metadata" poster="{{ '/images/generated-dexterous-hand-motion-poster.png' | relative_url }}" aria-label="Motion study of a generated dexterous-hand model">
+        <source src="{{ '/files/generated-dexterous-hand-motion.webm' | relative_url }}" type="video/webm">
       </video>
     </div>
     <div class="current-research-card__copy">
       <span>Robot learning · Kennesaw State University collaboration</span>
       <h3><a href="{{ '/portfolio/2026-dexterous-manipulation-reinforcement-learning' | relative_url }}">Dexterous Manipulation & Reinforcement Learning</a></h3>
-      <p>Prompt-guided hand-model generation, CAD/URDF/MJCF refinement, TD3 + HER, and drop-aware evaluation for sparse-reward dexterous manipulation.</p>
+      <p>LLM-assisted hand-model generation and simulation-based policy learning for dexterous object manipulation. The public page shows model motion and representative behaviors without training settings or benchmark values.</p>
     </div>
   </article>
 
   <article class="current-research-card">
-    <div class="current-research-card__visual current-research-card__visual--portrait">
-      <video controls muted playsinline preload="metadata" poster="{{ '/images/imu-overrange-data-collection-poster.png' | relative_url }}" aria-label="IMU overrange data collection demonstration">
-        <source src="{{ '/files/imu-overrange-data-collection-web.webm' | relative_url }}" type="video/webm">
-        <source src="{{ '/files/imu-overrange-data-collection.mp4' | relative_url }}" type="video/mp4">
+    <div class="current-research-card__visual">
+      <video controls muted loop playsinline preload="metadata" poster="{{ '/images/imu-overrange-public-poster.png' | relative_url }}" aria-label="IMU overrange data collection demonstration">
+        <source src="{{ '/files/imu-overrange-public.webm' | relative_url }}" type="video/webm">
       </video>
     </div>
     <div class="current-research-card__copy">
       <span>Intelligent sensing · Signal recovery</span>
       <h3><a href="{{ '/portfolio/2025-inertial-perception-overrange-recovery' | relative_url }}">Inertial Sensor Overrange Recovery</a></h3>
-      <p>A lightweight framework combining overload detection, multi-axis coupling, adaptive windows, filtering, and geometry-constrained extrapolation.</p>
+      <p>Online recovery of short-duration inertial-sensor saturation, studied through controlled experiments and external datasets. Method parameters and current numerical results are withheld until submission.</p>
     </div>
   </article>
 
   <article class="current-research-card current-research-card--wide current-research-card--media-left">
     <div class="current-research-card__visual">
-      <video controls muted playsinline preload="metadata" poster="{{ '/images/arm-video1-poster.png' | relative_url }}" aria-label="Language-conditioned robotic-arm demonstration">
-        <source src="{{ '/files/arm-video1-web.webm' | relative_url }}" type="video/webm">
-        <source src="{{ '/files/arm_video1.mp4' | relative_url }}" type="video/mp4">
-      </video>
+      <img src="{{ '/images/agentic-6dof-arm-concept.png' | relative_url }}" alt="Concept visualization of language-conditioned control with an eye-in-hand camera">
     </div>
     <div class="current-research-card__copy">
       <span>Multimodal perception · Robotic manipulation</span>
       <h3><a href="{{ '/portfolio/2026-multimodal-robotic-arm-platform' | relative_url }}">Language-Conditioned Agentic Control for a 6-DOF Robotic Manipulator</a></h3>
-      <p>A complete audio-visual robotic system that maps natural-language instructions to constrained perception, pose estimation, inverse kinematics, motion, verification, and failure-recovery primitives.</p>
-      <a class="project-evidence" href="{{ '/portfolio/2026-multimodal-robotic-arm-platform' | relative_url }}">System architecture and demonstrations →</a>
+      <p>A language-conditioned manipulation platform connecting multimodal input with perception, motion, and execution feedback. The public page presents the system concept without implementation-level control details.</p>
+      <a class="project-evidence" href="{{ '/portfolio/2026-multimodal-robotic-arm-platform' | relative_url }}">Public system overview →</a>
     </div>
   </article>
 
   <article class="current-research-card current-research-card--compact">
-    <div class="current-research-card__visual current-research-card__visual--portrait">
-      <video controls muted playsinline preload="metadata" poster="{{ '/images/textile-capacitive-sensing-poster.png' | relative_url }}" aria-label="Textile capacitive sensing prototype demonstration">
-        <source src="{{ '/files/textile-capacitive-sensing-demo-web.webm' | relative_url }}" type="video/webm">
-        <source src="{{ '/files/textile-capacitive-sensing-demo.mp4' | relative_url }}" type="video/mp4">
-      </video>
+    <div class="current-research-card__visual">
+      <img src="{{ '/images/textile-capacitive-control-concept.png' | relative_url }}" alt="Concept visualization of parallel textile electrodes on a left forearm sleeve">
     </div>
     <div class="current-research-card__copy">
       <span>Wearable sensing · Human-robot interaction</span>
       <h3><a href="{{ '/portfolio/2026-textile-capacitive-sensing-robot-arm' | relative_url }}">Textile-Integrated Capacitive Sensing for Robotic Arm Control</a></h3>
-      <p>An early-stage interface for capturing gesture, contact, and deformation signals and mapping them to robot commands with attention to calibration, repeatability, and latency.</p>
+      <p>An early-stage wearable interface for translating textile-sensor responses into intuitive robot interaction. Materials, circuit layout, and calibration details remain private during development.</p>
     </div>
   </article>
 </div>
