@@ -7,8 +7,26 @@ author_profile: true
 
 {% include base_path %}
 
-This section highlights my experience in STEM outreach, science communication, and academic exchange. These activities reflect my interest in communicating engineering ideas to broader audiences and engaging with interdisciplinary perspectives on technology, education, and society.
+<section class="outreach-hero">
+  <div class="outreach-hero__media"><img src="{{ '/images/outreach-stem-exchange-concept.png' | relative_url }}" alt="Conceptual illustration of collaborative STEM learning and academic exchange"></div>
+  <div class="outreach-hero__copy"><p class="academic-page-hero__eyebrow">Teaching · Science communication · Exchange</p><h2>Engineering becomes meaningful when it can be shared</h2><p>I value outreach as a way to translate technical ideas into experiences that invite questions, experimentation, and discussion. My activities include hands-on STEM instruction for young learners and academic exchange around innovation, governance, and the broader social context of technology.</p><p class="outreach-hero__caption">Conceptual illustration created for this website; it is not a photograph of either activity described below.</p></div>
+</section>
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+## Selected activities
+
+<div class="outreach-activity-grid">
+  <article><span>Science outreach teaching · Beijing</span><h3><a href="{{ '/teaching/2024-beijing-science-center-stem-workshops' | relative_url }}">STEM Workshops for Primary School Students</a></h3><p>At Beijing Science Center, I helped turn mechanical and scientific principles into accessible hands-on activities. The emphasis was not on memorizing terminology, but on observing a phenomenon, proposing an explanation, testing an idea, and communicating what changed.</p><ul><li>Facilitated interactive engineering activities for young learners</li><li>Adapted explanations to different levels of prior knowledge</li><li>Used questions and demonstrations to support curiosity-driven learning</li></ul><a class="academic-link" href="{{ '/teaching/2024-beijing-science-center-stem-workshops' | relative_url }}">Read the teaching reflection →</a></article>
+  <article><span>Academic exchange · Singapore</span><h3><a href="{{ '/teaching/2024-singapore-academic-exchange-nus-ntu' | relative_url }}">Academic Exchange Program: NUS & NTU</a></h3><p>This faculty-led exchange broadened my perspective beyond system performance alone. Discussions connected technological innovation with governance, institutional design, adoption, and social responsibility—questions that increasingly matter for robotics and AI deployed in real environments.</p><ul><li>Engaged with perspectives on innovation systems and AI governance</li><li>Compared technical and institutional approaches to emerging technology</li><li>Reflected on responsible adoption across public and private contexts</li></ul><a class="academic-link" href="{{ '/teaching/2024-singapore-academic-exchange-nus-ntu' | relative_url }}">Read the exchange reflection →</a></article>
+</div>
+
+## Outreach principles
+
+<div class="outreach-principles">
+  <article><span>01</span><h3>Begin with observation</h3><p>A tangible phenomenon gives learners a shared starting point before formal terminology or equations are introduced.</p></article>
+  <article><span>02</span><h3>Make complexity navigable</h3><p>Good explanation preserves the important mechanism while removing unnecessary barriers and jargon.</p></article>
+  <article><span>03</span><h3>Connect technology to context</h3><p>Engineering choices interact with users, institutions, safety, access, and social responsibility.</p></article>
+</div>
+
+## What these experiences contribute to my research
+
+<p class="outreach-closing">Teaching and exchange have strengthened how I frame research questions, explain system limitations, and collaborate across disciplines. They reinforce a principle that also guides my work in robotics and intelligent sensing: a technically capable system should be understandable to the people who build, evaluate, and ultimately use it.</p>

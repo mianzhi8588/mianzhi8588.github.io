@@ -7,27 +7,109 @@ author_profile: true
 
 {% include base_path %}
 
-My work spans **mechanical engineering, intelligent fault diagnosis, signal processing, intelligent sensing, robot learning, robotic manipulation, multimodal perception, and embodied intelligence**. The project sequence reflects a progression from mechanical systems and condition monitoring toward sensing, learning, and integrated robotic systems.
+<section class="academic-page-hero">
+  <p class="academic-page-hero__eyebrow">Research portfolio</p>
+  <h2>From reliable sensing to embodied intelligence</h2>
+  <p class="academic-page-hero__lead">My research connects signal recovery, mechanical-system diagnosis, multimodal perception, robot learning, and physical control. Across these projects, I focus on a common question: how can an intelligent physical system remain useful, interpretable, and safe when its sensors, models, or operating conditions are imperfect?</p>
+  <div class="academic-page-hero__tags">
+    <span>Intelligent sensing</span><span>Robot learning</span><span>Multimodal perception</span><span>Reliable control</span>
+  </div>
+</section>
 
 ## Current research
 
-{% assign current_projects = site.portfolio | where: "research_stage", "current" | sort: "research_order" %}
-{% for post in current_projects %}
-  {% include archive-single.html %}
-{% endfor %}
+<p class="section-intro">The projects below are active research directions. Media are drawn from real prototypes, simulations, data-collection sessions, and exploratory analyses; unpublished implementation details and sensitive experimental settings are intentionally omitted.</p>
+
+<div class="research-detail-grid">
+  <article class="research-detail-card research-detail-card--featured">
+    <div class="research-detail-card__media">
+      <img src="{{ '/images/arm-video2-poster.png' | relative_url }}" alt="Robot simulation environment used in current manipulation research">
+      <span class="media-label">Simulation environment</span>
+    </div>
+    <div class="research-detail-card__body">
+      <p class="research-kicker">Robot-code reliability · Working paper</p>
+      <h3><a href="{{ '/portfolio/2026-llm-robot-code-safety' | relative_url }}">Hidden Safety Violations in LLM-Generated Robot Code</a></h3>
+      <p>This project studies programs that complete an assigned robot task yet violate physical constraints. A MuJoCo-based evaluation layer checks collisions, joint and velocity limits, grasp stability, dropped objects, and restricted workspaces, then supports targeted repair before execution on hardware.</p>
+      <p class="research-detail-card__question"><strong>Research question:</strong> How should functional success and physical safety be evaluated separately for generated robot programs?</p>
+      <a class="academic-link" href="{{ '/portfolio/2026-llm-robot-code-safety' | relative_url }}">Explore the evaluation workflow →</a>
+    </div>
+  </article>
+
+  <article class="research-detail-card">
+    <div class="research-detail-card__media research-detail-card__media--contain">
+      <img src="{{ '/images/dexterous-hand-rl-training-poster.png' | relative_url }}" alt="Dexterous hand reinforcement-learning simulation">
+      <span class="media-label">RL training</span>
+    </div>
+    <div class="research-detail-card__body">
+      <p class="research-kicker">Dexterous manipulation · Working paper</p>
+      <h3><a href="{{ '/portfolio/2026-dexterous-manipulation-reinforcement-learning' | relative_url }}">LLM-Generated Hand Models & Reinforcement Learning</a></h3>
+      <p>Prompt-guided generation and iterative refinement of CAD, URDF, and MJCF assets are combined with TD3 + HER training and drop-aware evaluation. The aim is to shorten model-building cycles while preserving physically meaningful joints, tendons, contacts, and task constraints.</p>
+      <a class="academic-link" href="{{ '/portfolio/2026-dexterous-manipulation-reinforcement-learning' | relative_url }}">View modeling and training evidence →</a>
+    </div>
+  </article>
+
+  <article class="research-detail-card">
+    <div class="research-detail-card__media research-detail-card__media--contain">
+      <img src="{{ '/images/imu-strict-online-exploratory-result.png' | relative_url }}" alt="Exploratory comparison of online IMU recovery methods">
+      <span class="media-label">Exploratory result</span>
+    </div>
+    <div class="research-detail-card__body">
+      <p class="research-kicker">Signal recovery · Preparing for submission</p>
+      <h3><a href="{{ '/portfolio/2025-inertial-perception-overrange-recovery' | relative_url }}">Inertial Sensor Overrange Recovery</a></h3>
+      <p>A lightweight online framework detects short-duration overload, exploits cross-axis motion structure, adapts its observation window, and reconstructs clipped motion without future context. Evaluation uses public human-motion sequences alongside controlled MATLAB and self-recorded tests.</p>
+      <p class="research-detail-card__note">The chart is an exploratory result from the broader research process and is not presented as a manuscript figure.</p>
+      <a class="academic-link" href="{{ '/portfolio/2025-inertial-perception-overrange-recovery' | relative_url }}">See experiments and data collection →</a>
+    </div>
+  </article>
+
+  <article class="research-detail-card research-detail-card--featured research-detail-card--reverse">
+    <div class="research-detail-card__media">
+      <img src="{{ '/images/arm-video1-poster.png' | relative_url }}" alt="Language-conditioned robotic arm prototype demonstration">
+      <span class="media-label">Physical prototype</span>
+    </div>
+    <div class="research-detail-card__body">
+      <p class="research-kicker">Multimodal manipulation · Working paper</p>
+      <h3><a href="{{ '/portfolio/2026-multimodal-robotic-arm-platform' | relative_url }}">Language-Conditioned Agentic Control for a 6-DOF Manipulator</a></h3>
+      <p>This low-cost system translates natural-language goals into constrained perception and control primitives. The pipeline connects speech or text input, target grounding, pose estimation, inverse kinematics, action execution, visual verification, and recovery from common failures.</p>
+      <p class="research-detail-card__question"><strong>System emphasis:</strong> full-stack integration and recoverable task execution, rather than treating low cost as the research contribution by itself.</p>
+      <a class="academic-link" href="{{ '/portfolio/2026-multimodal-robotic-arm-platform' | relative_url }}">View the architecture and three demonstrations →</a>
+    </div>
+  </article>
+
+  <article class="research-detail-card">
+    <div class="research-detail-card__media research-detail-card__media--portrait">
+      <img src="{{ '/images/textile-capacitive-sensing-poster.png' | relative_url }}" alt="Textile-integrated capacitive sensing prototype">
+      <span class="media-label">Sensor prototype</span>
+    </div>
+    <div class="research-detail-card__body">
+      <p class="research-kicker">Wearable sensing · Early-stage research</p>
+      <h3><a href="{{ '/portfolio/2026-textile-capacitive-sensing-robot-arm' | relative_url }}">Textile-Integrated Capacitive Sensing for Robot Control</a></h3>
+      <p>A textile interface captures contact, deformation, and gesture-related capacitance changes, then maps calibrated signals to robot commands. Current work emphasizes repeatability, drift, latency, user variation, and robust command segmentation.</p>
+      <a class="academic-link" href="{{ '/portfolio/2026-textile-capacitive-sensing-robot-arm' | relative_url }}">Inspect the sensing prototype →</a>
+    </div>
+  </article>
+</div>
+## How I approach a research system
+
+<div class="research-process">
+  <article><span>01</span><h3>Define failure modes</h3><p>Separate task success from hidden failure: saturation, unsafe motion, poor transfer, unstable grasping, or ambiguous human input.</p></article>
+  <article><span>02</span><h3>Build observable evidence</h3><p>Use simulation, controlled experiments, public datasets, and physical prototypes to make system behavior measurable.</p></article>
+  <article><span>03</span><h3>Design constrained methods</h3><p>Combine learning with physical structure, geometry, safety checks, signal priors, or interpretable representations.</p></article>
+  <article><span>04</span><h3>Evaluate the full loop</h3><p>Report not only accuracy, but robustness, latency, generalization, failure recovery, and limitations.</p></article>
+</div>
 
 ## Selected earlier research
 
-{% assign earlier_projects = site.portfolio | where: "research_stage", "earlier" | sort: "research_order" %}
-{% for post in earlier_projects %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="earlier-research-grid earlier-research-grid--page">
+  <article><span>Condition monitoring · 2025</span><h3><a href="{{ '/portfolio/2025-wind-power-fault-diagnosis-platform' | relative_url }}">Wind Turbine Condition Monitoring and Bearing Fault Diagnosis</a></h3><p>A PyTorch library and PyQt5 platform integrating SCADA and vibration signals, frequency-domain features, class-imbalance strategies, source-free deployment, and cross-machine evaluation.</p></article>
+  <article><span>Mechanical control · 2022–2023</span><h3><a href="{{ '/portfolio/2023-active-vibration-suppression-platform' | relative_url }}">Intelligent Vibration Reduction Support Design</a></h3><p>Modeling and experimental validation of an active vibration-suppression platform using a voice-coil actuator, MATLAB/Simulink/Simscape, and LabVIEW control.</p></article>
+  <article><span>Functional materials · 2022</span><h3><a href="{{ '/portfolio/2022-radiative-cooling-film-electrospinning' | relative_url }}">Radiative Cooling Films Prepared by Electrospinning</a></h3><p>Material selection, electrospun film fabrication, and controlled thermal testing for passive cooling under sunlight exposure.</p></article>
+  <article><span>Multiphase dynamics · 2021</span><h3><a href="{{ '/portfolio/2021-droplet-impact-thin-films' | relative_url }}">Dynamics of Droplet Impact on Thin Films</a></h3><p>High-speed imaging and dimensionless analysis of spreading, crown formation, and morphology under varying impact heights and film thicknesses.</p></article>
+</div>
 
-## Additional projects and engineering work
+## Additional engineering explorations
 
-{% assign all_projects = site.portfolio | sort: "date" | reverse %}
-{% for post in all_projects %}
-  {% unless post.research_stage == "current" or post.research_stage == "earlier" %}
-    {% include archive-single.html %}
-  {% endunless %}
-{% endfor %}
+<div class="compact-project-list">
+  <article><div><span>Expressive robotics</span><h3><a href="{{ '/portfolio/2026-lelamp-expressive-robot-lamp-replication' | relative_url }}">LeLamp-Inspired Expressive Robot Lamp Replication</a></h3></div><p>An open-source replication platform for studying expressive motion, articulated mechanisms, and human–robot interaction at Tsinghua Future Laboratory.</p></article>
+  <article><div><span>Cloud engineering</span><h3><a href="{{ '/portfolio/2026-harvard-ilab-cloud-quotation-backend' | relative_url }}">Cloud-Based Quotation Backend</a></h3></div><p>A modular backend for pricing calculations, user authentication, file handling, and persistent quotation records.</p></article>
+</div>
