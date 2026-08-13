@@ -7,6 +7,8 @@ excerpt: "An ongoing engineering replication at Tsinghua Future Laboratory, usin
 date: 2026-01-01
 status: "Prototype in progress"
 research_area: "Expressive Robotics · Human–Robot Interaction"
+research_stage: current
+research_order: 6
 ---
 
 ## Project context
