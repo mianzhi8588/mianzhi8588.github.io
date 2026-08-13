@@ -15,28 +15,22 @@ research_order: 5
 
 This project develops a wearable sensing interface by embedding capacitive materials into textiles. The goal is to capture human gestures, contact, and deformation as intuitive inputs for robot-arm control.
 
-## Prototype demonstration
+## Public concept view
 
-<figure class="research-media research-media--portrait">
-  <video controls muted playsinline preload="metadata" poster="{{ '/images/textile-capacitive-sensing-poster.png' | relative_url }}" aria-label="Textile-integrated capacitive sensor prototype demonstration">
-    <source src="{{ '/files/textile-capacitive-sensing-demo-web.webm' | relative_url }}" type="video/webm">
-    <source src="{{ '/files/textile-capacitive-sensing-demo.mp4' | relative_url }}" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+<figure class="research-media research-media--result">
+  <img src="{{ '/images/textile-capacitive-control-concept.png' | relative_url }}" alt="Concept visualization of parallel textile electrodes on a left forearm sleeve">
   <figcaption>
-    Prototype demonstration of the textile-integrated capacitive sensing setup. This video documents the current experimental system; it is not a polished final interface.
+    Concept visualization of the intended wearable interaction. It is not a photograph of the current prototype; material composition, circuit layout, and calibration settings are intentionally omitted during development.
   </figcaption>
 </figure>
 
 ## My contributions
 
-- Developing textile-integrated capacitive sensing elements for wearable interaction.
-- Building a real-time acquisition and calibration pipeline for repeatable sensor response.
-- Mapping textile-sensor signals to robot motion commands with attention to latency and human-robot responsiveness.
+- Developing textile-integrated sensing elements for wearable interaction.
+- Studying repeatable acquisition and intuitive mapping between human input and robot response.
+- Evaluating the interaction concept before publishing implementation-level details.
 
-## Research themes
-
-Wearable sensing · Capacitive textiles · Signal calibration · Human-robot interaction · Real-time control
+Detailed materials, electronics, calibration procedures, and control mappings remain private while the prototype is in development.
 
 ## Status
 
