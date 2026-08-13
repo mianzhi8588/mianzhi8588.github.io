@@ -1,7 +1,7 @@
 ---
 title: "Domain Adaptation With Joint Distribution Alignment Adversarial Learning for Open-Set Bearing Intelligent Fault Diagnosis"
 collection: publications
-category: manuscripts
+category: published
 permalink: /publication/2025-domain-adaptation-open-set-bearing-fault-diagnosis
 excerpt: "A published journal article on open-set bearing intelligent fault diagnosis using domain adaptation and joint distribution alignment adversarial learning."
 date: 2025-07-15

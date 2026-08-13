@@ -13,3 +13,5 @@ citation: "Chen, G., Wang, H., and Tang, G.* TFMNet: An Interpretable Time-Frequ
 This manuscript develops an interpretable time-frequency mode network for mechanical equipment fault diagnosis under variable speed conditions.
 
 **Status:** Under review.
+
+**Related research:** [Wind Turbine Condition Monitoring and Bearing Fault Diagnosis Platform]({{ '/portfolio/2025-wind-power-fault-diagnosis-platform' | relative_url }})

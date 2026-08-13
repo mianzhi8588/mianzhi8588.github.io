@@ -7,6 +7,8 @@ excerpt: "LLM-assisted hand-model generation and drop-aware reinforcement learni
 date: 2026-03-01
 status: "Ongoing research"
 research_area: "Dexterous Manipulation · Reinforcement Learning"
+research_stage: current
+research_order: 2
 ---
 
 ## Overview
@@ -16,8 +18,9 @@ This project studies how dexterous-hand design, simulation, and policy learning 
 ## Training demonstration
 
 <figure class="research-media research-media--landscape">
-  <video controls muted loop playsinline preload="metadata" aria-label="Dexterous-hand reinforcement learning training demonstration">
-    <source src="{{ '/files/dexterous-hand-rl-training.mp4' | relative_url }}#t=0.001" type="video/mp4">
+  <video controls muted loop playsinline preload="metadata" poster="{{ '/images/dexterous-hand-rl-training-poster.png' | relative_url }}" aria-label="Dexterous-hand reinforcement learning training demonstration">
+    <source src="{{ '/files/dexterous-hand-rl-training-web.webm' | relative_url }}" type="video/webm">
+    <source src="{{ '/files/dexterous-hand-rl-training.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <figcaption>

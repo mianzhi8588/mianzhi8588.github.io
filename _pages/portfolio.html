@@ -7,23 +7,27 @@ author_profile: true
 
 {% include base_path %}
 
-My research connects **robot learning, multimodal perception, intelligent sensing, and physical systems**. The current focus is reliable embodied intelligence: enabling robots to perceive, recover, and act under sensor limits, inexpensive hardware, distribution shift, and safety constraints.
+My work spans **mechanical engineering, intelligent fault diagnosis, signal processing, intelligent sensing, robot learning, robotic manipulation, multimodal perception, and embodied intelligence**. The project sequence reflects a progression from mechanical systems and condition monitoring toward sensing, learning, and integrated robotic systems.
 
 ## Current research
 
-{% assign projects = site.portfolio | sort: "date" | reverse %}
-{% for post in projects %}
-  {% assign project_year = post.date | date: "%Y" %}
-  {% if project_year >= "2025" %}
-    {% include archive-single.html %}
-  {% endif %}
+{% assign current_projects = site.portfolio | where: "research_stage", "current" | sort: "research_order" %}
+{% for post in current_projects %}
+  {% include archive-single.html %}
 {% endfor %}
 
-## Earlier engineering research
+## Selected earlier research
 
-{% for post in projects %}
-  {% assign project_year = post.date | date: "%Y" %}
-  {% if project_year < "2025" %}
+{% assign earlier_projects = site.portfolio | where: "research_stage", "earlier" | sort: "research_order" %}
+{% for post in earlier_projects %}
+  {% include archive-single.html %}
+{% endfor %}
+
+## Additional projects and engineering work
+
+{% assign all_projects = site.portfolio | sort: "date" | reverse %}
+{% for post in all_projects %}
+  {% unless post.research_stage == "current" or post.research_stage == "earlier" %}
     {% include archive-single.html %}
-  {% endif %}
+  {% endunless %}
 {% endfor %}

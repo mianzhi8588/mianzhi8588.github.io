@@ -4,6 +4,8 @@ collection: portfolio
 permalink: /portfolio/2021-droplet-impact-thin-films
 excerpt: "An experimental study on droplet impingement dynamics, high-speed imaging, and morphological evolution under varying impact conditions."
 date: 2021-11-01
+research_stage: earlier
+research_order: 4
 ---
 
 ## Overview

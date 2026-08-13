@@ -7,10 +7,12 @@ excerpt: "A low-cost 6-DOF arm integrating vision, audio, servo control, and con
 date: 2026-05-01
 status: "Ongoing research"
 research_area: "Embodied AI · Multimodal Manipulation"
+research_stage: current
+research_order: 4
 ---
 ## Overview
 
-This project explores language-conditioned task execution and multimodal grasping compensation on a low-cost robotic arm. The system integrates a 6-DOF 3D-printed arm (under 150 RMB), Arduino-based servo control, ESP32-CAM visual sensing, INMP441 audio input, and LLM-based command interpretation.
+This project explores a complete language-conditioned and multimodal manipulation architecture. The system integrates a 6-DOF 3D-printed arm, Arduino-based servo control, ESP32-CAM / OV2640 visual sensing, INMP441 audio input, OpenCV-based visual correction, and LLM-based task planning. The sub-150 RMB hardware cost is an engineering characteristic of this platform rather than the defining focus of the research.
 
 ## System Runtime Interfaces
 
@@ -37,9 +39,10 @@ This project explores language-conditioned task execution and multimodal graspin
 ## Running Demonstration Videos
 
 <figure style="text-align:center;">
-  <video controls muted preload="auto" playsinline
+  <video controls muted preload="metadata" playsinline poster="{{ '/images/arm-video1-poster.png' | relative_url }}"
          style="width:100%; max-width:800px; aspect-ratio:16/9; object-fit:contain; display:block; background:#000; border-radius:8px;">
-    <source src="{{ '/files/arm_video1.mp4' | relative_url }}#t=0.001" type="video/mp4">
+    <source src="{{ '/files/arm-video1-web.webm' | relative_url }}" type="video/webm">
+    <source src="{{ '/files/arm_video1.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <figcaption style="font-size:0.9em; color:#666; margin-top:8px;">
@@ -50,9 +53,10 @@ This project explores language-conditioned task execution and multimodal graspin
 <br>
 
 <figure style="text-align:center;">
- <video controls muted preload="auto" playsinline
+ <video controls muted preload="metadata" playsinline poster="{{ '/images/arm-video2-poster.png' | relative_url }}"
          style="width:100%; max-width:800px; aspect-ratio:16/9; object-fit:contain; display:block; background:#000; border-radius:8px;">
-    <source src="{{ '/files/arm_video2.mp4' | relative_url }}#t=0.001" type="video/mp4">
+    <source src="{{ '/files/arm-video2-web.webm' | relative_url }}" type="video/webm">
+    <source src="{{ '/files/arm_video2.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <figcaption style="font-size:0.9em; color:#666; margin-top:8px;">
@@ -63,9 +67,10 @@ This project explores language-conditioned task execution and multimodal graspin
 <br>
 
 <figure style="text-align:center;">
-  <video controls muted preload="auto" playsinline
+  <video controls muted preload="metadata" playsinline poster="{{ '/images/arm-video3-poster.png' | relative_url }}"
          style="width:100%; max-width:800px; aspect-ratio:16/9; object-fit:contain; display:block; background:#000; border-radius:8px;">
-    <source src="{{ '/files/arm_video3.mp4' | relative_url }}#t=0.001" type="video/mp4">
+    <source src="{{ '/files/arm-video3-web.webm' | relative_url }}" type="video/webm">
+    <source src="{{ '/files/arm_video3.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <figcaption style="font-size:0.9em; color:#666; margin-top:8px;">

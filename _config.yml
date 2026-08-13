@@ -9,7 +9,7 @@
 # Basic Site Settings
 title                    : "Haoyang Wang"
 name                     : &name "Haoyang Wang"
-description              : &description "Haoyang Wang researches reliable embodied intelligence, multimodal robot perception, intelligent sensing, and robot learning."
+description              : &description "Haoyang Wang works across intelligent sensing, robot learning, robotic manipulation, multimodal perception, embodied intelligence, and intelligent mechanical systems."
 url                      : "https://mianzhi8588.github.io"  
 baseurl                  : ""
 repository               : "mianzhi8588/mianzhi8588.github.io"
@@ -17,7 +17,7 @@ repository               : "mianzhi8588/mianzhi8588.github.io"
 # Site Author
 author:
   name             : "Haoyang Wang"
-  bio              : "Reliable embodied intelligence · Multimodal robotics · Intelligent sensing"
+  bio              : "Intelligent sensing · Robot learning · Robotic manipulation · Multimodal perception"
   location         : "Beijing, China"
   employer         : "Beijing University of Chemical Technology"
   email            : "vwang6925@gmail.com"
@@ -77,14 +77,12 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  manuscripts:
-    title: 'Journal Articles'
+  published:
+    title: 'Published'
   underreview:
     title: 'Under Review'
   working:
-    title: 'Working Papers'
-  conferences:
-    title: 'Conference Papers'
+    title: 'Manuscripts / Working Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
@@ -139,7 +137,7 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 : "haoyang-wang-academic-profile.png"
-og_description           : "Haoyang Wang researches reliable embodied intelligence, multimodal robot perception, intelligent sensing, and robot learning."
+og_description           : "Haoyang Wang works across intelligent sensing, robot learning, robotic manipulation, multimodal perception, embodied intelligence, and intelligent mechanical systems."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:

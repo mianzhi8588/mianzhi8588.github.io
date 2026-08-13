@@ -6,6 +6,7 @@ permalink: /publication/2026-active-passive-collaborative-shock-absorption-syste
 excerpt: "A working paper on active-passive collaborative shock absorption system design and intelligent control for vibration suppression."
 date: 2026-05-01
 venue: "Working Paper"
+status_label: "Working Paper"
 paperurl: ""
 citation: "Wang, H., He, L.*, and Zhu, H. Research on the Design and Intelligent Control Method of Active-Passive Collaborative Shock Absorption System for Vibration Suppression. Working paper."
 ---
@@ -13,3 +14,5 @@ citation: "Wang, H., He, L.*, and Zhu, H. Research on the Design and Intelligent
 This working paper studies the design and intelligent control method of an active-passive collaborative shock absorption system for vibration suppression.
 
 **Status:** Working paper.
+
+**Related research:** [Intelligent Vibration Reduction Support Design]({{ '/portfolio/2023-active-vibration-suppression-platform' | relative_url }})

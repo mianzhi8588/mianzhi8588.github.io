@@ -1,57 +1,60 @@
 ---
 layout: research-project
-title: "Inertial Sensor Recovery and Dexterous Hand Control"
+title: "Inertial Sensor Overrange Recovery"
 collection: portfolio
-permalink: /portfolio/2025-inertial-sensor-recovery-dexterous-hand
-excerpt: "A signal-recovery framework for short-term IMU overload and its integration into robotic hand control experiments."
+permalink: /portfolio/2025-inertial-perception-overrange-recovery
+redirect_from:
+  - /portfolio/2025-inertial-sensor-recovery-dexterous-hand
+excerpt: "A lightweight framework for recovering saturated IMU signals during short-term hardware overrange events."
 date: 2025-09-01
 status: "Ongoing research"
-research_area: "Intelligent Sensing · Dexterous Control"
+research_area: "Intelligent Sensing · Signal Recovery"
+research_stage: current
+research_order: 3
 ---
 
 ## Overview
 
-This project develops a lightweight signal-recovery framework for short-term inertial sensor overload, with downstream integration into robotic hand control experiments.
+This project develops a lightweight signal-recovery framework for short-term inertial-sensor overload. The website version focuses exclusively on overrange detection and saturated-signal recovery; it does not treat dexterous-hand control as part of this project.
 
 ## Data collection
 
 <figure class="research-media research-media--portrait">
-  <video controls muted playsinline preload="metadata" poster="{{ '/images/imu-overrange-data-collection-poster.png' | relative_url }}" aria-label="IMU overrange experiment data collection">
-    <source src="{{ '/files/imu-overrange-data-collection.mp4' | relative_url }}#t=0.5" type="video/mp4">
+  <video controls playsinline preload="metadata" poster="{{ '/images/imu-overrange-data-collection-poster.png' | relative_url }}" aria-label="IMU overrange experiment data collection">
+    <source src="{{ '/files/imu-overrange-data-collection-web.webm' | relative_url }}" type="video/webm">
+    <source src="{{ '/files/imu-overrange-data-collection.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <figcaption>
-    Data collection for the short-term IMU overrange study, showing the physical acquisition process used alongside public datasets and simulations.
+    Physical data collection for the short-term IMU overrange study. The recordings complement HuGaDB evaluation and MATLAB simulation.
   </figcaption>
 </figure>
 
-## Exploratory online comparison
+## Recovery framework
+
+- Detect short-term overload and activate recovery through threshold gating.
+- Use multi-axis coupling to reconstruct saturated channels.
+- Combine low-pass filtering with physics- and geometry-constrained extrapolation.
+- Select recovery windows adaptively to balance local continuity and robustness.
+- Maintain a low memory footprint suitable for real-time implementation.
+
+## Evaluation
+
+The framework is evaluated with the HuGaDB human-gait dataset (approximately 58 Hz, 636 trials), MATLAB simulations, and self-collected IMU recordings. Comparisons include Kalman filtering, CLPE, and ARLS. The current exploratory comparison below is a supporting result and is not presented as a finalized paper figure.
 
 <figure class="research-media research-media--result">
   <a href="{{ '/images/imu-strict-online-exploratory-result.png' | relative_url }}">
     <img src="{{ '/images/imu-strict-online-exploratory-result.png' | relative_url }}" alt="Exploratory strict-online raw-IMU comparison across modeling levels">
   </a>
   <figcaption>
-    Exploratory result from one strict-online raw-IMU comparison across modeling levels on FPV and INSANE sequences. This figure reports a current experimental run and is <strong>not a figure or claimed result from a published paper</strong>. Click to inspect the full-resolution chart.
+    Exploratory strict-online comparison across modeling levels. This figure documents a current experimental result rather than a finalized publication figure.
   </figcaption>
 </figure>
 
-## My Contributions
+## Related manuscript
 
-- Designed a signal-recovery framework for short-term IMU overload.
-- Combined overload detection, threshold gating, filtering, and geometry-constrained extrapolation to reconstruct saturated sensor channels.
-- Validated the method through public datasets, MATLAB simulations, and self-collected IMU recordings.
-- Implemented multi-motor control for a multi-DOF dexterous robotic hand.
-- Explored the use of recovered IMU signals in closed-loop robotic feedback.
-
-## Technical Stack
-
-- MATLAB
-- Python
-- IMU signal processing
-- Multi-motor control
-- Robotic hand control
+[Inertial Perception Recovery beyond the Hardware Dynamic Range under Short-Term Overrange Conditions]({{ '/publication/2026-inertial-perception-recovery-overrange-conditions' | relative_url }}) — Working Paper.
 
 ## Status
 
-This project is associated with an ongoing working paper on inertial perception recovery beyond hardware dynamic range.
+Ongoing research.

@@ -7,6 +7,8 @@ excerpt: "A MuJoCo-based safety evaluation and repair framework for robot-contro
 date: 2026-06-01
 status: "Ongoing research"
 research_area: "Robot Safety · LLM Agents"
+research_stage: current
+research_order: 1
 ---
 
 ## Research question

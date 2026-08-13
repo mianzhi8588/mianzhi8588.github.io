@@ -4,6 +4,8 @@ collection: portfolio
 permalink: /portfolio/2022-radiative-cooling-film-electrospinning
 excerpt: "A project on passive radiative cooling films prepared by electrospinning and experimentally evaluated through thermal-performance tests."
 date: 2022-11-01
+research_stage: earlier
+research_order: 3
 ---
 
 ## Overview

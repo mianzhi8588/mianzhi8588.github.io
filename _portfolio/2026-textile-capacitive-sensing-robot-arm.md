@@ -1,12 +1,14 @@
 ---
 layout: research-project
-title: "Textile-Integrated Capacitive Sensing for Robot-Arm Control"
+title: "Textile-Integrated Capacitive Sensing for Robotic Arm Control"
 collection: portfolio
 permalink: /portfolio/2026-textile-capacitive-sensing-robot-arm
 excerpt: "A wearable textile interface for capturing gesture, contact, and deformation signals as intuitive robot commands."
 date: 2026-01-01
 status: "In development"
 research_area: "Wearable Sensing · Human-Robot Interaction"
+research_stage: current
+research_order: 5
 ---
 
 ## Overview
@@ -17,7 +19,8 @@ This project develops a wearable sensing interface by embedding capacitive mater
 
 <figure class="research-media research-media--portrait">
   <video controls muted playsinline preload="metadata" poster="{{ '/images/textile-capacitive-sensing-poster.png' | relative_url }}" aria-label="Textile-integrated capacitive sensor prototype demonstration">
-    <source src="{{ '/files/textile-capacitive-sensing-demo.mp4' | relative_url }}#t=0.5" type="video/mp4">
+    <source src="{{ '/files/textile-capacitive-sensing-demo-web.webm' | relative_url }}" type="video/webm">
+    <source src="{{ '/files/textile-capacitive-sensing-demo.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <figcaption>
