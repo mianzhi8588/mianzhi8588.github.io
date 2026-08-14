@@ -56,8 +56,8 @@ My current work extends across **intelligent sensing, robot learning, robotic ma
 
   <article class="current-research-card">
     <div class="current-research-card__visual">
-      <video controls muted loop playsinline preload="metadata" poster="{{ '/images/imu-overrange-public-poster.png' | relative_url }}" aria-label="IMU overrange data collection demonstration">
-        <source src="{{ '/files/imu-overrange-public.webm' | relative_url }}" type="video/webm">
+      <video controls muted loop playsinline preload="metadata" poster="{{ '/images/imu-overrange-public-poster.png' | relative_url }}?v=2" aria-label="IMU overrange data collection demonstration">
+        <source src="{{ '/files/imu-overrange-public.webm' | relative_url }}?v=2" type="video/webm">
       </video>
     </div>
     <div class="current-research-card__copy">
