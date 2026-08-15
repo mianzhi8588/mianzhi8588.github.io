@@ -18,8 +18,8 @@ This project develops a wearable sensing interface by embedding capacitive mater
 ## Public prototype demonstration
 
 <figure class="research-media research-media--result">
-  <video controls muted loop playsinline preload="metadata" poster="{{ '/images/textile-capacitive-public-poster.png' | relative_url }}" aria-label="Short textile-capacitive sensing and robot-response demonstration">
-    <source src="{{ '/files/textile-capacitive-public.webm' | relative_url }}" type="video/webm">
+  <video controls muted loop playsinline preload="metadata" poster="{{ '/images/textile-capacitive-public-poster.png' | relative_url }}?v=2" aria-label="Short textile-capacitive sensing and robot-response demonstration">
+    <source src="{{ '/files/textile-capacitive-public.webm' | relative_url }}?v=2" type="video/webm">
   </video>
   <figcaption>
     Short prototype response demonstration. The public clip is silent and omits material composition, circuit layout, calibration settings, control mappings, device metadata, and source audio.

@@ -83,8 +83,8 @@ My current work extends across **intelligent sensing, robot learning, robotic ma
 
   <article class="current-research-card current-research-card--compact">
     <div class="current-research-card__visual">
-      <video controls muted loop playsinline preload="metadata" poster="{{ '/images/textile-capacitive-public-poster.png' | relative_url }}" aria-label="Short textile-capacitive sensing and robot-response demonstration">
-        <source src="{{ '/files/textile-capacitive-public.webm' | relative_url }}" type="video/webm">
+      <video controls muted loop playsinline preload="metadata" poster="{{ '/images/textile-capacitive-public-poster.png' | relative_url }}?v=2" aria-label="Short textile-capacitive sensing and robot-response demonstration">
+        <source src="{{ '/files/textile-capacitive-public.webm' | relative_url }}?v=2" type="video/webm">
       </video>
     </div>
     <div class="current-research-card__copy">
