@@ -56,8 +56,8 @@ My current work extends across **intelligent sensing, robot learning, robotic ma
 
   <article class="current-research-card">
     <div class="current-research-card__visual">
-      <video controls muted loop playsinline preload="metadata" poster="{{ '/images/imu-overrange-public-poster.png' | relative_url }}?v=2" aria-label="IMU overrange data collection demonstration">
-        <source src="{{ '/files/imu-overrange-public.webm' | relative_url }}?v=2" type="video/webm">
+      <video controls muted loop playsinline preload="metadata" poster="{{ '/images/imu-overrange-public-poster.png' | relative_url }}?v=3" aria-label="IMU overrange data collection demonstration">
+        <source src="{{ '/files/imu-overrange-public.webm' | relative_url }}?v=3" type="video/webm">
       </video>
     </div>
     <div class="current-research-card__copy">
@@ -69,7 +69,9 @@ My current work extends across **intelligent sensing, robot learning, robotic ma
 
   <article class="current-research-card current-research-card--wide current-research-card--media-left">
     <div class="current-research-card__visual">
-      <img src="{{ '/images/agentic-6dof-arm-concept.png' | relative_url }}" alt="Concept visualization of language-conditioned control with an eye-in-hand camera">
+      <video controls muted loop playsinline preload="metadata" poster="{{ '/images/robotic-arm-grasp-public-poster.png' | relative_url }}" aria-label="Short physical robotic-arm grasp demonstration">
+        <source src="{{ '/files/robotic-arm-grasp-public.webm' | relative_url }}" type="video/webm">
+      </video>
     </div>
     <div class="current-research-card__copy">
       <span>Multimodal perception · Robotic manipulation</span>
@@ -81,7 +83,9 @@ My current work extends across **intelligent sensing, robot learning, robotic ma
 
   <article class="current-research-card current-research-card--compact">
     <div class="current-research-card__visual">
-      <img src="{{ '/images/textile-capacitive-control-concept.png' | relative_url }}" alt="Concept visualization of parallel textile electrodes on a left forearm sleeve">
+      <video controls muted loop playsinline preload="metadata" poster="{{ '/images/textile-capacitive-public-poster.png' | relative_url }}" aria-label="Short textile-capacitive sensing and robot-response demonstration">
+        <source src="{{ '/files/textile-capacitive-public.webm' | relative_url }}" type="video/webm">
+      </video>
     </div>
     <div class="current-research-card__copy">
       <span>Wearable sensing · Human-robot interaction</span>
