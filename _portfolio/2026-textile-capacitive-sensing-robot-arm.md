@@ -15,12 +15,14 @@ research_order: 5
 
 This project develops a wearable sensing interface by embedding capacitive materials into textiles. The goal is to capture human gestures, contact, and deformation as intuitive inputs for robot-arm control.
 
-## Public concept view
+## Public prototype demonstration
 
 <figure class="research-media research-media--result">
-  <img src="{{ '/images/textile-capacitive-control-concept.png' | relative_url }}" alt="Concept visualization of parallel textile electrodes on a left forearm sleeve">
+  <video controls muted loop playsinline preload="metadata" poster="{{ '/images/textile-capacitive-public-poster.png' | relative_url }}" aria-label="Short textile-capacitive sensing and robot-response demonstration">
+    <source src="{{ '/files/textile-capacitive-public.webm' | relative_url }}" type="video/webm">
+  </video>
   <figcaption>
-    Concept visualization of the intended wearable interaction. It is not a photograph of the current prototype; material composition, circuit layout, and calibration settings are intentionally omitted during development.
+    Short prototype response demonstration. The public clip is silent and omits material composition, circuit layout, calibration settings, control mappings, device metadata, and source audio.
   </figcaption>
 </figure>
 

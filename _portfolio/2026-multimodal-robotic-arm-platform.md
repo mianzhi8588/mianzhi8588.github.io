@@ -14,12 +14,14 @@ research_order: 4
 
 This project explores language-conditioned and multimodal manipulation on a compact 6-DOF robotic platform. The public page presents the system concept and research direction while omitting the current hardware configuration, control implementation, calibration settings, and failure-recovery logic.
 
-## Public concept view
+## Public prototype demonstration
 
 <figure class="research-media research-media--result">
-  <img src="{{ '/images/agentic-6dof-arm-concept.png' | relative_url }}" alt="Concept visualization of language-conditioned control with an eye-in-hand camera">
+  <video controls muted loop playsinline preload="metadata" poster="{{ '/images/robotic-arm-grasp-public-poster.png' | relative_url }}" aria-label="Short physical robotic-arm grasp demonstration">
+    <source src="{{ '/files/robotic-arm-grasp-public.webm' | relative_url }}" type="video/webm">
+  </video>
   <figcaption>
-    Concept visualization of the research direction. It is not a photograph of the current prototype; the public version intentionally avoids runtime interfaces, source code, hardware identifiers, and control parameters.
+    Short physical grasp demonstration from the prototype platform. The public clip is silent and excludes source audio, device and location metadata, runtime interfaces, source code, hardware identifiers, and control parameters.
   </figcaption>
 </figure>
 
