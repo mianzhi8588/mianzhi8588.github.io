@@ -24,7 +24,7 @@ My current work extends across **intelligent sensing, robot learning, robotic ma
 
 ## Current research
 
-<p class="section-intro">My current projects span robot-code evaluation, dexterous manipulation, inertial signal recovery, multimodal robotic control, and wearable sensing.</p>
+<p class="section-intro">My current projects span robot-code evaluation, dexterous manipulation, inertial signal recovery, multimodal robotic control, wearable sensing, and expressive robotics.</p>
 
 <div class="current-research-grid">
   <article class="current-research-card current-research-card--wide current-research-card--media-left">
@@ -91,6 +91,19 @@ My current work extends across **intelligent sensing, robot learning, robotic ma
       <span>Wearable sensing · Human-robot interaction</span>
       <h3><a href="{{ '/portfolio/2026-textile-capacitive-sensing-robot-arm' | relative_url }}">Textile-Integrated Capacitive Sensing for Robotic Arm Control</a></h3>
       <p>An early-stage wearable interface for translating textile-sensor responses into intuitive robot interaction. Materials, circuit layout, and calibration details remain private during development.</p>
+    </div>
+  </article>
+
+  <article class="current-research-card current-research-card--wide current-research-card--media-left">
+    <div class="current-research-card__visual">
+      <video controls playsinline preload="metadata" poster="{{ '/images/lelamp-replication-demo-poster.png' | relative_url }}?v=1" aria-label="Early physical prototype demonstration of a LeLamp-inspired multimodal robot lamp">
+        <source src="{{ '/files/lelamp-replication-demo.webm' | relative_url }}?v=1" type="video/webm">
+      </video>
+    </div>
+    <div class="current-research-card__copy">
+      <span>Expressive robotics · Tsinghua Future Laboratory</span>
+      <h3><a href="{{ '/portfolio/2026-lelamp-expressive-robot-lamp-replication' | relative_url }}">LeLamp-Inspired Multimodal Robot Lamp Prototype</a></h3>
+      <p>An early physical prototype exploring articulated motion, lighting, and spoken interaction. The current build is functional but not final; mechanical packaging, control reliability, and expressive behaviors remain under active optimization.</p>
     </div>
   </article>
 </div>

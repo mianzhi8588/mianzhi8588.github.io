@@ -3,7 +3,7 @@ layout: research-project
 title: "LeLamp-Inspired Expressive Robot Lamp Replication"
 collection: portfolio
 permalink: /portfolio/2026-lelamp-expressive-robot-lamp-replication
-excerpt: "An ongoing engineering replication at Tsinghua Future Laboratory, using an open-source articulated robot lamp as a platform for expressive human–robot interaction."
+excerpt: "An early physical prototype of a LeLamp-inspired multimodal robot lamp at Tsinghua Future Laboratory, with ongoing mechanical, control, and interaction optimization."
 date: 2026-01-01
 status: "Prototype in progress"
 research_area: "Expressive Robotics · Human–Robot Interaction"
@@ -13,14 +13,17 @@ research_order: 6
 
 ## Project context
 
-At the **Future Laboratory, Tsinghua University**, I am studying the reproduction of an expressive articulated robot lamp as a compact platform for human–robot interaction. The work is inspired by **LeLamp**, an open-source robot-lamp project created by the Human Computer Lab and based on Apple's ELEGNT research prototype.
+At the **Future Laboratory, Tsinghua University**, I am developing an early physical prototype of an expressive articulated robot lamp as a compact platform for multimodal human–robot interaction. The work is inspired by **LeLamp**, an open-source robot-lamp project created by the Human Computer Lab and based on Apple's ELEGNT research prototype.
 
-This is a replication and engineering study—not an original Tsinghua LeLamp design. The goal is to understand and rebuild the mechanical and control stack, then use the platform to explore how motion, light, perception, and audio interaction can make a small home robot more legible and expressive.
+This is a replication and engineering study—not an original Tsinghua LeLamp design and not a finished product. The current prototype is functional but still imperfect: the mechanical packaging, wiring, servo coordination, control robustness, and expressive behaviors all require further optimization. The goal is to understand and rebuild the mechanical and control stack, then use the platform to explore how motion, light, perception, and audio interaction can make a small home robot more legible and expressive.
 
 <figure class="research-media research-media--result">
-  <img src="{{ '/images/lelamp-replication-concept.png' | relative_url }}" alt="Concept illustration of the LeLamp-inspired expressive robot lamp replication">
+  <video controls playsinline preload="metadata" poster="{{ '/images/lelamp-replication-demo-poster.png' | relative_url }}?v=1" aria-label="Early physical prototype demonstration of a LeLamp-inspired multimodal robot lamp">
+    <source src="{{ '/files/lelamp-replication-demo.webm' | relative_url }}?v=1" type="video/webm">
+    Your browser does not support the video tag.
+  </video>
   <figcaption>
-    Concept illustration for the research direction. This is not a photograph of the completed prototype; real build documentation will replace or accompany it as the replication progresses.
+    Early physical prototype demonstration, trimmed to 54.5 seconds. Spoken audio is retained because multimodal speech interaction is part of the prototype; the mechanical structure and behaviors are still under development.
   </figcaption>
 </figure>
 
@@ -34,6 +37,7 @@ The original open-source LeLamp design documents a five-axis articulated servo m
 - Rebuilding the articulated hardware and servo-motion control stack.
 - Preparing the platform for perception, audio–language interaction, and expressive-motion experiments.
 - Documenting implementation decisions so the work can be evaluated as a research platform rather than only as a visual replica.
+- Iterating on the prototype's mechanical finish, motion smoothness, interaction reliability, and expressive behavior library.
 
 ## Research questions
 
@@ -47,4 +51,4 @@ LeLamp is an early-stage open-source project from the **Human Computer Lab**. Th
 
 ## Status
 
-Prototype reproduction in progress. This page intentionally uses a concept illustration until photographs or video from the physical build are ready.
+Early prototype reproduction in progress. The video documents the current build rather than a final system; further mechanical, control, and interaction optimization is planned.
