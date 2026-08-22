@@ -31,7 +31,25 @@ This project develops a lightweight signal-recovery framework for short-term ine
 
 ## Evaluation
 
-The study combines controlled data collection, simulation, and external datasets to examine recovery under short-duration sensor saturation. Exact signal-processing stages, parameter choices, comparison methods, and current numerical results are intentionally omitted until the manuscript is ready for submission.
+The study combines controlled data collection, simulation, and external datasets to examine recovery under short-duration sensor saturation. The public figures below show representative waveform diversity in the self-collected gyroscope dataset and a selected strict-online comparison on FPV and INSANE. The proposed approach is labeled simply as **Proposed**; implementation details and final manuscript analyses remain private until submission.
+
+## Representative self-collected recordings
+
+<figure class="research-media research-media--result">
+  <img src="{{ '/images/imu-self-collected-waveform-gallery.png' | relative_url }}?v=1" alt="Representative self-collected raw gyroscope recordings across motion coupling patterns and intensity levels" loading="lazy">
+  <figcaption>
+    Representative raw primary-axis gyroscope recordings from the self-collected dataset. Blue curves show the raw signal, orange curves show virtual clipping, and dashed lines indicate the corresponding clipping rails. The gallery illustrates motion diversity rather than final recovery performance.
+  </figcaption>
+</figure>
+
+## Selected external-dataset comparison
+
+<figure class="research-media research-media--result">
+  <img src="{{ '/images/imu-strict-online-public-comparison.png' | relative_url }}?v=1" alt="Strict-online raw IMU recovery comparison on the FPV and INSANE datasets with the proposed method labeled Proposed" loading="lazy">
+  <figcaption>
+    Selected strict-online comparison on FPV and INSANE. The green bars denote the proposed method, shown publicly as <strong>Proposed</strong>. These are current exploratory results for research communication, not the final manuscript figure.
+  </figcaption>
+</figure>
 
 ## Related manuscript
 
