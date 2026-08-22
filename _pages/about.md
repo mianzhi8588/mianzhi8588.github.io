@@ -96,13 +96,13 @@ My current work extends across **intelligent sensing, robot learning, robotic ma
 
   <article class="current-research-card current-research-card--wide current-research-card--media-left">
     <div class="current-research-card__visual">
-      <video controls playsinline preload="metadata" poster="{{ '/images/lelamp-replication-demo-poster.png' | relative_url }}?v=1" aria-label="Early physical prototype demonstration of a LeLamp-inspired multimodal robot lamp">
+      <video controls playsinline preload="metadata" poster="{{ '/images/lelamp-replication-demo-poster.png' | relative_url }}?v=1" aria-label="Early physical prototype demonstration of a multimodal expressive robot lamp">
         <source src="{{ '/files/lelamp-replication-demo.webm' | relative_url }}?v=1" type="video/webm">
       </video>
     </div>
     <div class="current-research-card__copy">
       <span>Expressive robotics · Tsinghua Future Laboratory</span>
-      <h3><a href="{{ '/portfolio/2026-lelamp-expressive-robot-lamp-replication' | relative_url }}">LeLamp-Inspired Multimodal Robot Lamp Prototype</a></h3>
+      <h3><a href="{{ '/portfolio/2026-multimodal-expressive-robot-lamp' | relative_url }}">Multimodal Expressive Robot Lamp Prototype</a></h3>
       <p>An early physical prototype exploring articulated motion, lighting, and spoken interaction. The current build is functional but not final; mechanical packaging, control reliability, and expressive behaviors remain under active optimization.</p>
     </div>
   </article>
