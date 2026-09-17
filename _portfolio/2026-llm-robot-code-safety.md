@@ -24,12 +24,12 @@ Robot-control programs can pass nominal functional tests while still violating p
 ## Representative evaluation scenes
 
 <figure class="research-media research-media--landscape">
-  <video controls muted loop playsinline preload="metadata" poster="{{ '/images/llm-safety-evidence-sequence-poster.png' | relative_url }}" aria-label="Representative robot-code safety evaluation scenes">
-    <source src="{{ '/files/llm-safety-evidence-sequence.webm' | relative_url }}" type="video/webm">
+  <video controls muted loop playsinline preload="metadata" poster="{{ '/images/llm-safety-evidence-sequence-poster.png' | relative_url }}?v=2" aria-label="Representative robot-code safety evaluation scenes">
+    <source src="{{ '/files/llm-safety-evidence-sequence.webm' | relative_url }}?v=2" type="video/webm">
     Your browser does not support the video tag.
   </video>
   <figcaption>
-    A short sequence assembled from saved evaluation evidence. It illustrates the simulation setting without exposing code, prompts, model identities, event thresholds, or quantitative results.
+    A 22-second sequence from actual MuJoCo evaluation runs, covering three representative outcomes: an unsafe success where the robot contacted an obstacle and still finished the task, a verified grasp lost during transport, and a restricted-space request rejected by the precheck before execution. Program identifiers, generation sources, task and scenario labels, and monitor definitions are redacted from the public clip.
   </figcaption>
 </figure>
 
