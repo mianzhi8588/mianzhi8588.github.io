@@ -29,14 +29,14 @@ My current work extends across **intelligent sensing, robot learning, robotic ma
 <div class="current-research-grid">
   <article class="current-research-card current-research-card--wide current-research-card--media-left">
     <div class="current-research-card__visual">
-      <video controls muted loop playsinline preload="metadata" poster="{{ '/images/llm-safety-evidence-sequence-poster.png' | relative_url }}" aria-label="Representative robot-code safety evaluation scenes">
-        <source src="{{ '/files/llm-safety-evidence-sequence.webm' | relative_url }}" type="video/webm">
+      <video controls muted loop playsinline preload="metadata" poster="{{ '/images/llm-safety-evidence-sequence-poster.png' | relative_url }}?v=2" aria-label="Representative robot-code safety evaluation scenes">
+        <source src="{{ '/files/llm-safety-evidence-sequence.webm' | relative_url }}?v=2" type="video/webm">
       </video>
     </div>
     <div class="current-research-card__copy">
       <span>LLM-based robotics · George Mason University collaboration</span>
       <h3><a href="{{ '/portfolio/2026-llm-robot-code-safety' | relative_url }}">Hidden Safety Violations in LLM-Generated Robot Code</a></h3>
-      <p>A behavior-level study of why robot programs that appear to finish a task can still create unsafe physical behavior. Public materials show representative scenes; evaluation rules, prompts, model comparisons, and numerical thresholds remain private while the study is ongoing.</p>
+      <p>A behavior-level study of why robot programs that appear to finish a task can still create unsafe physical behavior. The public clip shows three representative outcomes from actual MuJoCo evaluation runs; program identifiers, generation sources, evaluation rules, and numerical thresholds remain private while the study is ongoing.</p>
       <a class="project-evidence" href="{{ '/portfolio/2026-llm-robot-code-safety' | relative_url }}">Public safety-evaluation overview →</a>
     </div>
   </article>
