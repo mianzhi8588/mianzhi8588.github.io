@@ -25,7 +25,7 @@ Robot-control programs can pass nominal functional tests while still violating p
 
 <figure class="research-media research-media--landscape">
   <video controls muted loop playsinline preload="metadata" poster="{{ '/images/llm-safety-evidence-sequence-poster.png' | relative_url }}?v=2" aria-label="Representative robot-code safety evaluation scenes">
-    <source src="{{ '/files/llm-safety-evidence-sequence.webm' | relative_url }}?v=2" type="video/webm">
+    <source src="{{ '/files/llm-safety-evidence-sequence.webm' | relative_url }}?v=3" type="video/webm">
     Your browser does not support the video tag.
   </video>
   <figcaption>
