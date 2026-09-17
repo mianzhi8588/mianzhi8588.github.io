@@ -30,7 +30,7 @@ My current work extends across **intelligent sensing, robot learning, robotic ma
   <article class="current-research-card current-research-card--wide current-research-card--media-left">
     <div class="current-research-card__visual">
       <video controls muted loop playsinline preload="metadata" poster="{{ '/images/llm-safety-evidence-sequence-poster.png' | relative_url }}?v=2" aria-label="Representative robot-code safety evaluation scenes">
-        <source src="{{ '/files/llm-safety-evidence-sequence.webm' | relative_url }}?v=2" type="video/webm">
+        <source src="{{ '/files/llm-safety-evidence-sequence.webm' | relative_url }}?v=3" type="video/webm">
       </video>
     </div>
     <div class="current-research-card__copy">
