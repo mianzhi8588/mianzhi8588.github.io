@@ -31,7 +31,7 @@ redirect_from:
   <article class="current-research-card">
     <div class="current-research-card__visual">
       <video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/robophys-public-preview.jpg' | relative_url }}" aria-label="RoboPhys public research preview">
-        <source src="{{ '/files/robophys-public-preview.mp4' | relative_url }}" type="video/mp4">
+        <source src="{{ '/files/robophys-public-preview.mp4' | relative_url }}?v=2" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </div>
@@ -47,7 +47,7 @@ redirect_from:
   <article class="current-research-card">
     <div class="current-research-card__visual">
       <video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/sage-hand-public-preview.jpg' | relative_url }}" aria-label="SAGE Hand public research preview">
-        <source src="{{ '/files/sage-hand-public-preview.mp4' | relative_url }}" type="video/mp4">
+        <source src="{{ '/files/sage-hand-public-preview.mp4' | relative_url }}?v=2" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </div>

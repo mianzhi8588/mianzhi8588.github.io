@@ -29,7 +29,7 @@ The project connects LLM-assisted model development with iterative structural re
 
 <figure class="research-media research-media--landscape">
   <video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/sage-hand-public-preview.jpg' | relative_url }}" aria-label="SAGE Hand public research preview">
-    <source src="{{ '/files/sage-hand-public-preview.mp4' | relative_url }}" type="video/mp4">
+    <source src="{{ '/files/sage-hand-public-preview.mp4' | relative_url }}?v=2" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <figcaption>
