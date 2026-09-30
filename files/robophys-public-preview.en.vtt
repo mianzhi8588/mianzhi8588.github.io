@@ -1,0 +1,103 @@
+WEBVTT
+
+00:00:00.400 --> 00:00:02.925
+Robo Phys asks a simple question.
+
+00:00:02.925 --> 00:00:18.532
+Can a robot complete its task while still behaving unsafely along the way? We study the entire physical execution of language-model-generated programs, because the final state can hide important failures.
+
+00:00:19.733 --> 00:00:22.941
+The research has three connected stages.
+
+00:00:22.941 --> 00:00:28.716
+First, measure the gap between task completion and physical correctness.
+
+00:00:28.716 --> 00:00:33.608
+Second, explain violations using recorded execution evidence.
+
+00:00:33.608 --> 00:00:41.789
+Third, revise the program and test the corrected execution again under consistent evaluation criteria.
+
+00:00:43.025 --> 00:00:45.888
+We separate three kinds of evidence.
+
+00:00:45.888 --> 00:01:02.826
+Did the task finish? Was a physical constraint violated during execution? Was a hazardous request rejected before execution? These distinctions prevent a successful final outcome from concealing an unsafe process.
+
+00:01:04.067 --> 00:01:07.468
+This placement scene provides a clean reference.
+
+00:01:07.468 --> 00:01:14.625
+The robot transfers and places the object without a recorded physical violation in the evaluated run.
+
+00:01:14.625 --> 00:01:22.278
+Controlled examples like this help us compare normal behavior with problematic executions in related scenes.
+
+00:01:23.483 --> 00:01:31.209
+Here, the program reaches its intended target, but the object makes unwanted contact during transport.
+
+00:01:31.209 --> 00:01:37.874
+The final state passes the task test while the execution violates a physical constraint.
+
+00:01:37.874 --> 00:01:41.585
+This is the central outcome-versus-execution gap.
+
+00:01:42.817 --> 00:01:45.550
+Next, we trace failures through time.
+
+00:01:45.550 --> 00:01:54.343
+We inspect recorded motion and contact evidence, including the carried object, sustained grasp, and action transitions.
+
+00:01:54.343 --> 00:02:03.283
+The goal is to identify actionable mechanisms while recognizing that trajectory evidence does not prove every root cause.
+
+00:02:04.483 --> 00:02:10.005
+A valid grasp at one instant does not guarantee retention throughout transport.
+
+00:02:10.005 --> 00:02:17.483
+Following the object across the execution helps distinguish a loss of grasp from a later placement problem.
+
+00:02:17.483 --> 00:02:22.794
+This support-placement example illustrates why temporal consistency matters.
+
+00:02:24.025 --> 00:02:26.780
+Later actions can introduce new contact.
+
+00:02:26.780 --> 00:02:32.771
+Opening the gripper changes the space occupied by the fingers near surrounding objects.
+
+00:02:32.771 --> 00:02:40.346
+Checking only the approach or final release state can therefore miss a violation during the transition itself.
+
+00:02:41.567 --> 00:02:45.911
+We use these observations to guide targeted program changes.
+
+00:02:45.911 --> 00:02:55.107
+The physical model and evaluation criteria remain consistent, and the corrected program is executed again from start to finish.
+
+00:02:55.107 --> 00:03:02.493
+This is researcher-guided correction followed by revalidation, rather than autonomous online recovery.
+
+00:03:03.733 --> 00:03:11.346
+Corrections recover physically correct completion in many evaluated cases, but residual failures remain.
+
+00:03:11.346 --> 00:03:17.128
+Fixing an early stage may leave later contact or retention problems unresolved.
+
+00:03:17.128 --> 00:03:23.570
+A repair must therefore pass a complete new execution, rather than a local visual check.
+
+00:03:24.775 --> 00:03:36.458
+My contribution connects behavior-level simulation evaluation, controlled task and scene comparisons, and failure analysis with program revision and revalidation.
+
+00:03:36.458 --> 00:03:45.401
+Together, these parts form an evidence-based workflow for investigating the reliability of generated robot-control programs.
+
+00:03:46.608 --> 00:03:51.981
+The main conclusion is that physical correctness is a separate requirement.
+
+00:03:51.981 --> 00:04:00.579
+Outcome scores alone are incomplete, execution evidence makes failures actionable, and repairs need full-run validation.
+
+00:04:00.579 --> 00:04:08.029
+Broader scenes and state-aware repair are next steps; physical-robot transfer remains to be established.

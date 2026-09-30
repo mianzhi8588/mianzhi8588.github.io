@@ -1,0 +1,109 @@
+WEBVTT
+
+00:00:00.400 --> 00:00:06.073
+Sage Hand asks how an AI-designed hand can become a useful manipulation system.
+
+00:00:06.073 --> 00:00:09.951
+A convincing geometric model is only a starting point.
+
+00:00:09.951 --> 00:00:19.647
+The research connects generated morphology with physical plausibility, trainable control, and the ability to retain and rotate objects.
+
+00:00:20.858 --> 00:00:28.341
+The workflow links model development, structural checks, policy learning, and behavior-level evaluation.
+
+00:00:28.341 --> 00:00:33.449
+Each candidate is considered as part of a complete manipulation system.
+
+00:00:33.449 --> 00:00:41.579
+This lets us examine the relationship between hand morphology and what a learned controller can actually achieve.
+
+00:00:42.817 --> 00:00:45.917
+We begin with a simulation-ready hand model.
+
+00:00:45.917 --> 00:00:51.978
+The articulated structure, contact geometry, and control interface must work together.
+
+00:00:51.978 --> 00:01:00.998
+Model generation is therefore connected to a testable simulation, rather than assessed only by whether the hand looks plausible.
+
+00:01:02.233 --> 00:01:09.580
+Before learning, we check usable joint motion, contact behavior, resets, and control consistency.
+
+00:01:09.580 --> 00:01:13.064
+These checks establish a repeatable interface.
+
+00:01:13.064 --> 00:01:20.335
+They also help distinguish a structural or simulation problem from a failure of policy learning.
+
+00:01:21.567 --> 00:01:24.602
+Behavior then informs structural revision.
+
+00:01:24.602 --> 00:01:35.083
+We inspect how the hand captures and supports an object, refine the model, and return each revised candidate to simulation and policy evaluation.
+
+00:01:35.083 --> 00:01:40.648
+The design is assessed through the contact and retention behavior it enables.
+
+00:01:41.858 --> 00:01:47.159
+Reinforcement learning turns the model into observable manipulation behavior.
+
+00:01:47.159 --> 00:01:51.909
+We examine both rotation and object retention on the revised designs.
+
+00:01:51.909 --> 00:02:00.859
+This evaluates the hand and the controller together, rather than treating the model geometry as sufficient evidence of capability.
+
+00:02:02.067 --> 00:02:08.543
+We also vary object geometry and compare learned behavior with established hand models.
+
+00:02:08.543 --> 00:02:15.541
+The asymmetric prism, cylinder, and cube place different demands on contact and reorientation.
+
+00:02:15.541 --> 00:02:24.102
+Evaluation includes retention, rotation, and failure behavior, rather than relying on one attractive demonstration.
+
+00:02:25.317 --> 00:02:29.778
+The prism example probes changing contact during reorientation.
+
+00:02:29.778 --> 00:02:34.099
+This selected window illustrates learned motion by Sage Hand.
+
+00:02:34.099 --> 00:02:44.793
+The study evaluates full rollouts, so a short excerpt should be understood as a behavioral illustration rather than a complete performance measurement.
+
+00:02:46.025 --> 00:02:51.384
+The cylinder task requires rotation while keeping the object in the hand.
+
+00:02:51.384 --> 00:02:57.477
+Within the evaluated setup, the final design shows stronger cylinder-task behavior.
+
+00:02:57.477 --> 00:03:05.186
+Detailed scores are reserved for the manuscript; this excerpt shows the kind of behavior being evaluated.
+
+00:03:06.400 --> 00:03:16.414
+Structural refinement improves manipulation in the evaluated design sequence and reduces elevated drop behavior seen in intermediate versions.
+
+00:03:16.414 --> 00:03:19.093
+Performance is still object dependent.
+
+00:03:19.093 --> 00:03:25.581
+The cube remains challenging, and a motion window alone does not prove a completed rotation.
+
+00:03:26.817 --> 00:03:35.826
+My work connects AI-assisted hand-model development and refinement with simulation-based learning and controlled manipulation experiments.
+
+00:03:35.826 --> 00:03:44.313
+The contribution is to relate structural changes to learned retention, rotation, and failure behavior within the evaluated system.
+
+00:03:45.525 --> 00:03:50.354
+The conclusion is to evaluate the hand and the policy together.
+
+00:03:50.354 --> 00:03:54.494
+Learning reveals structural strengths and limitations.
+
+00:03:54.494 --> 00:04:01.546
+Broader objects, isolated design comparisons, and contact uncertainty are useful next steps.
+
+00:04:01.546 --> 00:04:09.135
+The current findings are from simulation; hardware feasibility and real-world transfer remain open.

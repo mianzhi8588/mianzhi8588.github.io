@@ -1,0 +1,73 @@
+WEBVTT
+
+00:00:00.400 --> 00:00:05.769
+Bearing diagnosis becomes harder when speed, load, or interference changes.
+
+00:00:05.769 --> 00:00:13.070
+These conditions alter the measured vibration, even when the underlying fault category stays the same.
+
+00:00:13.070 --> 00:00:21.731
+This study asks how physically meaningful structure can organize complementary representations for more robust diagnosis.
+
+00:00:22.942 --> 00:00:27.268
+A localized bearing fault leaves several related signatures.
+
+00:00:27.268 --> 00:00:36.714
+Transient impacts appear in time, characteristic patterns appear in time and frequency, and recurring behavior is tied to rotation.
+
+00:00:36.714 --> 00:00:42.338
+The method treats these views as related evidence from the same fault process.
+
+00:00:43.567 --> 00:00:47.342
+Physical information enters before and during learning.
+
+00:00:47.342 --> 00:00:58.875
+Rotational information guides how recurring structure is represented, while bearing geometry and speed provide references for diagnostically relevant frequency regions.
+
+00:00:58.875 --> 00:01:06.152
+The physical guidance is at the representation and architecture levels; it is not a physics-residual loss.
+
+00:01:07.358 --> 00:01:11.986
+The views are coordinated rather than merely collected independently.
+
+00:01:11.986 --> 00:01:21.040
+Time-frequency evidence provides complementary guidance to temporal modeling, while the original temporal information path is retained.
+
+00:01:21.040 --> 00:01:29.759
+Learned fusion then adjusts the contributions of the views, limiting dependence on any single potentially degraded representation.
+
+00:01:30.983 --> 00:01:34.297
+The evaluation separates different questions.
+
+00:01:34.297 --> 00:01:38.346
+Raw-signal noise tests examine interference robustness.
+
+00:01:38.346 --> 00:01:47.182
+Complete held-out records test unseen operating conditions without target-condition data in training or model selection.
+
+00:01:47.182 --> 00:01:55.133
+Experiments using labeled target data are reported separately as adaptation, not target-free generalization.
+
+00:01:56.358 --> 00:02:01.047
+The findings support complementary evidence in demanding settings.
+
+00:02:01.047 --> 00:02:11.347
+The temporal path provides useful support under strong noise, and the full framework performs well in the evaluated target-free operating shifts.
+
+00:02:11.347 --> 00:02:19.373
+Clean classification is already near saturation, so that result alone cannot establish a broad superiority claim.
+
+00:02:20.608 --> 00:02:31.036
+The contribution is a physically organized multi-representation framework, connecting signal construction, cross-view interaction, and learned fusion.
+
+00:02:31.036 --> 00:02:42.854
+Component studies and representation audits examine the role of these choices, while distinct protocols clarify which claims concern noise, generalization, or adaptation.
+
+00:02:44.067 --> 00:02:53.113
+The main conclusion is that physically organized complementary evidence can support robust diagnosis in the evaluated conditions.
+
+00:02:53.113 --> 00:02:57.881
+The speed assumption applies to short, approximately steady windows.
+
+00:02:57.881 --> 00:03:06.857
+Rapid acceleration and more varied field interference require further validation; the study does not claim universal robustness.
