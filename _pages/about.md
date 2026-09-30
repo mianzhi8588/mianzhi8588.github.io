@@ -25,14 +25,14 @@ redirect_from:
 </div>
 
 <div class="research-section-heading" id="selected-research"><div><p class="research-eyebrow">Selected work</p><h2>Research in motion</h2></div><a href="{{ '/portfolio/' | relative_url }}">All projects <span aria-hidden="true">↗</span></a></div>
-<p class="research-preview-note">Research overviews and selected public demonstrations. Full research videos are available <a href="mailto:vwang6925@gmail.com?subject=Research%20demonstration%20request">on request</a>.</p>
+<p class="research-preview-note">Narrated research overviews and selected public demonstrations. Full research videos are available <a href="mailto:vwang6925@gmail.com?subject=Research%20demonstration%20request">on request</a>.</p>
 
 <div class="current-research-grid">
   <article class="current-research-card">
     <div class="current-research-card__visual">
-      <video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/robophys-public-preview.jpg' | relative_url }}?v=3" aria-label="RoboPhys research overview">
-        <source src="{{ '/files/robophys-public-preview.mp4' | relative_url }}?v=3" type="video/mp4">
-        Your browser does not support the video tag.
+      <video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/robophys-public-preview.jpg' | relative_url }}?v=4" aria-label="RoboPhys narrated research overview">
+        <source src="{{ '/files/robophys-public-preview.mp4' | relative_url }}?v=4" type="video/mp4">
+        <track kind="captions" src="{{ '/files/robophys-public-preview.en.vtt' | relative_url }}?v=4" srclang="en" label="English">
       </video>
     </div>
     <div class="current-research-card__copy">
@@ -46,9 +46,9 @@ redirect_from:
 
   <article class="current-research-card">
     <div class="current-research-card__visual">
-      <video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/sage-hand-public-preview.jpg' | relative_url }}?v=3" aria-label="SAGE Hand research overview">
-        <source src="{{ '/files/sage-hand-public-preview.mp4' | relative_url }}?v=3" type="video/mp4">
-        Your browser does not support the video tag.
+      <video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/sage-hand-public-preview.jpg' | relative_url }}?v=4" aria-label="SAGE Hand narrated research overview">
+        <source src="{{ '/files/sage-hand-public-preview.mp4' | relative_url }}?v=4" type="video/mp4">
+        <track kind="captions" src="{{ '/files/sage-hand-public-preview.en.vtt' | relative_url }}?v=4" srclang="en" label="English">
       </video>
     </div>
     <div class="current-research-card__copy">
@@ -61,9 +61,24 @@ redirect_from:
   </article>
 
   <article class="current-research-card">
+    <div class="current-research-card__visual"><video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/eaai-public-preview.jpg' | relative_url }}?v=1" aria-label="Physics-guided bearing diagnosis narrated research overview">
+        <source src="{{ '/files/eaai-public-preview.mp4' | relative_url }}?v=1" type="video/mp4">
+        <track kind="captions" src="{{ '/files/eaai-public-preview.en.vtt' | relative_url }}?v=1" srclang="en" label="English">
+      </video></div>
+    <div class="current-research-card__copy">
+      <span>Intelligent diagnosis · Robust learning</span>
+      <h3><a href="{{ '/portfolio/2026-physics-guided-bearing-diagnosis' | relative_url }}">Physics-guided bearing diagnosis</a></h3>
+      <span class="project-status">EAAI · Revised and Resubmitted</span>
+      <p>Coordinating physically meaningful vibration representations to distinguish fault evidence from noise and operating-condition changes.</p>
+      <a class="project-evidence" href="{{ '/portfolio/2026-physics-guided-bearing-diagnosis' | relative_url }}">Project overview <span aria-hidden="true">↗</span></a>
+    </div>
+  </article>
+
+  <article class="current-research-card">
     <div class="current-research-card__visual">
-      <video controlslist="nodownload" oncontextmenu="return false;" controls muted loop playsinline preload="metadata" poster="{{ '/images/imu-overrange-public-poster.png' | relative_url }}?v=3" aria-label="IMU overrange data collection demonstration">
-        <source src="{{ '/files/imu-overrange-public.webm' | relative_url }}?v=3" type="video/webm">
+      <video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/imu-recovery-public-preview.jpg' | relative_url }}?v=1" aria-label="Inertial signal recovery narrated research overview">
+        <source src="{{ '/files/imu-recovery-public-preview.mp4' | relative_url }}?v=1" type="video/mp4">
+        <track kind="captions" src="{{ '/files/imu-recovery-public-preview.en.vtt' | relative_url }}?v=1" srclang="en" label="English">
       </video>
     </div>
     <div class="current-research-card__copy">

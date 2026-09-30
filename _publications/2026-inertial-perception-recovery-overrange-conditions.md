@@ -8,14 +8,14 @@ date: 2026-05-31
 venue: "Nature Sensors"
 status_label: "With Editor"
 paperurl: ""
-citation: "Wang, H., Gao, J.*, et al. Structural recovery of multiaxis inertial signals during short-term saturation. Nature Sensors, with editor."
+citation: "Wang, H., Yi, J., Zhang, J., and Gong, J.* Structural recovery of multiaxis inertial signals during short-term saturation. Nature Sensors, with editor."
 ---
 
 **Venue:** Nature Sensors
 
 **Status:** With Editor
 
-**Authors:** Wang, H., Gao, J.*, et al.
+**Authors:** Wang, H., Yi, J., Zhang, J., and Gong, J.*
 
 The manuscript has been submitted and is currently at the editorial-assessment stage.
 

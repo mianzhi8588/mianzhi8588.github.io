@@ -25,4 +25,4 @@ Bearing diagnosis must distinguish fault information from changes caused by oper
 
 The research connects representation design with robust bearing diagnosis. The revised manuscript develops this approach without treating an individual representation as sufficient across all operating conditions.
 
-**Related research:** [Project overview, contributions, and next steps]({{ '/portfolio/2025-wind-power-fault-diagnosis-platform' | relative_url }})
+**Related research:** [Project overview, contributions, and next steps]({{ '/portfolio/2026-physics-guided-bearing-diagnosis' | relative_url }})

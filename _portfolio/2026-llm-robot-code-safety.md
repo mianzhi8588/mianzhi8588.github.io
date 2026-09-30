@@ -28,10 +28,10 @@ The project connects three stages: measuring the gap between functional success 
 ## RoboPhys research video
 
 <figure class="research-media research-media--landscape">
-  <video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/robophys-public-preview.jpg' | relative_url }}?v=3" aria-label="RoboPhys research overview">
-    <source src="{{ '/files/robophys-public-preview.mp4' | relative_url }}?v=3" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+  <video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/robophys-public-preview.jpg' | relative_url }}?v=4" aria-label="RoboPhys narrated research overview">
+        <source src="{{ '/files/robophys-public-preview.mp4' | relative_url }}?v=4" type="video/mp4">
+        <track kind="captions" src="{{ '/files/robophys-public-preview.en.vtt' | relative_url }}?v=4" srclang="en" label="English">
+      </video>
   <figcaption>
     Research overview: the research question, overall design, main stages, qualitative findings, contributions, and next steps. Detailed numerical results and implementation settings are omitted.
   </figcaption>

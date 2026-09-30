@@ -25,7 +25,20 @@ Can useful motion information be recovered when an inertial sensor briefly satur
 
 ## Main findings
 
+The principal evaluation concerns angular-rate channels. Controlled software clipping supplies complete references for paired comparison; this does not establish recovery from device-specific physical saturation.
+
+
 The evaluated framework reduces recovery error relative to clipped input while preserving principal signal peaks and valleys. The key finding is that saturation of one channel need not remove all recoverable motion information when useful multiaxis structure persists. Recovery quality remains dependent on the local motion and saturation conditions.
+
+## Narrated research video
+
+<figure class="research-media research-media--landscape">
+  <video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/imu-recovery-public-preview.jpg' | relative_url }}?v=1" aria-label="Inertial signal recovery narrated research overview">
+        <source src="{{ '/files/imu-recovery-public-preview.mp4' | relative_url }}?v=1" type="video/mp4">
+        <track kind="captions" src="{{ '/files/imu-recovery-public-preview.en.vtt' | relative_url }}?v=1" srclang="en" label="English">
+      </video>
+  <figcaption>The problem, multiaxis recovery principle, online information constraint, validation, findings, and scope. The waveform sketch illustrates clipping and is not experimental data.</figcaption>
+</figure>
 
 ## Data collection
 
@@ -67,7 +80,7 @@ The study combines controlled data collection, simulation, and external datasets
 
 ## Further development
 
-Future directions include broader motion and saturation conditions, online validation on additional sensing platforms, and clearer indicators of when a reconstruction should be treated as uncertain.
+Next steps include synchronized higher-range hardware references, online recovery confidence, and tests of downstream attitude estimation and control. Acceleration-channel and simultaneous multiaxis-saturation recovery still require validation.
 
 ## Status
 
