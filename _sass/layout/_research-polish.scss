@@ -5,11 +5,6 @@
 .page__footer footer { padding-top: 1rem; padding-bottom: 1.5rem; }
 .page__footer-copyright { max-width: 75ch; line-height: 1.7; }
 .masthead { border-bottom-color: var(--research-line); }
-.greedy-nav .visible-links { display: flex; flex-wrap: wrap; padding-right: 2.5rem; }
-.greedy-nav .visible-links li { display: block; }
-.greedy-nav .visible-links li:first-child a { white-space: nowrap; }
-.greedy-nav button { display: none; }
-.greedy-nav:has(.hidden-links li) button { display: block; }
 .author__avatar img { border-radius: 18px; }
 .author__bio { line-height: 1.65; }
 .page__content a:focus-visible, .archive a:focus-visible, video:focus-visible { outline: 3px solid var(--research-teal); outline-offset: 5px; }
