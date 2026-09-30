@@ -28,16 +28,15 @@ The project connects LLM-assisted model development with iterative structural re
 ## SAGE Hand research video
 
 <figure class="research-media research-media--landscape">
-  <video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/sage-hand-public-preview.jpg' | relative_url }}" aria-label="SAGE Hand public research preview">
-    <source src="{{ '/files/sage-hand-public-preview.mp4' | relative_url }}?v=2" type="video/mp4">
+  <video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/sage-hand-public-preview.jpg' | relative_url }}?v=3" aria-label="SAGE Hand research overview">
+    <source src="{{ '/files/sage-hand-public-preview.mp4' | relative_url }}?v=3" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <figcaption>
-    Public preview: selected simulation behavior. Full demonstrations are available for research discussions on request.
+    Research overview: the research question, overall design, main stages, qualitative findings, contributions, and next steps. Detailed numerical results and implementation settings are omitted.
   </figcaption>
 </figure>
 
-<p class="research-request"><strong>Interested in the full study?</strong> <a href="mailto:vwang6925@gmail.com?subject=Research%20demonstration%20request">Request a full research demonstration →</a></p>
 
 ## Main findings
 
