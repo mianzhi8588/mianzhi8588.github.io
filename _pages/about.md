@@ -76,9 +76,9 @@ redirect_from:
 
   <article class="current-research-card">
     <div class="current-research-card__visual">
-      <video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/imu-recovery-public-preview.jpg' | relative_url }}?v=1" aria-label="Inertial signal recovery narrated research overview">
-        <source src="{{ '/files/imu-recovery-public-preview.mp4' | relative_url }}?v=1" type="video/mp4">
-        <track kind="captions" src="{{ '/files/imu-recovery-public-preview.en.vtt' | relative_url }}?v=1" srclang="en" label="English">
+      <video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/imu-recovery-public-preview.jpg' | relative_url }}?v=2" aria-label="Inertial signal recovery narrated research overview">
+        <source src="{{ '/files/imu-recovery-public-preview.mp4' | relative_url }}?v=2" type="video/mp4">
+        <track kind="captions" src="{{ '/files/imu-recovery-public-preview.en.vtt' | relative_url }}?v=2" srclang="en" label="English">
       </video>
     </div>
     <div class="current-research-card__copy">

@@ -15,29 +15,29 @@ research_order: 3
 
 ## Research question
 
-Can useful motion information be recovered when an inertial sensor briefly saturates? This project studies whether persistent structure across multiple axes can help reconstruct clipped signals beyond an individual channel's measurement range.
+Can useful motion information be recovered when an inertial sensor briefly saturates? This project investigates whether complementary information retained in multiaxis motion can support useful recovery of short-term signal loss under suitable conditions.
 
 ## Main research and my contributions
 
-- Designed a lightweight recovery framework that uses relationships across motion axes and physical constraints.
+- Developed an approach to recover short-term signal loss using complementary information retained in multiaxis motion.
 - Validated recovery on controlled simulations, self-collected human-motion recordings, and public UAV datasets.
-- Analyzed when local motion structure supports recovery and where changes in that structure limit accuracy.
+- Analyzed recovery reliability and the conditions that limit accuracy.
 
 ## Main findings
 
 The principal evaluation concerns angular-rate channels. Controlled software clipping supplies complete references for paired comparison; this does not establish recovery from device-specific physical saturation.
 
 
-The evaluated framework reduces recovery error relative to clipped input while preserving principal signal peaks and valleys. The key finding is that saturation of one channel need not remove all recoverable motion information when useful multiaxis structure persists. Recovery quality remains dependent on the local motion and saturation conditions.
+The evaluated framework reduces recovery error relative to clipped input while preserving principal signal peaks and valleys. The key finding is that saturation of one channel need not remove all recoverable motion information under suitable motion and saturation conditions. Recovery quality remains dependent on the local motion and saturation conditions.
 
 ## Narrated research video
 
 <figure class="research-media research-media--landscape">
-  <video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/imu-recovery-public-preview.jpg' | relative_url }}?v=1" aria-label="Inertial signal recovery narrated research overview">
-        <source src="{{ '/files/imu-recovery-public-preview.mp4' | relative_url }}?v=1" type="video/mp4">
-        <track kind="captions" src="{{ '/files/imu-recovery-public-preview.en.vtt' | relative_url }}?v=1" srclang="en" label="English">
+  <video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/imu-recovery-public-preview.jpg' | relative_url }}?v=2" aria-label="Inertial signal recovery narrated research overview">
+        <source src="{{ '/files/imu-recovery-public-preview.mp4' | relative_url }}?v=2" type="video/mp4">
+        <track kind="captions" src="{{ '/files/imu-recovery-public-preview.en.vtt' | relative_url }}?v=2" srclang="en" label="English">
       </video>
-  <figcaption>The problem, multiaxis recovery principle, online information constraint, validation, findings, and scope. The waveform sketch illustrates clipping and is not experimental data.</figcaption>
+  <figcaption>The research problem, method direction, validation, qualitative findings, contribution, and scope. The waveform sketch illustrates clipping and is not experimental data.</figcaption>
 </figure>
 
 ## Data collection
@@ -54,7 +54,7 @@ The evaluated framework reduces recovery error relative to clipped input while p
 
 ## Evaluation
 
-The study combines controlled data collection, simulation, and external datasets to examine recovery under short-duration sensor saturation. The public figures below show representative waveform diversity in the self-collected gyroscope dataset and a selected strict-online comparison on FPV and INSANE. The proposed approach is labeled simply as **Proposed**; the submitted manuscript contains the detailed method and evaluation protocol.
+The study combines controlled data collection, simulation, and external datasets to examine recovery under short-duration sensor saturation. The public recording gallery illustrates waveform diversity in the self-collected gyroscope dataset. Detailed recovery comparisons, estimator design and evaluation settings are reserved for the manuscript.
 
 ## Representative self-collected recordings
 
@@ -62,15 +62,6 @@ The study combines controlled data collection, simulation, and external datasets
   <img src="{{ '/images/imu-self-collected-waveform-gallery.png' | relative_url }}?v=1" alt="Representative self-collected raw gyroscope recordings across motion coupling patterns and intensity levels" loading="lazy">
   <figcaption>
     Representative raw primary-axis gyroscope recordings from the self-collected dataset. Blue curves show the raw signal, orange curves show virtual clipping, and dashed lines indicate the corresponding clipping rails. The gallery illustrates motion diversity rather than final recovery performance.
-  </figcaption>
-</figure>
-
-## Selected external-dataset comparison
-
-<figure class="research-media research-media--result">
-  <img src="{{ '/images/imu-strict-online-public-comparison.png' | relative_url }}?v=1" alt="Strict-online raw IMU recovery comparison on the FPV and INSANE datasets with the proposed method labeled Proposed" loading="lazy">
-  <figcaption>
-    Selected strict-online comparison on FPV and INSANE. The green bars denote the proposed method, shown publicly as <strong>Proposed</strong>. These are current exploratory results for research communication, not the final manuscript figure.
   </figcaption>
 </figure>
 
