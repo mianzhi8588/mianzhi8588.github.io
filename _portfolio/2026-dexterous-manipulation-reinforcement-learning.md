@@ -1,56 +1,60 @@
 ---
 layout: research-project
-title: "Dexterous Manipulation and Reinforcement Learning"
+title: "SAGE Hand: Hand Design and Learned In-Hand Manipulation"
 collection: portfolio
 permalink: /portfolio/2026-dexterous-manipulation-reinforcement-learning
-excerpt: "LLM-assisted hand-model generation and simulation-based learning for dexterous manipulation."
+excerpt: "Connecting LLM-assisted hand-model development, physically feasible design, and reinforcement learning for dexterous manipulation."
 date: 2026-03-01
-status: "Ongoing research"
+status: "ICRA 2027 · Under Review"
 research_area: "Dexterous Manipulation · Reinforcement Learning"
 research_stage: current
 research_order: 2
 ---
 
-## Overview
+## Research question
 
-This project studies how generated dexterous-hand models, simulation, and policy learning can be connected into a repeatable manipulation workflow. Because the work is ongoing, the public page shows representative model motion and task behavior without exposing training configurations or numerical results.
+How can a generated hand model become a physically plausible, learnable manipulation system? SAGE Hand studies how hand morphology and learned control jointly affect object retention and in-hand rotation, rather than treating a visually convincing model as sufficient evidence of manipulation capability.
 
-## Generated hand-model motion
+## Main research
 
-<figure class="research-media research-media--landscape">
-  <video controls muted loop playsinline preload="metadata" poster="{{ '/images/generated-dexterous-hand-motion-poster.png' | relative_url }}" aria-label="Motion study of a generated dexterous-hand model">
-    <source src="{{ '/files/generated-dexterous-hand-motion.webm' | relative_url }}" type="video/webm">
-    Your browser does not support the video tag.
-  </video>
-  <figcaption>
-    A short motion study of a generated hand model. Version identifiers, geometry parameters, and diagnostic overlays have been removed from the public clip.
-  </figcaption>
-</figure>
-
-## Representative manipulation behavior
-
-<figure class="research-media research-media--landscape">
-  <video controls muted loop playsinline preload="metadata" poster="{{ '/images/dexterous-hex-prism-public-poster.png' | relative_url }}" aria-label="Short dexterous-hand demonstration with a hexagonal prism">
-    <source src="{{ '/files/dexterous-hex-prism-public.webm' | relative_url }}" type="video/webm">
-    Your browser does not support the video tag.
-  </video>
-  <figcaption>
-    An edited 11.4-second research-stage demonstration. Parameter overlays and quantitative acceptance criteria have been removed from this public version.
-  </figcaption>
-</figure>
+The project connects LLM-assisted model development with iterative structural refinement, simulation-based policy learning, and behavior-level evaluation. Candidate designs are examined for usable motion and contact behavior before their manipulation performance is compared. The study also compares learned behavior with established hand models across objects with different geometric demands.
 
 ## My contributions
 
-- Developing an LLM-assisted workflow for generating and refining simulation-ready hand models.
-- Connecting model design with policy learning and controlled manipulation studies.
-- Designing behavior-level evaluation that separates task completion from unstable or physically invalid outcomes.
+- Developed an LLM-assisted workflow for generating and refining simulation-ready dexterous-hand models.
+- Connected hand-model revisions with policy learning and controlled in-hand manipulation experiments.
+- Evaluated object retention, rotation behavior, and failure cases to relate structural changes to learned performance.
+
+## SAGE Hand research video
+
+<figure class="research-media research-media--landscape">
+  <video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/sage-hand-public-preview.jpg' | relative_url }}" aria-label="SAGE Hand public research preview">
+    <source src="{{ '/files/sage-hand-public-preview.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <figcaption>
+    Public preview: selected simulation behavior. Full demonstrations are available for research discussions on request.
+  </figcaption>
+</figure>
+
+<p class="research-request"><strong>Interested in the full study?</strong> <a href="mailto:vwang6925@gmail.com?subject=Research%20demonstration%20request">Request a full research demonstration →</a></p>
+
+## Main findings
+
+**Hand design affects what a learned policy can achieve.** In the evaluated design sequence, structural refinement improves overall manipulation performance, and the final design reduces the elevated object-drop behavior observed in intermediate versions. The evidence supports evaluating morphology and control together.
+
+**Performance remains task dependent.** The demonstrated comparisons show promising object retention and rotation behavior, including stronger results on the cylinder task within the evaluated setup. The cube remains more challenging; a representative motion window should not be interpreted as proof of a successful full rotation.
+
+The current results are simulation findings. They do not establish uniform superiority across objects, policies, or physical hardware.
+
+## Further development
+
+Future directions include testing a wider range of objects and initial conditions, isolating the effects of individual design choices, and studying robustness to contact and modeling uncertainty. Longer-term work will examine hardware feasibility and the gap between simulated and physical manipulation.
 
 ## Research context
 
-Collaborative research with Dr. Lingfeng Tao, Kennesaw State University.
+Collaborative research with Dr. Lingfeng Tao, Kennesaw State University. The study is ongoing. This page presents the main ideas and qualitative results; geometry specifications, training settings, and detailed evaluation protocols are reserved for the manuscript.
 
-Implementation details, hyperparameters, versioned geometries, and current benchmark values are intentionally omitted while the working paper is in progress.
+## Related submission
 
-## Status
-
-Ongoing collaborative research.
+[Manuscript details]({{ '/publication/2026-llm-assisted-dexterous-hand-robot-learning' | relative_url }}) — ICRA 2027 · Under Review.

@@ -1,18 +1,28 @@
 ---
-title: "Hidden Safety Violations in LLM-Generated Robot Code"
+title: "RoboPhys: From Digital Correctness to Physical Correctness in LLM-Generated Robot Programs"
 collection: publications
-category: working
+category: "underreview"
 permalink: /publication/2026-llm-robot-code-safety
-excerpt: "A working paper on evaluating hidden physical-safety violations in functionally correct LLM-generated robot programs and repairing unsafe code before execution."
+excerpt: "Execution-level evaluation, failure analysis, and repair validation for physically correct LLM-generated robot programs."
 date: 2026-06-01
-venue: "Working Paper"
-status_label: "Working Paper"
+venue: "International Conference on Learning Representations (ICLR 2027)"
+status_label: "Under Review"
 authorship: "First author"
-citation: "Wang, H., et al. Hidden Safety Violations in LLM-Generated Robot Code. Working paper."
+citation: "Wang, H., and Chen, S.* RoboPhys: From Digital Correctness to Physical Correctness in LLM-Generated Robot Programs. International Conference on Learning Representations (ICLR 2027), under review."
 ---
 
-This working paper develops a MuJoCo-based evaluation workflow for identifying collisions, velocity violations, grasp failures, object drops, and restricted-workspace violations in LLM-generated robot-control programs that otherwise pass functional tests.
+**Venue:** International Conference on Learning Representations (ICLR 2027)
 
-**Status:** Working paper.
+**Status:** Under Review
 
-**Related research:** [Hidden Safety Violations in LLM-Generated Robot Code]({{ '/portfolio/2026-llm-robot-code-safety' | relative_url }})
+**Authors:** Wang, H., and Chen, S.*
+
+## Research question
+
+A generated robot program can reach its intended task outcome while violating physical constraints during execution. RoboPhys studies how to identify this gap, explain the underlying mechanisms, and validate targeted corrections.
+
+## Research overview and current progress
+
+I built the simulation evaluation workflow, designed controlled comparisons, and connected execution evidence with failure analysis and program revision. Current simulation results show that task completion alone is insufficient and that a repaired program must be checked across its entire execution.
+
+**Related research:** [Project overview, contributions, and next steps]({{ '/portfolio/2026-llm-robot-code-safety' | relative_url }})

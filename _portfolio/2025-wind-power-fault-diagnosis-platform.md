@@ -20,6 +20,10 @@ This project combines the algorithmic and software components of my 2025 fault-d
 - Incorporated FFT and time- and frequency-domain features.
 - Studied class imbalance, source-free deployment, and cross-machine generalization.
 
+## Current outcomes and further development
+
+The completed platform brings preprocessing, training, diagnosis, and visual analysis into one workflow for multimodal condition monitoring. Related research examines interpretable representations and robustness to changing operating conditions. Further development can extend cross-machine evaluation and strengthen deployment under limited target-domain labels.
+
 ## Technical Stack
 
 - Python
@@ -34,9 +38,9 @@ This project combines the algorithmic and software components of my 2025 fault-d
 ## Related publications
 
 - [Domain Adaptation With Joint Distribution Alignment Adversarial Learning for Open-Set Bearing Intelligent Fault Diagnosis]({{ '/publication/2025-domain-adaptation-open-set-bearing-fault-diagnosis' | relative_url }}) — *IEEE Sensors Journal*.
-- [TFMNet: An Interpretable Time-Frequency Mode Network for Mechanical Equipment Fault Diagnosis under Variable Speed Conditions]({{ '/publication/2026-tfmnet-variable-speed-fault-diagnosis' | relative_url }}) — Under Review.
-- [A Physics-Guided Multi-Domain Representation Framework for Intelligent Fault Diagnosis of Rotating Machinery]({{ '/publication/2026-physics-guided-multi-domain-representation-framework' | relative_url }}) — Under Review.
-- [Temperature-Conditioned Flow-Based Multimodal Representation Learning for Intrinsic Fault Manifolds]({{ '/publication/2026-flow-based-multimodal-representations-temperature-information' | relative_url }}) — Manuscript being revised for resubmission.
+- [TFMNet: An Interpretable Time-Frequency Mode Network for Mechanical Equipment Fault Diagnosis under Variable Speed Conditions]({{ '/publication/2026-tfmnet-variable-speed-fault-diagnosis' | relative_url }}) — Submitted manuscript; see the linked page for the current editorial status.
+- [Physics-Guided Multi-Representation Fusion for Robust Bearing Fault Diagnosis under Variable Operating Conditions]({{ '/publication/2026-physics-guided-multi-domain-representation-framework' | relative_url }}) — Submitted manuscript; see the linked page for the current editorial status.
+- [Temperature-Controlled Common-Manifold Representation Learning for Multimodal Machinery Fault Diagnosis]({{ '/publication/2026-flow-based-multimodal-representations-temperature-information' | relative_url }}) — Expert Systems with Applications · With Editor.
 
 ## Status
 

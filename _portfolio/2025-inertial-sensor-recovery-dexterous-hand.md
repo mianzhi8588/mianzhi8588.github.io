@@ -7,20 +7,30 @@ redirect_from:
   - /portfolio/2025-inertial-sensor-recovery-dexterous-hand
 excerpt: "A lightweight framework for recovering saturated IMU signals during short-term hardware overrange events."
 date: 2025-09-01
-status: "Ongoing research"
+status: "Nature Sensors · With Editor"
 research_area: "Intelligent Sensing · Signal Recovery"
 research_stage: current
 research_order: 3
 ---
 
-## Overview
+## Research question
 
-This project develops a lightweight signal-recovery framework for short-term inertial-sensor overload. The website version focuses exclusively on overrange detection and saturated-signal recovery; it does not treat dexterous-hand control as part of this project.
+Can useful motion information be recovered when an inertial sensor briefly saturates? This project studies whether persistent structure across multiple axes can help reconstruct clipped signals beyond an individual channel's measurement range.
+
+## Main research and my contributions
+
+- Designed a lightweight recovery framework that uses relationships across motion axes and physical constraints.
+- Validated recovery on controlled simulations, self-collected human-motion recordings, and public UAV datasets.
+- Analyzed when local motion structure supports recovery and where changes in that structure limit accuracy.
+
+## Main findings
+
+The evaluated framework reduces recovery error relative to clipped input while preserving principal signal peaks and valleys. The key finding is that saturation of one channel need not remove all recoverable motion information when useful multiaxis structure persists. Recovery quality remains dependent on the local motion and saturation conditions.
 
 ## Data collection
 
 <figure class="research-media research-media--portrait">
-  <video controls muted loop playsinline preload="metadata" poster="{{ '/images/imu-overrange-public-poster.png' | relative_url }}?v=3" aria-label="IMU overrange experiment data collection">
+  <video controlslist="nodownload" oncontextmenu="return false;" controls muted loop playsinline preload="metadata" poster="{{ '/images/imu-overrange-public-poster.png' | relative_url }}?v=3" aria-label="IMU overrange experiment data collection">
     <source src="{{ '/files/imu-overrange-public.webm' | relative_url }}?v=3" type="video/webm">
     Your browser does not support the video tag.
   </video>
@@ -31,7 +41,7 @@ This project develops a lightweight signal-recovery framework for short-term ine
 
 ## Evaluation
 
-The study combines controlled data collection, simulation, and external datasets to examine recovery under short-duration sensor saturation. The public figures below show representative waveform diversity in the self-collected gyroscope dataset and a selected strict-online comparison on FPV and INSANE. The proposed approach is labeled simply as **Proposed**; implementation details and final manuscript analyses remain private until submission.
+The study combines controlled data collection, simulation, and external datasets to examine recovery under short-duration sensor saturation. The public figures below show representative waveform diversity in the self-collected gyroscope dataset and a selected strict-online comparison on FPV and INSANE. The proposed approach is labeled simply as **Proposed**; the submitted manuscript contains the detailed method and evaluation protocol.
 
 ## Representative self-collected recordings
 
@@ -53,8 +63,12 @@ The study combines controlled data collection, simulation, and external datasets
 
 ## Related manuscript
 
-[Inertial Perception Recovery beyond the Hardware Dynamic Range under Short-Term Overrange Conditions]({{ '/publication/2026-inertial-perception-recovery-overrange-conditions' | relative_url }}) — Working Paper.
+[Structural recovery of multiaxis inertial signals during short-term saturation]({{ '/publication/2026-inertial-perception-recovery-overrange-conditions' | relative_url }}) — Nature Sensors · With Editor.
+
+## Further development
+
+Future directions include broader motion and saturation conditions, online validation on additional sensing platforms, and clearer indicators of when a reconstruction should be treated as uncertain.
 
 ## Status
 
-Ongoing research.
+Submitted to Nature Sensors; currently With Editor. Related research and validation continue.

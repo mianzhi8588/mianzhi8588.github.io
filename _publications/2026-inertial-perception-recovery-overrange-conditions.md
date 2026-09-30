@@ -1,18 +1,30 @@
 ---
-title: "Inertial Perception Recovery beyond the Hardware Dynamic Range under Short-Term Overrange Conditions"
+title: "Structural recovery of multiaxis inertial signals during short-term saturation"
 collection: publications
-category: working
+category: "underreview"
 permalink: /publication/2026-inertial-perception-recovery-overrange-conditions
-excerpt: "A manuscript preparing for submission on recovering inertial perception signals under short-term hardware overrange conditions."
+excerpt: "Recovering short-term saturated inertial signals through persistent structure across multiple motion axes."
 date: 2026-05-31
-venue: "Preparing for Submission"
-status_label: "Preparing for Submission"
+venue: "Nature Sensors"
+status_label: "With Editor"
 paperurl: ""
-citation: "Wang, H., Gao, J.*, et al. Inertial Perception Recovery beyond the Hardware Dynamic Range under Short-Term Overrange Conditions. Working paper."
+citation: "Wang, H., Gao, J.*, et al. Structural recovery of multiaxis inertial signals during short-term saturation. Nature Sensors, with editor."
 ---
 
-This manuscript investigates signal recovery methods for inertial perception beyond the hardware dynamic range under short-term overrange conditions.
+**Venue:** Nature Sensors
 
-**Status:** Preparing for submission.
+**Status:** With Editor
 
-**Related research:** [Inertial Sensor Overrange Recovery]({{ '/portfolio/2025-inertial-perception-overrange-recovery' | relative_url }})
+**Authors:** Wang, H., Gao, J.*, et al.
+
+The manuscript has been submitted and is currently at the editorial-assessment stage.
+
+## Research question
+
+When an inertial sensor reaches its measurement limit, a clipped channel loses part of the motion signal. This study asks whether structure that persists across axes can support recovery beyond the range of an individual channel.
+
+## Research overview and current progress
+
+I designed a lightweight recovery framework and validated it using controlled simulations, self-collected human-motion recordings, and public UAV datasets. The reported evaluation reduces recovery error relative to clipped input while preserving principal peaks and valleys. Performance depends on the local persistence of multiaxis motion structure.
+
+**Related research:** [Project overview, contributions, and next steps]({{ '/portfolio/2025-inertial-perception-overrange-recovery' | relative_url }})

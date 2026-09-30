@@ -7,6 +7,12 @@ author_profile: true
 
 {% include base_path %}
 
+<section class="publication-intro">
+  <p class="research-eyebrow">Selected publications & current submissions</p>
+  <p>Research on intelligent sensing, reliable robot execution, and learned manipulation. Published work and manuscripts in review are listed separately.</p>
+  <div class="publication-summary"><span><strong>01</strong> Published paper</span><span><strong>06</strong> Submitted manuscripts</span><a href="mailto:vwang6925@gmail.com?subject=Research%20discussion">Discuss the research ↗</a></div>
+</section>
+
 <h2 class="academic-section-title">Published</h2>
 
 <article class="publication-feature publication-feature--text-only">
@@ -19,25 +25,22 @@ author_profile: true
   </div>
 </article>
 
-<h2 class="academic-section-title">Under Review</h2>
+<h2 class="academic-section-title">Submitted Manuscripts</h2>
+
+<p>Current journal and conference submissions, with each manuscript’s editorial or review status shown separately.</p>
 
 <div class="publication-review-grid">
-  <article><span class="publication-badge publication-badge--review">Under review</span><p class="publication-venue">Advanced Engineering Informatics</p><h3><a href="{{ '/publication/2026-tfmnet-variable-speed-fault-diagnosis' | relative_url }}">TFMNet: An Interpretable Time-Frequency Mode Network for Mechanical Equipment Fault Diagnosis under Variable Speed Conditions</a></h3><p>Interpretable time-frequency representation learning for non-stationary machinery signals under changing rotational speed.</p></article>
-  <article><span class="publication-badge publication-badge--review">Under review</span><p class="publication-venue">Engineering Applications of Artificial Intelligence</p><h3><a href="{{ '/publication/2026-physics-guided-multi-domain-representation-framework' | relative_url }}">A Physics-Guided Multi-Domain Representation Framework for Intelligent Fault Diagnosis of Rotating Machinery</a></h3><p>A multi-domain diagnostic framework that incorporates physically meaningful signal structure to improve representation quality and interpretability.</p></article>
-</div>
-
-<h2 class="academic-section-title">Preparing for Submission</h2>
-
-<div class="working-papers-list working-papers-list--rich">
-  <article><span>Preparing for submission · Inertial sensing</span><h3><a href="{{ '/publication/2026-inertial-perception-recovery-overrange-conditions' | relative_url }}">Inertial Perception Recovery beyond the Hardware Dynamic Range under Short-Term Overrange Conditions</a></h3><p>Online recovery of clipped inertial signals using overload detection, cross-axis motion structure, adaptive temporal context, filtering, and geometry-constrained extrapolation.</p></article>
-  <article><span>Manuscript being revised · Fault diagnosis</span><h3><a href="{{ '/publication/2026-flow-based-multimodal-representations-temperature-information' | relative_url }}">Temperature-Conditioned Flow-Based Multimodal Representation Learning for Intrinsic Fault Manifolds</a></h3><p>A completed manuscript currently being revised for resubmission, with emphasis on temperature-conditioned representations and intrinsic fault structure.</p></article>
+  <article><span class="publication-badge publication-badge--review">Under Review</span><p class="publication-venue">Mechanical Systems and Signal Processing (MSSP)</p><h3><a href="{{ '/publication/2026-tfmnet-variable-speed-fault-diagnosis' | relative_url }}">TFMNet: An Interpretable Time-Frequency Mode Network for Mechanical Equipment Fault Diagnosis under Variable Speed Conditions</a></h3><p class="publication-authors">Chen, G., Wang, H., and Tang, G.*</p><p>Interpretable time-frequency representation learning for machinery diagnosis under changing rotational speed.</p></article>
+  <article><span class="publication-badge publication-badge--revision">Revised and Resubmitted</span><p class="publication-venue">Engineering Applications of Artificial Intelligence (EAAI)</p><h3><a href="{{ '/publication/2026-physics-guided-multi-domain-representation-framework' | relative_url }}">Physics-Guided Multi-Representation Fusion for Robust Bearing Fault Diagnosis under Variable Operating Conditions</a></h3><p class="publication-authors">Wang, H., Liu, J., Li, X., Chen, G., and Tang, G.*</p><p>Physics-guided fusion of complementary signal representations for bearing diagnosis under variable operating conditions.</p></article>
+  <article><span class="publication-badge publication-badge--editor">With Editor</span><p class="publication-venue">Expert Systems with Applications (ESWA)</p><h3><a href="{{ '/publication/2026-flow-based-multimodal-representations-temperature-information' | relative_url }}">Temperature-Controlled Common-Manifold Representation Learning for Multimodal Machinery Fault Diagnosis</a></h3><p class="publication-authors">Wang, H., Liu, J., Hu, L., Feng, G., Chen, G., and Tang, G.*</p><p>Temperature-controlled common-manifold representations for multimodal machinery fault diagnosis.</p></article>
+  <article><span class="publication-badge publication-badge--review">Under Review</span><p class="publication-venue">International Conference on Learning Representations (ICLR 2027)</p><h3><a href="{{ '/publication/2026-llm-robot-code-safety' | relative_url }}">RoboPhys: From Digital Correctness to Physical Correctness in LLM-Generated Robot Programs</a></h3><p class="publication-authors">Wang, H., and Chen, S.*</p><p>Execution-level evaluation, failure analysis, and repair validation for physically correct LLM-generated robot programs.</p></article>
+  <article><span class="publication-badge publication-badge--review">Under Review</span><p class="publication-venue">IEEE International Conference on Robotics and Automation (ICRA 2027)</p><h3><a href="{{ '/publication/2026-llm-assisted-dexterous-hand-robot-learning' | relative_url }}">Can an AI Design a Better Dexterous Hand? Task-Driven Morphology Generation and Reinforcement-Learning Validation</a></h3><p class="publication-authors">Wang, H., and Tao, L.*</p><p>Task-driven hand-model generation and refinement, evaluated through learned in-hand manipulation.</p></article>
+  <article><span class="publication-badge publication-badge--editor">With Editor</span><p class="publication-venue">Nature Sensors</p><h3><a href="{{ '/publication/2026-inertial-perception-recovery-overrange-conditions' | relative_url }}">Structural recovery of multiaxis inertial signals during short-term saturation</a></h3><p class="publication-authors">Wang, H., Gao, J.*, et al.</p><p>Recovering short-term saturated inertial signals through persistent structure across multiple motion axes.</p></article>
 </div>
 
 <h2 class="academic-section-title">Research in Progress</h2>
 
 <div class="working-papers-list working-papers-list--rich">
-  <article><span>Robot-code safety</span><h3><a href="{{ '/publication/2026-llm-robot-code-safety' | relative_url }}">Hidden Safety Violations in LLM-Generated Robot Code</a></h3><p>Evaluates physical-safety violations that can remain hidden even when generated programs satisfy a functional task specification.</p></article>
-  <article><span>Dexterous manipulation</span><h3><a href="{{ '/publication/2026-llm-assisted-dexterous-hand-robot-learning' | relative_url }}">LLM-Generated Dexterous-Hand Models for Reinforcement Learning</a></h3><p>Prompt-guided model generation and refinement, followed by TD3 + HER training and drop-aware evaluation for sparse-reward manipulation.</p></article>
   <article><span>Multimodal robotic manipulation</span><h3><a href="{{ '/publication/2026-audio-visual-multimodal-grasping-compensation-robotic-arm' | relative_url }}">Audio-Visual Multimodal Grasping Compensation for a Low-Cost Robotic Arm</a></h3><p>Language-conditioned perception, grasp compensation, constrained motion, visual verification, and recovery primitives.</p></article>
   <article><span>Vibration control</span><h3><a href="{{ '/publication/2026-active-passive-collaborative-shock-absorption-system' | relative_url }}">Active–Passive Collaborative Shock Absorption for Vibration Suppression</a></h3><p>Mechanical design and intelligent control methods for collaborative vibration attenuation across active and passive elements.</p></article>
   <article><span>Fault diagnosis</span><h3><a href="{{ '/publication/2026-control-moment-gyroscope-fault-diagnosis' | relative_url }}">Control Moment Gyroscope Fault Diagnosis Using Simulation and Cyclic Generative Models</a></h3><p>Combines finite-element simulation with data-generation and diagnostic methods for conditions that are difficult to reproduce experimentally.</p></article>

@@ -1,17 +1,28 @@
 ---
-title: "A Physics-Guided Multi-Domain Representation Framework for Intelligent Fault Diagnosis of Rotating Machinery"
+title: "Physics-Guided Multi-Representation Fusion for Robust Bearing Fault Diagnosis under Variable Operating Conditions"
 collection: publications
-category: underreview
+category: "underreview"
 permalink: /publication/2026-physics-guided-multi-domain-representation-framework
-excerpt: "A revised manuscript on physics-guided multi-domain representation learning for intelligent fault diagnosis of rotating machinery."
+excerpt: "Physics-guided fusion of complementary signal representations for bearing diagnosis under variable operating conditions."
 date: 2026-05-01
-venue: "Engineering Applications of Artificial Intelligence，Under Review"
+venue: "Engineering Applications of Artificial Intelligence (EAAI)"
 paperurl: ""
-citation: "Wang, H., Liu, J., Li, X., Zhou, S., and Tang, G.* A Physics-Guided Multi-Domain Representation Framework for Intelligent Fault Diagnosis of Rotating Machinery. Engineering Applications of Artificial Intelligence, under review."
+citation: "Wang, H., Liu, J., Li, X., Chen, G., and Tang, G.* Physics-Guided Multi-Representation Fusion for Robust Bearing Fault Diagnosis under Variable Operating Conditions. Engineering Applications of Artificial Intelligence (EAAI), revised and resubmitted."
+status_label: "Revised and Resubmitted"
 ---
 
-This manuscript proposes a physics-guided multi-domain representation framework for intelligent fault diagnosis of rotating machinery.
+**Venue:** Engineering Applications of Artificial Intelligence (EAAI)
 
-**Status:** Under Review.
+**Status:** Revised and Resubmitted
 
-**Related research:** [Wind Turbine Condition Monitoring and Bearing Fault Diagnosis Platform]({{ '/portfolio/2025-wind-power-fault-diagnosis-platform' | relative_url }})
+**Authors:** Wang, H., Liu, J., Li, X., Chen, G., and Tang, G.*
+
+## Research question
+
+Bearing diagnosis must distinguish fault information from changes caused by operating conditions. This study investigates how physically meaningful signal structure can guide the fusion of complementary representations.
+
+## Research overview and current progress
+
+The research connects representation design with robust bearing diagnosis. The revised manuscript develops this approach without treating an individual representation as sufficient across all operating conditions.
+
+**Related research:** [Project overview, contributions, and next steps]({{ '/portfolio/2025-wind-power-fault-diagnosis-platform' | relative_url }})

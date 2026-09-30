@@ -1,18 +1,28 @@
 ---
-title: "LLM-Generated Dexterous-Hand Models for Reinforcement Learning"
+title: "Can an AI Design a Better Dexterous Hand? Task-Driven Morphology Generation and Reinforcement-Learning Validation"
 collection: publications
-category: working
+category: "underreview"
 permalink: /publication/2026-llm-assisted-dexterous-hand-robot-learning
-excerpt: "A working paper on prompt-guided generation and refinement of dexterous-hand models for reinforcement-learning experiments."
+excerpt: "Task-driven hand-model generation and refinement, evaluated through learned in-hand manipulation."
 date: 2026-05-01
-venue: "Working Paper"
-status_label: "Working Paper"
+venue: "IEEE International Conference on Robotics and Automation (ICRA 2027)"
+status_label: "Under Review"
 authorship: "First author"
-citation: "Wang, H., et al. LLM-Generated Dexterous-Hand Models for Reinforcement Learning. Working paper."
+citation: "Wang, H., and Tao, L.* Can an AI Design a Better Dexterous Hand? Task-Driven Morphology Generation and Reinforcement-Learning Validation. IEEE International Conference on Robotics and Automation (ICRA 2027), under review."
 ---
 
-This working paper studies prompt-guided generation and iterative refinement of dexterous-hand CAD, URDF, and MJCF models, together with TD3 + HER training and drop-aware evaluation for sparse-reward manipulation.
+**Venue:** IEEE International Conference on Robotics and Automation (ICRA 2027)
 
-**Status:** Working paper.
+**Status:** Under Review
 
-**Related research:** [Dexterous Manipulation and Reinforcement Learning]({{ '/portfolio/2026-dexterous-manipulation-reinforcement-learning' | relative_url }})
+**Authors:** Wang, H., and Tao, L.*
+
+## Research question
+
+A generated hand model must support physically plausible motion and learnable manipulation. This study connects morphology development with reinforcement-learning validation rather than judging a design by appearance alone.
+
+## Research overview and current progress
+
+I developed the model-refinement and learning workflow and designed behavior-level evaluation of retention, rotation, and failure. Current simulation evidence links structural refinement to improved manipulation, while showing that performance remains task dependent.
+
+**Related research:** [Project overview, contributions, and next steps]({{ '/portfolio/2026-dexterous-manipulation-reinforcement-learning' | relative_url }})

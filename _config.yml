@@ -80,7 +80,7 @@ publication_category:
   published:
     title: 'Published'
   underreview:
-    title: 'Under Review'
+    title: 'Submitted Manuscripts'
   working:
     title: 'Manuscripts / Working Papers'
 

@@ -8,109 +8,122 @@ redirect_from:
   - /about.html
 ---
 
-<section class="research-hero">
-  <p class="research-hero__role">M.S. Student in Mechanical Engineering</p>
-  <p class="research-hero__affiliation">Research Assistant, Future Laboratory, Tsinghua University</p>
-  <p class="research-hero__areas">Intelligent Sensing · Robot Learning · Robotic Manipulation · Multimodal Perception · Embodied Intelligence</p>
+<section class="research-hero research-hero--portfolio">
+  <p class="research-hero__eyebrow">Robot learning / Intelligent sensing</p>
+  <h2>Making intelligent systems<br>work in the physical world.</h2>
+  <p class="research-hero__lead">I connect sensing, learning, and physical design to build more capable and reliable robotic systems.</p>
+  <p class="research-hero__affiliation">M.S. student, Beijing University of Chemical Technology<br>Research Assistant, Future Laboratory, Tsinghua University</p>
+  <div class="research-hero__actions">
+    <a class="research-button" href="#selected-research">Explore my research <span aria-hidden="true">↘</span></a>
+    <a class="research-button research-button--secondary" href="mailto:vwang6925@gmail.com">Get in touch <span aria-hidden="true">↗</span></a>
+  </div>
+  <p class="research-hero__availability"><span aria-hidden="true">●</span> Seeking PhD opportunities · Fall 2027</p>
 </section>
 
-## About me
+<div class="research-introduction">
+  <p>My work spans robot-code reliability, dexterous manipulation, and recovery of imperfect sensor signals. I build simulation workflows and physical prototypes to study how intelligent systems behave beyond a single task outcome.</p>
+</div>
 
-I am an M.S. student in Mechanical Engineering at **Beijing University of Chemical Technology** and a Research Assistant at the **Future Laboratory, Tsinghua University**. My research spans **intelligent fault diagnosis, sensor signal recovery, and multimodal robotic systems**.
-
-My current work extends across **intelligent sensing, robot learning, robotic manipulation, multimodal perception, and embodied AI**. I am particularly interested in how sensing, learning, and control can be integrated to enable more capable and reliable intelligent physical systems.
-
-<p class="research-opportunity">I am seeking Fall 2027 PhD opportunities in robotic manipulation, intelligent control, multimodal perception, and embodied AI.</p>
-
-## Current research
-
-<p class="section-intro">My current projects span robot-code evaluation, dexterous manipulation, inertial signal recovery, multimodal robotic control, wearable sensing, and expressive robotics.</p>
+<div class="research-section-heading" id="selected-research"><div><p class="research-eyebrow">Selected work</p><h2>Research in motion</h2></div><a href="{{ '/portfolio/' | relative_url }}">All projects <span aria-hidden="true">↗</span></a></div>
+<p class="research-preview-note">Selected public demonstrations. Full research videos are available <a href="mailto:vwang6925@gmail.com?subject=Research%20demonstration%20request">on request</a>.</p>
 
 <div class="current-research-grid">
-  <article class="current-research-card current-research-card--wide current-research-card--media-left">
+  <article class="current-research-card">
     <div class="current-research-card__visual">
-      <video controls muted loop playsinline preload="metadata" poster="{{ '/images/llm-safety-evidence-sequence-poster.png' | relative_url }}?v=2" aria-label="Representative robot-code safety evaluation scenes">
-        <source src="{{ '/files/llm-safety-evidence-sequence.webm' | relative_url }}?v=3" type="video/webm">
+      <video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/robophys-public-preview.jpg' | relative_url }}" aria-label="RoboPhys public research preview">
+        <source src="{{ '/files/robophys-public-preview.mp4' | relative_url }}" type="video/mp4">
+        Your browser does not support the video tag.
       </video>
     </div>
     <div class="current-research-card__copy">
       <span>LLM-based robotics · George Mason University collaboration</span>
-      <h3><a href="{{ '/portfolio/2026-llm-robot-code-safety' | relative_url }}">Hidden Safety Violations in LLM-Generated Robot Code</a></h3>
-      <p>A behavior-level study of why robot programs that appear to finish a task can still create unsafe physical behavior. The public clip shows three representative outcomes from actual MuJoCo evaluation runs; program identifiers, generation sources, evaluation rules, and numerical thresholds remain private while the study is ongoing.</p>
-      <a class="project-evidence" href="{{ '/portfolio/2026-llm-robot-code-safety' | relative_url }}">Public safety-evaluation overview →</a>
+      <h3><a href="{{ '/portfolio/2026-llm-robot-code-safety' | relative_url }}">RoboPhys · Reliable robot programs</a></h3>
+      <span class="project-status">ICLR 2027 · Under Review</span>
+      <p>Can a robot finish its task while behaving unsafely? I study execution-level reliability and evidence-guided revision of generated robot programs.</p>
+      <a class="project-evidence" href="{{ '/portfolio/2026-llm-robot-code-safety' | relative_url }}">Project overview <span aria-hidden="true">↗</span></a>
     </div>
   </article>
 
   <article class="current-research-card">
     <div class="current-research-card__visual">
-      <video controls muted loop playsinline preload="metadata" poster="{{ '/images/generated-dexterous-hand-motion-poster.png' | relative_url }}" aria-label="Motion study of a generated dexterous-hand model">
-        <source src="{{ '/files/generated-dexterous-hand-motion.webm' | relative_url }}" type="video/webm">
+      <video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/sage-hand-public-preview.jpg' | relative_url }}" aria-label="SAGE Hand public research preview">
+        <source src="{{ '/files/sage-hand-public-preview.mp4' | relative_url }}" type="video/mp4">
+        Your browser does not support the video tag.
       </video>
     </div>
     <div class="current-research-card__copy">
       <span>Robot learning · Kennesaw State University collaboration</span>
-      <h3><a href="{{ '/portfolio/2026-dexterous-manipulation-reinforcement-learning' | relative_url }}">Dexterous Manipulation & Reinforcement Learning</a></h3>
-      <p>LLM-assisted hand-model generation and simulation-based policy learning for dexterous object manipulation. The public page shows model motion and representative behaviors without training settings or benchmark values.</p>
+      <h3><a href="{{ '/portfolio/2026-dexterous-manipulation-reinforcement-learning' | relative_url }}">SAGE Hand · Dexterous manipulation</a></h3>
+      <span class="project-status">ICRA 2027 · Under Review</span>
+      <p>Connecting hand design with learned control. I develop simulation-ready models and evaluate object retention, motion, and manipulation behavior.</p>
+      <a class="project-evidence" href="{{ '/portfolio/2026-dexterous-manipulation-reinforcement-learning' | relative_url }}">Project overview <span aria-hidden="true">↗</span></a>
     </div>
   </article>
 
   <article class="current-research-card">
     <div class="current-research-card__visual">
-      <video controls muted loop playsinline preload="metadata" poster="{{ '/images/imu-overrange-public-poster.png' | relative_url }}?v=3" aria-label="IMU overrange data collection demonstration">
+      <video controlslist="nodownload" oncontextmenu="return false;" controls muted loop playsinline preload="metadata" poster="{{ '/images/imu-overrange-public-poster.png' | relative_url }}?v=3" aria-label="IMU overrange data collection demonstration">
         <source src="{{ '/files/imu-overrange-public.webm' | relative_url }}?v=3" type="video/webm">
       </video>
     </div>
     <div class="current-research-card__copy">
       <span>Intelligent sensing · Signal recovery</span>
       <h3><a href="{{ '/portfolio/2025-inertial-perception-overrange-recovery' | relative_url }}">Inertial Sensor Overrange Recovery</a></h3>
-      <p>Online recovery of short-duration inertial-sensor saturation, studied through controlled experiments and external datasets. Method parameters and current numerical results are withheld until submission.</p>
+      <span class="project-status">Nature Sensors · With Editor</span>
+      <p>Recovering useful motion information when a sensor briefly saturates, evaluated through simulation, physical data collection, and external datasets.</p>
+      <a class="project-evidence" href="{{ '/portfolio/2025-inertial-perception-overrange-recovery' | relative_url }}">Project overview <span aria-hidden="true">↗</span></a>
     </div>
   </article>
 
-  <article class="current-research-card current-research-card--wide current-research-card--media-left">
+  <article class="current-research-card">
     <div class="current-research-card__visual">
-      <video controls muted loop playsinline preload="metadata" poster="{{ '/images/robotic-arm-grasp-public-poster.png' | relative_url }}" aria-label="Short physical robotic-arm grasp demonstration">
+      <video controlslist="nodownload" oncontextmenu="return false;" controls muted loop playsinline preload="metadata" poster="{{ '/images/robotic-arm-grasp-public-poster.png' | relative_url }}" aria-label="Short physical robotic-arm grasp demonstration">
         <source src="{{ '/files/robotic-arm-grasp-public.webm' | relative_url }}" type="video/webm">
       </video>
     </div>
     <div class="current-research-card__copy">
       <span>Multimodal perception · Robotic manipulation</span>
-      <h3><a href="{{ '/portfolio/2026-multimodal-robotic-arm-platform' | relative_url }}">Language-Conditioned Agentic Control for a 6-DOF Robotic Manipulator</a></h3>
-      <p>A language-conditioned manipulation platform connecting multimodal input with perception, motion, and execution feedback. The public page presents the system concept without implementation-level control details.</p>
-      <a class="project-evidence" href="{{ '/portfolio/2026-multimodal-robotic-arm-platform' | relative_url }}">Public system overview →</a>
+      <h3><a href="{{ '/portfolio/2026-multimodal-robotic-arm-platform' | relative_url }}">Language-guided robotic manipulation</a></h3>
+      <span class="project-status">Public prototype</span>
+      <p>Turning language into physical actions through multimodal perception, constrained motion, and execution feedback on a compact robotic arm.</p>
+      <a class="project-evidence" href="{{ '/portfolio/2026-multimodal-robotic-arm-platform' | relative_url }}">Project overview <span aria-hidden="true">↗</span></a>
     </div>
   </article>
 
-  <article class="current-research-card current-research-card--compact">
+  <article class="current-research-card">
     <div class="current-research-card__visual">
-      <video controls muted loop playsinline preload="metadata" poster="{{ '/images/textile-capacitive-public-poster.png' | relative_url }}?v=2" aria-label="Short textile-capacitive sensing and robot-response demonstration">
+      <video controlslist="nodownload" oncontextmenu="return false;" controls muted loop playsinline preload="metadata" poster="{{ '/images/textile-capacitive-public-poster.png' | relative_url }}?v=2" aria-label="Short textile-capacitive sensing and robot-response demonstration">
         <source src="{{ '/files/textile-capacitive-public.webm' | relative_url }}?v=2" type="video/webm">
       </video>
     </div>
     <div class="current-research-card__copy">
       <span>Wearable sensing · Human-robot interaction</span>
-      <h3><a href="{{ '/portfolio/2026-textile-capacitive-sensing-robot-arm' | relative_url }}">Textile-Integrated Capacitive Sensing for Robotic Arm Control</a></h3>
-      <p>An early-stage wearable interface for translating textile-sensor responses into intuitive robot interaction. Materials, circuit layout, and calibration details remain private during development.</p>
+      <h3><a href="{{ '/portfolio/2026-textile-capacitive-sensing-robot-arm' | relative_url }}">Wearable sensing for robot interaction</a></h3>
+      <span class="project-status">Public prototype</span>
+      <p>Exploring textile-integrated sensing as an intuitive connection between human gestures and robot response.</p>
+      <a class="project-evidence" href="{{ '/portfolio/2026-textile-capacitive-sensing-robot-arm' | relative_url }}">Project overview <span aria-hidden="true">↗</span></a>
     </div>
   </article>
 
-  <article class="current-research-card current-research-card--wide current-research-card--media-left">
+  <article class="current-research-card">
     <div class="current-research-card__visual">
-      <video controls playsinline preload="metadata" poster="{{ '/images/lelamp-replication-demo-poster.png' | relative_url }}?v=1" aria-label="Early physical prototype demonstration of a multimodal expressive robot lamp">
+      <video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="metadata" poster="{{ '/images/lelamp-replication-demo-poster.png' | relative_url }}?v=1" aria-label="Early physical prototype demonstration of a multimodal expressive robot lamp">
         <source src="{{ '/files/lelamp-replication-demo.webm' | relative_url }}?v=1" type="video/webm">
       </video>
     </div>
     <div class="current-research-card__copy">
       <span>Expressive robotics · Tsinghua Future Laboratory</span>
-      <h3><a href="{{ '/portfolio/2026-multimodal-expressive-robot-lamp' | relative_url }}">Multimodal Expressive Robot Lamp Prototype</a></h3>
-      <p>An early physical prototype exploring articulated motion, lighting, and spoken interaction. The current build is functional but not final; mechanical packaging, control reliability, and expressive behaviors remain under active optimization.</p>
+      <h3><a href="{{ '/portfolio/2026-multimodal-expressive-robot-lamp' | relative_url }}">Expressive robot lamp</a></h3>
+      <span class="project-status">Public prototype</span>
+      <p>Coordinating motion, lighting, and speech in a physical prototype, with expressive actions and improved conversational turn-taking.</p>
+      <a class="project-evidence" href="{{ '/portfolio/2026-multimodal-expressive-robot-lamp' | relative_url }}">Project overview <span aria-hidden="true">↗</span></a>
     </div>
   </article>
 </div>
 
 <p class="view-all-link"><a href="{{ '/portfolio/' | relative_url }}">View all research projects →</a></p>
 
-## Publications & manuscripts
+<div class="research-section-heading"><div><p class="research-eyebrow">Research output</p><h2>Publications & manuscripts</h2></div></div>
 
 <div class="publication-pipeline">
   <section>
@@ -122,22 +135,16 @@ My current work extends across **intelligent sensing, robot learning, robotic ma
     </article>
   </section>
   <section>
-    <h3>Under review</h3>
-    <article>
-      <span>Advanced Engineering Informatics · Under Review</span>
-      <h4><a href="{{ '/publication/2026-tfmnet-variable-speed-fault-diagnosis' | relative_url }}">TFMNet: An Interpretable Time-Frequency Mode Network for Mechanical Equipment Fault Diagnosis under Variable Speed Conditions</a></h4>
-    </article>
-    <article>
-      <span>Engineering Applications of Artificial Intelligence · Under Review</span>
-      <h4><a href="{{ '/publication/2026-physics-guided-multi-domain-representation-framework' | relative_url }}">A Physics-Guided Multi-Domain Representation Framework for Intelligent Fault Diagnosis of Rotating Machinery</a></h4>
-    </article>
+    <h3>Submitted manuscripts</h3>
+    <article><span>Mechanical Systems and Signal Processing (MSSP) · Under Review</span><h4><a href="{{ '/publication/2026-tfmnet-variable-speed-fault-diagnosis' | relative_url }}">TFMNet: An Interpretable Time-Frequency Mode Network for Mechanical Equipment Fault Diagnosis under Variable Speed Conditions</a></h4></article>
+    <article><span>Engineering Applications of Artificial Intelligence (EAAI) · Revised and Resubmitted</span><h4><a href="{{ '/publication/2026-physics-guided-multi-domain-representation-framework' | relative_url }}">Physics-Guided Multi-Representation Fusion for Robust Bearing Fault Diagnosis under Variable Operating Conditions</a></h4></article>
+    <article><span>Expert Systems with Applications (ESWA) · With Editor</span><h4><a href="{{ '/publication/2026-flow-based-multimodal-representations-temperature-information' | relative_url }}">Temperature-Controlled Common-Manifold Representation Learning for Multimodal Machinery Fault Diagnosis</a></h4></article>
+    <article><span>International Conference on Learning Representations (ICLR 2027) · Under Review</span><h4><a href="{{ '/publication/2026-llm-robot-code-safety' | relative_url }}">RoboPhys: From Digital Correctness to Physical Correctness in LLM-Generated Robot Programs</a></h4></article>
+    <article><span>IEEE International Conference on Robotics and Automation (ICRA 2027) · Under Review</span><h4><a href="{{ '/publication/2026-llm-assisted-dexterous-hand-robot-learning' | relative_url }}">Can an AI Design a Better Dexterous Hand? Task-Driven Morphology Generation and Reinforcement-Learning Validation</a></h4></article>
+    <article><span>Nature Sensors · With Editor</span><h4><a href="{{ '/publication/2026-inertial-perception-recovery-overrange-conditions' | relative_url }}">Structural recovery of multiaxis inertial signals during short-term saturation</a></h4></article>
   </section>
   <section>
     <h3>Manuscripts / working papers</h3>
-    <article><h4><a href="{{ '/publication/2026-flow-based-multimodal-representations-temperature-information' | relative_url }}">Temperature-Conditioned Flow-Based Multimodal Representation Learning for Intrinsic Fault Manifolds</a></h4><span>Manuscript completed; being revised for resubmission</span></article>
-    <article><h4><a href="{{ '/publication/2026-llm-robot-code-safety' | relative_url }}">Hidden Safety Violations in LLM-Generated Robot Code</a></h4><span>Working Paper</span></article>
-    <article><h4><a href="{{ '/publication/2026-llm-assisted-dexterous-hand-robot-learning' | relative_url }}">LLM-Generated Dexterous-Hand Models for Reinforcement Learning</a></h4><span>Working Paper</span></article>
-    <article><h4><a href="{{ '/publication/2026-inertial-perception-recovery-overrange-conditions' | relative_url }}">Inertial Perception Recovery beyond the Hardware Dynamic Range under Short-Term Overrange Conditions</a></h4><span>Preparing for Submission</span></article>
     <article><h4><a href="{{ '/publication/2026-audio-visual-multimodal-grasping-compensation-robotic-arm' | relative_url }}">Audio-Visual Multimodal Grasping Compensation System for Low-Cost Open-Loop Servo Robotic Arm</a></h4><span>Working Paper</span></article>
     <article><h4><a href="{{ '/publication/2026-active-passive-collaborative-shock-absorption-system' | relative_url }}">Research on the Design and Intelligent Control Method of Active-Passive Collaborative Shock Absorption System for Vibration Suppression</a></h4><span>Working Paper</span></article>
     <article><h4><a href="{{ '/publication/2026-control-moment-gyroscope-fault-diagnosis' | relative_url }}">Fault Diagnosis of Control Moment Gyroscope Based on Finite Element Simulation and Cyclic Generative Adversarial Network</a></h4><span>Working Paper</span></article>
@@ -171,7 +178,9 @@ My current work extends across **intelligent sensing, robot learning, robotic ma
   </article>
 </div>
 
-## Connect
+<div class="research-contact" id="connect">
+
+<h2>Let’s talk research</h2>
 
 <div class="research-links">
   <a href="https://github.com/mianzhi8588">GitHub</a>
@@ -180,3 +189,5 @@ My current work extends across **intelligent sensing, robot learning, robotic ma
 </div>
 
 <p class="research-contact-note">For research discussions or PhD opportunities, please contact me at <a href="mailto:vwang6925@gmail.com">vwang6925@gmail.com</a>.</p>
+
+</div>

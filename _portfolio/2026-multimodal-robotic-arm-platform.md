@@ -10,14 +10,19 @@ research_area: "Embodied AI · Multimodal Manipulation"
 research_stage: current
 research_order: 4
 ---
-## Overview
 
-This project explores language-conditioned and multimodal manipulation on a compact 6-DOF robotic platform. The public page presents the system concept and research direction while omitting the current hardware configuration, control implementation, calibration settings, and failure-recovery logic.
+## Research question
 
-## Public prototype demonstration
+How can a low-cost robotic arm translate natural-language instructions into reliable physical actions despite limited sensing and open-loop actuation? This project connects language, vision, audio, and execution feedback at the task level.
+
+## Main research
+
+The platform studies multimodal grasping and language-conditioned manipulation on a compact 6-DOF arm. A central direction is to let an LLM select constrained, verifiable robot actions while the motion-control layer handles physical execution.
+
+## Prototype demonstration
 
 <figure class="research-media research-media--result">
-  <video controls muted loop playsinline preload="metadata" poster="{{ '/images/robotic-arm-grasp-public-poster.png' | relative_url }}" aria-label="Short physical robotic-arm grasp demonstration">
+  <video controlslist="nodownload" oncontextmenu="return false;" controls muted loop playsinline preload="metadata" poster="{{ '/images/robotic-arm-grasp-public-poster.png' | relative_url }}" aria-label="Short physical robotic-arm grasp demonstration">
     <source src="{{ '/files/robotic-arm-grasp-public.webm' | relative_url }}" type="video/webm">
   </video>
   <figcaption>
@@ -25,14 +30,20 @@ This project explores language-conditioned and multimodal manipulation on a comp
   </figcaption>
 </figure>
 
-## My Contributions
+## My contributions
 
-- Built and integrated a compact robotic platform for language-conditioned interaction.
-- Connected multimodal input with perception, motion, and execution feedback.
-- Studying recoverable task execution while keeping implementation-level control details private during manuscript development.
+- Built and integrated the physical arm, multimodal sensing, and language-to-action workflow.
+- Implemented motion smoothing and visual correction to reduce actuation jitter and improve grasping behavior.
+- Developed a pipeline from natural-language requests to executable manipulation plans, and explored audio feedback for contact and grasp-state monitoring.
 
-Hardware identifiers, software modules, calibration data, and current control settings are intentionally omitted from the public page.
+## Current progress
+
+The prototype demonstrates physical grasping and integrated perception-to-action behavior. Motion smoothing and visual feedback improve control in the current hardware setting. Reliable task verification and recovery remain active work; the prototype is not presented as a general-purpose autonomous manipulation system.
+
+## Further development
+
+Next steps include a richer set of constrained actions, stronger execution verification, and recovery from failed grasps. Further evaluation will examine the usefulness of audio feedback alongside vision under different manipulation conditions.
 
 ## Status
 
-This project is associated with an ongoing working paper on audio-visual multimodal grasping compensation for low-cost open-loop robotic manipulators.
+Ongoing development and a related working paper on audio-visual multimodal grasping compensation. Detailed calibration and control settings are not included in this public overview.
