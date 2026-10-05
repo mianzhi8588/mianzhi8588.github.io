@@ -8,14 +8,14 @@ date: 2026-05-01
 venue: "IEEE International Conference on Robotics and Automation (ICRA 2027)"
 status_label: "Under Review"
 authorship: "First author"
-citation: "Wang, H., and Tao, L.* Can an AI Design a Better Dexterous Hand? Task-Driven Morphology Generation and Reinforcement-Learning Validation. IEEE International Conference on Robotics and Automation (ICRA 2027), under review."
+citation: "Haoyang W, Haoran G, Zhengxiong L, and Lingfeng T* Can an AI Design a Better Dexterous Hand? Task-Driven Morphology Generation and Reinforcement-Learning Validation. IEEE International Conference on Robotics and Automation (ICRA 2027), under review."
 ---
 
 **Venue:** IEEE International Conference on Robotics and Automation (ICRA 2027)
 
 **Status:** Under Review
 
-**Authors:** Wang, H., and Tao, L.*
+**Authors:** Haoyang W, Haoran G, Zhengxiong L, and Lingfeng T*
 
 ## Research question
 

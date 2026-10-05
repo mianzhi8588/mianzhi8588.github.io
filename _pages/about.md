@@ -84,7 +84,7 @@ redirect_from:
     <div class="current-research-card__copy">
       <span>Intelligent sensing · Signal recovery</span>
       <h3><a href="{{ '/portfolio/2025-inertial-perception-overrange-recovery' | relative_url }}">Inertial Sensor Overrange Recovery</a></h3>
-      <span class="project-status">Nature Sensors · With Editor</span>
+      <span class="project-status">Communications Engineering (Nature Portfolio) · With Editor</span>
       <p>Recovering useful motion information when a sensor briefly saturates, evaluated through simulation, physical data collection, and external datasets.</p>
       <a class="project-evidence" href="{{ '/portfolio/2025-inertial-perception-overrange-recovery' | relative_url }}">Project overview <span aria-hidden="true">↗</span></a>
     </div>
@@ -156,7 +156,7 @@ redirect_from:
     <article><span>Expert Systems with Applications (ESWA) · With Editor</span><h4><a href="{{ '/publication/2026-flow-based-multimodal-representations-temperature-information' | relative_url }}">Temperature-Controlled Common-Manifold Representation Learning for Multimodal Machinery Fault Diagnosis</a></h4></article>
     <article><span>International Conference on Learning Representations (ICLR 2027) · Under Review</span><h4><a href="{{ '/publication/2026-llm-robot-code-safety' | relative_url }}">RoboPhys: From Digital Correctness to Physical Correctness in LLM-Generated Robot Programs</a></h4></article>
     <article><span>IEEE International Conference on Robotics and Automation (ICRA 2027) · Under Review</span><h4><a href="{{ '/publication/2026-llm-assisted-dexterous-hand-robot-learning' | relative_url }}">Can an AI Design a Better Dexterous Hand? Task-Driven Morphology Generation and Reinforcement-Learning Validation</a></h4></article>
-    <article><span>Nature Sensors · With Editor</span><h4><a href="{{ '/publication/2026-inertial-perception-recovery-overrange-conditions' | relative_url }}">Structural recovery of multiaxis inertial signals during short-term saturation</a></h4></article>
+    <article><span>Communications Engineering (Nature Portfolio) · With Editor</span><h4><a href="{{ '/publication/2026-inertial-perception-recovery-overrange-conditions' | relative_url }}">Structural recovery of multiaxis inertial signals during short-term saturation</a></h4></article>
   </section>
   <section>
     <h3>Manuscripts / working papers</h3>

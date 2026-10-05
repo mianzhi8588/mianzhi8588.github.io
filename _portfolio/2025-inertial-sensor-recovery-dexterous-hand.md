@@ -7,7 +7,7 @@ redirect_from:
   - /portfolio/2025-inertial-sensor-recovery-dexterous-hand
 excerpt: "A lightweight framework for recovering saturated IMU signals during short-term hardware overrange events."
 date: 2025-09-01
-status: "Nature Sensors · With Editor"
+status: "Communications Engineering (Nature Portfolio) · With Editor"
 research_area: "Intelligent Sensing · Signal Recovery"
 research_stage: current
 research_order: 3
@@ -67,7 +67,7 @@ The study combines controlled data collection, simulation, and external datasets
 
 ## Related manuscript
 
-[Structural recovery of multiaxis inertial signals during short-term saturation]({{ '/publication/2026-inertial-perception-recovery-overrange-conditions' | relative_url }}) — Nature Sensors · With Editor.
+[Structural recovery of multiaxis inertial signals during short-term saturation]({{ '/publication/2026-inertial-perception-recovery-overrange-conditions' | relative_url }}) — Communications Engineering (Nature Portfolio) · With Editor.
 
 ## Further development
 
@@ -75,4 +75,4 @@ Next steps include synchronized higher-range hardware references, online recover
 
 ## Status
 
-Submitted to Nature Sensors; currently With Editor. Related research and validation continue.
+Submitted to Communications Engineering (Nature Portfolio); currently With Editor. Related research and validation continue.
