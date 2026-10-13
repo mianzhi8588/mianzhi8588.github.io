@@ -8,14 +8,12 @@ date: 2026-05-01
 venue: "Engineering Applications of Artificial Intelligence (EAAI)"
 paperurl: ""
 citation: "Wang, H., Liu, J., Li, X., Chen, G., and Tang, G.* Physics-Guided Multi-Representation Fusion for Robust Bearing Fault Diagnosis under Variable Operating Conditions. Engineering Applications of Artificial Intelligence (EAAI), revised and resubmitted."
+authors_display: "Wang, H., Liu, J., Li, X., Chen, G., and Tang, G.*"
+venue_short: "EAAI"
+cv_order: 2
+project_url: "/portfolio/2026-physics-guided-bearing-diagnosis"
 status_label: "Revised and Resubmitted"
 ---
-
-**Venue:** Engineering Applications of Artificial Intelligence (EAAI)
-
-**Status:** Revised and Resubmitted
-
-**Authors:** Wang, H., Liu, J., Li, X., Chen, G., and Tang, G.*
 
 ## Research question
 

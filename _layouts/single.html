@@ -26,7 +26,7 @@ layout: default
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
-          {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+          {% if page.title and page.url != "/" %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
           {% if page.read_time %}
             <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
@@ -34,13 +34,19 @@ layout: default
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
         {% endif %}
         
-        {% if page.collection == 'teaching' %}
-          <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% if page.collection == 'publications' %}
+          <div class="paper-detail-meta">
+            <span class="publication-badge publication-badge--{{ page.status_label | slugify }}">{{ page.status_label | default: 'Published' }}</span>
+            <p>{{ page.venue }}{% if page.category == 'published' %} · {{ page.date | date: '%Y' }}{% endif %}</p>
+            {% if page.authors_display %}<p class="publication-authors">{{ page.authors_display | replace: 'Wang, H.', '<strong>Wang, H.</strong>' | replace: 'Haoyang W,', '<strong>Haoyang W</strong>,' | replace: 'Haoyang Wang', '<strong>Haoyang Wang</strong>' }}</p>{% endif %}
+          </div>
+        {% elsif page.collection == 'teaching' %}
+          <p>{{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | date: '%Y' }}</p>
         {% elsif page.venue and page.date %}
-          <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p>Published in <i>{{ page.venue }}</i>, {{ page.date | date: '%Y' }}</p>
         {% elsif page.date %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-        {% endif %}    
+          <p class="page__date"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %d, %Y' }}</time></p>
+        {% endif %}
         </header>
       {% endunless %}
 

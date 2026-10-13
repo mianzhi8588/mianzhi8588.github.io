@@ -7,6 +7,9 @@ excerpt: "A working paper on active-passive collaborative shock absorption syste
 date: 2026-05-01
 venue: "Working Paper"
 status_label: "Working Paper"
+authors_display: "Wang, H., He, L.*, and Zhu, H."
+cv_order: 9
+project_url: "/portfolio/2023-active-vibration-suppression-platform"
 paperurl: ""
 citation: "Wang, H., He, L.*, and Zhu, H. Research on the Design and Intelligent Control Method of Active-Passive Collaborative Shock Absorption System for Vibration Suppression. Working paper."
 ---

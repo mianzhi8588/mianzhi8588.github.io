@@ -6,16 +6,14 @@ permalink: /publication/2026-llm-robot-code-safety
 excerpt: "Execution-level evaluation, failure analysis, and repair validation for physically correct LLM-generated robot programs."
 date: 2026-06-01
 venue: "International Conference on Learning Representations (ICLR 2027)"
-status_label: "Under Review"
 authorship: "First author"
 citation: "Wang, H., and Chen, S.* RoboPhys: From Digital Correctness to Physical Correctness in LLM-Generated Robot Programs. International Conference on Learning Representations (ICLR 2027), under review."
+authors_display: "Wang, H., and Chen, S.*"
+venue_short: "ICLR 2027"
+cv_order: 3
+project_url: "/portfolio/2026-llm-robot-code-safety"
+status_label: "Under Review"
 ---
-
-**Venue:** International Conference on Learning Representations (ICLR 2027)
-
-**Status:** Under Review
-
-**Authors:** Wang, H., and Chen, S.*
 
 ## Research question
 

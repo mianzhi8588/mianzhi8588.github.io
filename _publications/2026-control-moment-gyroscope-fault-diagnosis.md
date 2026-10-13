@@ -7,6 +7,8 @@ excerpt: "A working paper on control moment gyroscope fault diagnosis using fini
 date: 2026-05-01
 venue: "Working Paper"
 status_label: "Working Paper"
+authors_display: "Li, X., Wang, H., and Tang, G.*"
+cv_order: 10
 paperurl: ""
 citation: "Li, X., Wang, H., and Tang, G.* Fault Diagnosis of Control Moment Gyroscope Based on Finite Element Simulation and Cyclic Generative Adversarial Network. Working paper."
 ---

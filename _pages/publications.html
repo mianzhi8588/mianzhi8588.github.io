@@ -5,43 +5,22 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% include base_path %}
+{% assign published = site.publications | where: 'category', 'published' | sort: 'cv_order' %}
+{% assign submitted = site.publications | where: 'category', 'underreview' | sort: 'cv_order' %}
+{% assign working = site.publications | where: 'category', 'working' | sort: 'cv_order' %}
 
 <section class="publication-intro">
-  <p class="research-eyebrow">Selected publications & current submissions</p>
-  <p>Research on intelligent sensing, reliable robot execution, and learned manipulation. Published work and manuscripts in review are listed separately.</p>
-  <div class="publication-summary"><span><strong>01</strong> Published paper</span><span><strong>06</strong> Submitted manuscripts</span><a href="mailto:vwang6925@gmail.com?subject=Research%20discussion">Discuss the research ↗</a></div>
+  <p class="research-eyebrow">Research output</p>
+  <p>Intelligent sensing, reliable robot programs, and learned manipulation.</p>
+  <div class="publication-summary"><a href="#published"><strong>{{ published.size }}</strong> Published</a><a href="#submitted"><strong>{{ submitted.size }}</strong> Submitted</a><a href="#working">Work in progress <span aria-hidden="true">↓</span></a></div>
+  <p class="publication-status-note">Submission statuses follow my current CV. Under Review and With Editor indicate ongoing review or editorial assessment.</p>
 </section>
 
-<h2 class="academic-section-title">Published</h2>
+<div class="research-section-heading" id="published"><div><p class="research-eyebrow">01 / Published work</p><h2>Journal publication</h2></div></div>
+<div class="paper-list">{% for paper in published %}{% include publication-row.html paper=paper %}{% endfor %}</div>
 
-<article class="publication-feature publication-feature--text-only">
-  <div class="publication-feature__meta"><span class="publication-badge publication-badge--published">Published · 2025</span><p>IEEE Sensors Journal</p></div>
-  <div class="publication-feature__copy">
-    <h3><a href="{{ '/publication/2025-domain-adaptation-open-set-bearing-fault-diagnosis' | relative_url }}">Domain Adaptation With Joint Distribution Alignment Adversarial Learning for Open-Set Bearing Intelligent Fault Diagnosis</a></h3>
-    <p class="publication-authors">Yuanhao Geng, Gang Tang*, and Haoyang Wang</p>
-    <p>IEEE Sensors Journal, 25(14), 26507–26519, 2025. The study addresses cross-domain bearing diagnosis when the target domain may contain previously unseen fault categories. It combines joint distribution alignment, adversarial adaptation, and open-set recognition to improve transfer under changing operating distributions.</p>
-    <a class="academic-link" href="https://doi.org/10.1109/JSEN.2025.3576833">DOI: 10.1109/JSEN.2025.3576833 →</a>
-  </div>
-</article>
+<div class="research-section-heading" id="submitted"><div><p class="research-eyebrow">02 / Submitted work</p><h2>Manuscripts under consideration</h2></div></div>
+<div class="paper-list">{% for paper in submitted %}{% include publication-row.html paper=paper %}{% endfor %}</div>
 
-<h2 class="academic-section-title">Submitted Manuscripts</h2>
-
-<p>Current journal and conference submissions, with each manuscript’s editorial or review status shown separately.</p>
-
-<div class="publication-review-grid">
-  <article><span class="publication-badge publication-badge--review">Under Review</span><p class="publication-venue">Mechanical Systems and Signal Processing (MSSP)</p><h3><a href="{{ '/publication/2026-tfmnet-variable-speed-fault-diagnosis' | relative_url }}">TFMNet: An Interpretable Time-Frequency Mode Network for Mechanical Equipment Fault Diagnosis under Variable Speed Conditions</a></h3><p class="publication-authors">Chen, G., Wang, H., and Tang, G.*</p><p>Interpretable time-frequency representation learning for machinery diagnosis under changing rotational speed.</p></article>
-  <article><span class="publication-badge publication-badge--revision">Revised and Resubmitted</span><p class="publication-venue">Engineering Applications of Artificial Intelligence (EAAI)</p><h3><a href="{{ '/publication/2026-physics-guided-multi-domain-representation-framework' | relative_url }}">Physics-Guided Multi-Representation Fusion for Robust Bearing Fault Diagnosis under Variable Operating Conditions</a></h3><p class="publication-authors">Wang, H., Liu, J., Li, X., Chen, G., and Tang, G.*</p><p>Physics-guided fusion of complementary signal representations for bearing diagnosis under variable operating conditions.</p></article>
-  <article><span class="publication-badge publication-badge--editor">With Editor</span><p class="publication-venue">Expert Systems with Applications (ESWA)</p><h3><a href="{{ '/publication/2026-flow-based-multimodal-representations-temperature-information' | relative_url }}">Temperature-Controlled Common-Manifold Representation Learning for Multimodal Machinery Fault Diagnosis</a></h3><p class="publication-authors">Wang, H., Liu, J., Hu, L., Feng, G., Chen, G., and Tang, G.*</p><p>Temperature-controlled common-manifold representations for multimodal machinery fault diagnosis.</p></article>
-  <article><span class="publication-badge publication-badge--review">Under Review</span><p class="publication-venue">International Conference on Learning Representations (ICLR 2027)</p><h3><a href="{{ '/publication/2026-llm-robot-code-safety' | relative_url }}">RoboPhys: From Digital Correctness to Physical Correctness in LLM-Generated Robot Programs</a></h3><p class="publication-authors">Wang, H., and Chen, S.*</p><p>Execution-level evaluation, failure analysis, and repair validation for physically correct LLM-generated robot programs.</p></article>
-  <article><span class="publication-badge publication-badge--review">Under Review</span><p class="publication-venue">IEEE International Conference on Robotics and Automation (ICRA 2027)</p><h3><a href="{{ '/publication/2026-llm-assisted-dexterous-hand-robot-learning' | relative_url }}">Can an AI Design a Better Dexterous Hand? Task-Driven Morphology Generation and Reinforcement-Learning Validation</a></h3><p class="publication-authors">Haoyang W, Haoran G, Zhengxiong L, and Lingfeng T*</p><p>Task-driven hand-model generation and refinement, evaluated through learned in-hand manipulation.</p></article>
-  <article><span class="publication-badge publication-badge--editor">With Editor</span><p class="publication-venue">Communications Engineering (Nature Portfolio)</p><h3><a href="{{ '/publication/2026-inertial-perception-recovery-overrange-conditions' | relative_url }}">Structural recovery of multiaxis inertial signals during short-term saturation</a></h3><p class="publication-authors">Wang, H., Yi, J., Zhang, J., Gong, J.*, et al.</p><p>Recovering short-term saturated inertial signals using complementary information in multiaxis motion.</p></article>
-</div>
-
-<h2 class="academic-section-title">Research in Progress</h2>
-
-<div class="working-papers-list working-papers-list--rich">
-  <article><span>Multimodal robotic manipulation</span><h3><a href="{{ '/publication/2026-audio-visual-multimodal-grasping-compensation-robotic-arm' | relative_url }}">Audio-Visual Multimodal Grasping Compensation for a Low-Cost Robotic Arm</a></h3><p>Language-conditioned perception, grasp compensation, constrained motion, visual verification, and recovery primitives.</p></article>
-  <article><span>Vibration control</span><h3><a href="{{ '/publication/2026-active-passive-collaborative-shock-absorption-system' | relative_url }}">Active–Passive Collaborative Shock Absorption for Vibration Suppression</a></h3><p>Mechanical design and intelligent control methods for collaborative vibration attenuation across active and passive elements.</p></article>
-  <article><span>Fault diagnosis</span><h3><a href="{{ '/publication/2026-control-moment-gyroscope-fault-diagnosis' | relative_url }}">Control Moment Gyroscope Fault Diagnosis Using Simulation and Cyclic Generative Models</a></h3><p>Combines finite-element simulation with data-generation and diagnostic methods for conditions that are difficult to reproduce experimentally.</p></article>
-</div>
+<div class="research-section-heading" id="working"><div><p class="research-eyebrow">03 / Ongoing work</p><h2>Working papers</h2></div></div>
+<div class="paper-list">{% for paper in working %}{% include publication-row.html paper=paper %}{% endfor %}</div>

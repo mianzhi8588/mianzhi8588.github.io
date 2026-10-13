@@ -6,16 +6,14 @@ permalink: /publication/2026-llm-assisted-dexterous-hand-robot-learning
 excerpt: "Task-driven hand-model generation and refinement, evaluated through learned in-hand manipulation."
 date: 2026-05-01
 venue: "IEEE International Conference on Robotics and Automation (ICRA 2027)"
-status_label: "Under Review"
 authorship: "First author"
 citation: "Haoyang W, Haoran G, Zhengxiong L, and Lingfeng T* Can an AI Design a Better Dexterous Hand? Task-Driven Morphology Generation and Reinforcement-Learning Validation. IEEE International Conference on Robotics and Automation (ICRA 2027), under review."
+authors_display: "Haoyang W, Haoran G, Zhengxiong L, and Lingfeng T*"
+venue_short: "ICRA 2027"
+cv_order: 4
+project_url: "/portfolio/2026-dexterous-manipulation-reinforcement-learning"
+status_label: "Under Review"
 ---
-
-**Venue:** IEEE International Conference on Robotics and Automation (ICRA 2027)
-
-**Status:** Under Review
-
-**Authors:** Haoyang W, Haoran G, Zhengxiong L, and Lingfeng T*
 
 ## Research question
 

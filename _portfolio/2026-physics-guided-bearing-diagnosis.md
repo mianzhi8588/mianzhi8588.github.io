@@ -17,7 +17,7 @@ How can a diagnostic model distinguish bearing-fault evidence from signal change
 
 ## Research overview
 
-Localized bearing faults produce related temporal impacts, characteristic-frequency patterns, and rotation-related recurrence. The framework organizes complementary views around this common physical process. Rotational information and bearing geometry guide representation construction and diagnostically relevant weighting; cross-view guidance and learned fusion coordinate the resulting evidence. Physical guidance enters the representations and architecture rather than a physics-residual loss.
+The study combines complementary views of vibration signals to separate fault evidence from changes in operating conditions. Physically meaningful signal structure guides the learning process, and the resulting evidence is considered jointly for diagnosis. Evaluation covers noisy observations and operating conditions held out from training.
 
 ## Narrated research video
 
@@ -40,11 +40,11 @@ Localized bearing faults produce related temporal impacts, characteristic-freque
 
 The evaluated framework supports useful diagnosis under raw-signal interference and held-out operating conditions. Complementary views provide clearer value when signal quality is challenged; temporal evidence is particularly useful under strong noise. Near-saturated clean classification alone offers limited evidence of broad superiority.
 
-The target-free generalization tests exclude complete target records from training and model selection. Experiments using labeled target samples are reported separately as adaptation. These distinctions determine what each result can support.
+Generalization to unseen operating conditions and adaptation using limited target information are evaluated separately. The findings should be interpreted within the corresponding evaluation setting.
 
 ## Scope and next steps
 
-The operating-condition experiments compare different approximately steady operating points. They do not establish robustness to rapid acceleration within one analysis window. Instantaneous-speed estimation, order tracking, and more varied field interference are relevant extensions that still require validation.
+The operating-condition experiments compare different approximately steady operating points. They do not establish robustness to rapid acceleration within one analysis window. Rapidly changing operating conditions and more varied field interference remain directions for further validation.
 
 ## Related manuscript
 
