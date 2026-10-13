@@ -10,7 +10,7 @@ redirect_from:
 
 <section class="research-hero research-hero--portfolio">
   <p class="research-hero__eyebrow">Robot learning / Intelligent sensing</p>
-  <h1>Making intelligent systems<br> work in the <em>physical world.</em></h1>
+  <h1>Making intelligent systems work in the <em>physical world.</em></h1>
   <p class="research-hero__lead">I connect sensing, learning, and physical design to build more capable and reliable robotic systems.</p>
   <p class="research-hero__affiliation">M.S. student, Beijing University of Chemical Technology<br>Research Assistant, Future Laboratory, Tsinghua University</p>
   <div class="research-hero__actions">
