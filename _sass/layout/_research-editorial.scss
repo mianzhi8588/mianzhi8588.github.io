@@ -46,6 +46,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--research-teal);
 .author__bio { color: var(--research-muted); font-size: 0.74rem; line-height: 1.85; }
 .author__urls li { font-size: 0.7rem; line-height: 1.9; }
 .author__urls li { white-space: normal; overflow-wrap: anywhere; }
+.author__urls.is-open { display: block; }
 .author__urls a { color: var(--research-muted); }
 .research-eyebrow, .research-hero__eyebrow, .academic-page-hero__eyebrow, .research-kicker {
   font-size: 0.67rem !important; letter-spacing: 0.12em; color: var(--research-teal-dark);
