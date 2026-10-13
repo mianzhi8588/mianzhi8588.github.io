@@ -1,0 +1,8 @@
+<section class="home-paper-group">
+  <h3 class="home-paper-group__heading">{{ include.heading }} <span>{{ include.papers.size }}</span></h3>
+  <div class="home-paper-list">
+  {% for paper in include.papers %}
+    <article><div class="home-paper-list__meta"><span class="home-paper-list__venue">{{ paper.venue_short }}</span>{% include paper-status.html paper=paper %}</div><h4><a href="{{ paper.url | relative_url }}">{{ paper.title }} <span class="home-paper-list__arrow" aria-hidden="true">↗</span></a></h4></article>
+  {% endfor %}
+  </div>
+</section>

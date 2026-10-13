@@ -14,7 +14,8 @@ layout: default
         <h1 class="page__title" itemprop="headline">{{ page.title }}</h1>
         {% if page.excerpt %}<p class="research-project-header__lead">{{ page.excerpt }}</p>{% endif %}
         <div class="research-project-header__meta">
-          {% if page.status %}<span>{{ page.status }}</span>{% endif %}
+          {% assign related_paper = site.publications | where: 'project_url', page.permalink | first %}
+          {% if related_paper %}<span class="research-project-header__venue">{% if related_paper.category == 'working' %}Research in progress{% else %}{{ related_paper.venue_short | default: related_paper.venue }}{% endif %}</span>{% include paper-status.html paper=related_paper %}{% elsif page.status %}<span>{{ page.status }}</span>{% endif %}
           {% if page.date %}<span>Started {{ page.date | date: "%Y" }}</span>{% endif %}
         </div>
       </header>

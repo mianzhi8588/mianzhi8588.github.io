@@ -1,0 +1,2 @@
+{% assign status = include.paper.status_label | default: 'Published' %}
+<span class="publication-badge publication-badge--{{ status | slugify }}">{{ status }}</span>

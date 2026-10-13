@@ -1,6 +1,6 @@
 {% assign paper = include.paper %}
 <article class="paper-row">
-  <div class="paper-row__meta"><span class="paper-row__venue">{{ paper.venue }}</span><span class="publication-badge publication-badge--{{ paper.status_label | slugify }}">{{ paper.status_label | default: 'Published' }}</span></div>
+  <div class="paper-row__meta"><span class="paper-row__venue">{% if paper.category == 'working' %}Research in progress{% else %}{{ paper.venue }}{% endif %}</span>{% include paper-status.html paper=paper %}</div>
   <h3><a href="{{ paper.url | relative_url }}">{{ paper.title }}</a></h3>
   {% if paper.authors_display %}<p class="publication-authors">{{ paper.authors_display | replace: 'Wang, H.', '<strong>Wang, H.</strong>' | replace: 'Haoyang W,', '<strong>Haoyang W</strong>,' | replace: 'Haoyang Wang', '<strong>Haoyang Wang</strong>' }}</p>{% endif %}
   <p class="paper-row__summary">{{ paper.excerpt }}</p>

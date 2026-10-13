@@ -1,0 +1,2 @@
+{% assign status_paper = site.publications | where: 'permalink', include.publication | first %}
+{% if status_paper %}<div class="research-status"><span class="research-status__venue">{{ status_paper.venue_short }}</span>{% include paper-status.html paper=status_paper %}</div>{% endif %}

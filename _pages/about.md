@@ -38,7 +38,7 @@ redirect_from:
     <div class="current-research-card__copy">
       <span>LLM-based robotics · George Mason University collaboration</span>
       <h3><a href="{{ '/portfolio/2026-llm-robot-code-safety' | relative_url }}">RoboPhys · Reliable robot programs</a></h3>
-      <span class="project-status">ICLR 2027 · Under Review</span>
+      {% include research-status.html publication='/publication/2026-llm-robot-code-safety' %}
       <p>Can a robot finish its task while behaving unsafely? I study execution-level reliability and evidence-guided revision of generated robot programs.</p>
       <a class="project-evidence" href="{{ '/portfolio/2026-llm-robot-code-safety' | relative_url }}">Project overview <span aria-hidden="true">↗</span></a>
     </div>
@@ -54,7 +54,7 @@ redirect_from:
     <div class="current-research-card__copy">
       <span>Robot learning · Kennesaw State University collaboration</span>
       <h3><a href="{{ '/portfolio/2026-dexterous-manipulation-reinforcement-learning' | relative_url }}">SAGE Hand · Dexterous manipulation</a></h3>
-      <span class="project-status">ICRA 2027 · Under Review</span>
+      {% include research-status.html publication='/publication/2026-llm-assisted-dexterous-hand-robot-learning' %}
       <p>Connecting hand design with learned control. I develop simulation-ready models and evaluate object retention, motion, and manipulation behavior.</p>
       <a class="project-evidence" href="{{ '/portfolio/2026-dexterous-manipulation-reinforcement-learning' | relative_url }}">Project overview <span aria-hidden="true">↗</span></a>
     </div>
@@ -68,7 +68,7 @@ redirect_from:
     <div class="current-research-card__copy">
       <span>Intelligent diagnosis · Robust learning</span>
       <h3><a href="{{ '/portfolio/2026-physics-guided-bearing-diagnosis' | relative_url }}">Physics-guided bearing diagnosis</a></h3>
-      <span class="project-status">EAAI · Revised and Resubmitted</span>
+      {% include research-status.html publication='/publication/2026-physics-guided-multi-domain-representation-framework' %}
       <p>Coordinating physically meaningful vibration representations to distinguish fault evidence from noise and operating-condition changes.</p>
       <a class="project-evidence" href="{{ '/portfolio/2026-physics-guided-bearing-diagnosis' | relative_url }}">Project overview <span aria-hidden="true">↗</span></a>
     </div>
@@ -84,7 +84,7 @@ redirect_from:
     <div class="current-research-card__copy">
       <span>Intelligent sensing · Signal recovery</span>
       <h3><a href="{{ '/portfolio/2025-inertial-perception-overrange-recovery' | relative_url }}">Inertial Sensor Overrange Recovery</a></h3>
-      <span class="project-status">Communications Engineering (Nature Portfolio) · With Editor</span>
+      {% include research-status.html publication='/publication/2026-inertial-perception-recovery-overrange-conditions' %}
       <p>Recovering useful motion information when a sensor briefly saturates, evaluated through simulation, physical data collection, and external datasets.</p>
       <a class="project-evidence" href="{{ '/portfolio/2025-inertial-perception-overrange-recovery' | relative_url }}">Project overview <span aria-hidden="true">↗</span></a>
     </div>
@@ -101,12 +101,11 @@ redirect_from:
 </div>
 
 <div class="research-section-heading"><div><p class="research-eyebrow">Research output</p><h2>Publications & manuscripts</h2></div><a href="{{ '/publications/' | relative_url }}">Full list & authors <span aria-hidden="true">↗</span></a></div>
-{% assign cv_papers = site.publications | sort: 'cv_order' %}
-<div class="home-paper-list">
-{% for paper in cv_papers %}{% if paper.cv_order and paper.category != 'working' %}
-  <article><span>{{ paper.venue_short }} · {{ paper.status_label }}</span><h3><a href="{{ paper.url | relative_url }}">{{ paper.title }}</a></h3></article>
-{% endif %}{% endfor %}
-</div>
+{% assign published_papers = site.publications | where: 'category', 'published' | sort: 'cv_order' %}
+{% assign submitted_papers = site.publications | where: 'category', 'underreview' | sort: 'cv_order' %}
+{% include home-paper-group.html heading='Published' papers=published_papers %}
+{% include home-paper-group.html heading='Submitted manuscripts' papers=submitted_papers %}
+<p class="home-paper-note">Submitted manuscripts are currently under editorial assessment or peer review. <a href="{{ '/publications/' | relative_url }}">View authors, research summaries, and working papers →</a></p>
 
 ## Selected earlier research
 
