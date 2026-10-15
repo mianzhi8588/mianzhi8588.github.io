@@ -1,26 +1,32 @@
 ---
-title: "Temperature-Controlled Common-Manifold Representation Learning for Multimodal Machinery Fault Diagnosis"
+title: "Temperature-Conditioned Semantic–Residual Recomposition for Machinery Fault Diagnosis under Nonstationary Working Conditions"
 collection: publications
 category: "underreview"
 permalink: /publication/2026-flow-based-multimodal-representations-temperature-information
-excerpt: "Temperature-controlled common-manifold representations for multimodal machinery fault diagnosis."
+excerpt: "Condition-aware learning of a fault-semantic core, tested through operating-condition transfer and cross-modal feature recomposition."
 date: 2026-05-21
 venue: "Expert Systems with Applications (ESWA)"
 paperurl: ""
-citation: "Wang, H., Liu, J., Hu, L., Feng, G., Chen, G., and Tang, G.* Temperature-Controlled Common-Manifold Representation Learning for Multimodal Machinery Fault Diagnosis. Expert Systems with Applications (ESWA), with editor."
+citation: "Wang, H., Liu, J., Hu, L., Feng, G., Chen, G., and Tang, G.* Temperature-Conditioned Semantic–Residual Recomposition for Machinery Fault Diagnosis under Nonstationary Working Conditions. Expert Systems with Applications (ESWA), with editor."
 authors_display: "Wang, H., Liu, J., Hu, L., Feng, G., Chen, G., and Tang, G.*"
 venue_short: "ESWA"
 cv_order: 6
-project_url: ""
+project_url: "/portfolio/2026-fault-semantic-core"
 status_label: "With Editor"
 ---
 
-The manuscript has been submitted and is currently at the editorial-assessment stage.
+Submitted to **Expert Systems with Applications (ESWA)** · **With Editor**.
 
 ## Research question
 
-Temperature and operating conditions can change sensor observations independently of a fault. This study asks how multimodal representations can capture shared fault-related structure while accounting for temperature-dependent variation.
+How can multimodal diagnostic representations preserve fault information as operating conditions and sensing pathways change?
 
-## Research overview and current progress
+## Manuscript summary
 
-The manuscript studies a common-manifold representation for integrating complementary machinery signals. The public summary focuses on the research objective; detailed model design and comparative results remain in the submitted manuscript.
+The study investigates a temperature-conditioned representation organized into a fault-semantic core and complementary residual information. It evaluates both diagnosis under operating-condition transfer and whether fault meaning is preserved after cross-modal feature recomposition.
+
+Tests on public waveform datasets, an in-house platform, and industrial turbine records provide complementary evidence. The qualitative findings support competitive transfer and the diagnostic role of the core within the evaluated settings; they do not establish a uniquely identified physical representation.
+
+## Research project and video
+
+[Explore the core idea, my contribution, and the narrated overview]({{ '/portfolio/2026-fault-semantic-core' | relative_url }}).

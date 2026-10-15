@@ -78,6 +78,9 @@ a.research-button { border-radius: 6px; padding: 0.75rem 1.05rem; font-size: 0.7
 .current-research-card__copy h3 { margin: 0.65rem 0 0.75rem; font-size: 1.17rem; line-height: 1.36; }
 .current-research-card__copy .project-status { border-radius: 4px; font-size: 0.64rem; line-height: 1.6; background: var(--research-mint); padding: 0.25rem 0.5rem; }
 .current-research-card__copy p { font-size: 0.84rem; line-height: 1.8; margin-bottom: 0.9rem; }
+.current-research-card--wide { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: center; }
+.current-research-card--wide .current-research-card__visual { border-bottom: 0; }
+@media (max-width: 700px) { .current-research-card--wide { grid-template-columns: 1fr; } }
 .project-evidence { font-size: 0.76rem; }
 .view-all-link { font-size: 0.8rem !important; margin: 1.2rem 0 2rem !important; }
 .prototype-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.1rem; }

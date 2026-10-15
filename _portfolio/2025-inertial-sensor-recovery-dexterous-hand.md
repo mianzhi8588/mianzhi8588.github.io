@@ -33,9 +33,9 @@ The evaluated framework reduces recovery error relative to clipped input while p
 ## Narrated research video
 
 <figure class="research-media research-media--landscape">
-  <video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/imu-recovery-public-preview.jpg' | relative_url }}?v=2" aria-label="Inertial signal recovery narrated research overview">
-        <source src="{{ '/files/imu-recovery-public-preview.mp4' | relative_url }}?v=2" type="video/mp4">
-        <track kind="captions" src="{{ '/files/imu-recovery-public-preview.en.vtt' | relative_url }}?v=2" srclang="en" label="English">
+  <video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/imu-recovery-public-preview.jpg' | relative_url }}?v=20261015" aria-label="Inertial signal recovery narrated research overview">
+        <source src="{{ '/files/imu-recovery-public-preview.mp4' | relative_url }}?v=20261015" type="video/mp4">
+        <track kind="captions" src="{{ '/files/imu-recovery-public-preview.en.vtt' | relative_url }}?v=20261015" srclang="en" label="English">
       </video>
   <figcaption>The research problem, method direction, validation, qualitative findings, contribution, and scope. The waveform sketch illustrates clipping and is not experimental data.</figcaption>
 </figure>

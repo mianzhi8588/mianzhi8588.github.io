@@ -25,14 +25,14 @@ redirect_from:
 </div>
 
 <div class="research-section-heading" id="selected-research"><div><p class="research-eyebrow">Selected work</p><h2>Selected research</h2></div><a href="{{ '/portfolio/' | relative_url }}">All projects <span aria-hidden="true">↗</span></a></div>
-<p class="research-preview-note">Four ongoing studies in robot learning and intelligent sensing. Open a project for the research question, my contribution, and current findings.</p>
+<p class="research-preview-note">Five ongoing studies in robot learning and intelligent sensing. Open a project for the research question, my contribution, and current findings.</p>
 
 <div class="current-research-grid">
   <article class="current-research-card">
     <div class="current-research-card__visual">
-      <video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/robophys-public-preview.jpg' | relative_url }}?v=4" aria-label="RoboPhys narrated research overview">
-        <source src="{{ '/files/robophys-public-preview.mp4' | relative_url }}?v=4" type="video/mp4">
-        <track kind="captions" src="{{ '/files/robophys-public-preview.en.vtt' | relative_url }}?v=4" srclang="en" label="English">
+      <video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/robophys-public-preview.jpg' | relative_url }}?v=20261015" aria-label="RoboPhys narrated research overview">
+        <source src="{{ '/files/robophys-public-preview.mp4' | relative_url }}?v=20261015" type="video/mp4">
+        <track kind="captions" src="{{ '/files/robophys-public-preview.en.vtt' | relative_url }}?v=20261015" srclang="en" label="English">
       </video>
     </div>
     <div class="current-research-card__copy">
@@ -46,9 +46,9 @@ redirect_from:
 
   <article class="current-research-card">
     <div class="current-research-card__visual">
-      <video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/sage-hand-public-preview.jpg' | relative_url }}?v=4" aria-label="SAGE Hand narrated research overview">
-        <source src="{{ '/files/sage-hand-public-preview.mp4' | relative_url }}?v=4" type="video/mp4">
-        <track kind="captions" src="{{ '/files/sage-hand-public-preview.en.vtt' | relative_url }}?v=4" srclang="en" label="English">
+      <video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/sage-hand-public-preview.jpg' | relative_url }}?v=20261015" aria-label="SAGE Hand narrated research overview">
+        <source src="{{ '/files/sage-hand-public-preview.mp4' | relative_url }}?v=20261015" type="video/mp4">
+        <track kind="captions" src="{{ '/files/sage-hand-public-preview.en.vtt' | relative_url }}?v=20261015" srclang="en" label="English">
       </video>
     </div>
     <div class="current-research-card__copy">
@@ -61,9 +61,9 @@ redirect_from:
   </article>
 
   <article class="current-research-card">
-    <div class="current-research-card__visual"><video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/eaai-public-preview.jpg' | relative_url }}?v=1" aria-label="Physics-guided bearing diagnosis narrated research overview">
-        <source src="{{ '/files/eaai-public-preview.mp4' | relative_url }}?v=1" type="video/mp4">
-        <track kind="captions" src="{{ '/files/eaai-public-preview.en.vtt' | relative_url }}?v=1" srclang="en" label="English">
+    <div class="current-research-card__visual"><video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/eaai-public-preview.jpg' | relative_url }}?v=20261015" aria-label="Physics-guided bearing diagnosis narrated research overview">
+        <source src="{{ '/files/eaai-public-preview.mp4' | relative_url }}?v=20261015" type="video/mp4">
+        <track kind="captions" src="{{ '/files/eaai-public-preview.en.vtt' | relative_url }}?v=20261015" srclang="en" label="English">
       </video></div>
     <div class="current-research-card__copy">
       <span>Intelligent diagnosis · Robust learning</span>
@@ -76,9 +76,9 @@ redirect_from:
 
   <article class="current-research-card">
     <div class="current-research-card__visual">
-      <video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/imu-recovery-public-preview.jpg' | relative_url }}?v=2" aria-label="Inertial signal recovery narrated research overview">
-        <source src="{{ '/files/imu-recovery-public-preview.mp4' | relative_url }}?v=2" type="video/mp4">
-        <track kind="captions" src="{{ '/files/imu-recovery-public-preview.en.vtt' | relative_url }}?v=2" srclang="en" label="English">
+      <video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/imu-recovery-public-preview.jpg' | relative_url }}?v=20261015" aria-label="Inertial signal recovery narrated research overview">
+        <source src="{{ '/files/imu-recovery-public-preview.mp4' | relative_url }}?v=20261015" type="video/mp4">
+        <track kind="captions" src="{{ '/files/imu-recovery-public-preview.en.vtt' | relative_url }}?v=20261015" srclang="en" label="English">
       </video>
     </div>
     <div class="current-research-card__copy">
@@ -87,6 +87,19 @@ redirect_from:
       {% include research-status.html publication='/publication/2026-inertial-perception-recovery-overrange-conditions' %}
       <p>Recovering useful motion information when a sensor briefly saturates, evaluated through simulation, physical data collection, and external datasets.</p>
       <a class="project-evidence" href="{{ '/portfolio/2025-inertial-perception-overrange-recovery' | relative_url }}">Project overview <span aria-hidden="true">↗</span></a>
+    </div>
+  </article>
+  <article class="current-research-card current-research-card--wide">
+    <div class="current-research-card__visual"><video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/eswa-public-preview.jpg' | relative_url }}?v=1" aria-label="Fault-semantic core narrated research overview">
+        <source src="{{ '/files/eswa-public-preview.mp4' | relative_url }}?v=1" type="video/mp4">
+        <track kind="captions" src="{{ '/files/eswa-public-preview.en.vtt' | relative_url }}?v=1" srclang="en" label="English">
+      </video></div>
+    <div class="current-research-card__copy">
+      <span>Multimodal diagnosis · Representation learning</span>
+      <h3><a href="{{ '/portfolio/2026-fault-semantic-core' | relative_url }}">A fault-semantic core across changing conditions</a></h3>
+      {% include research-status.html publication='/publication/2026-flow-based-multimodal-representations-temperature-information' %}
+      <p>What should stay meaningful when sensors and operating conditions change? I study a diagnostic core and test whether its fault information remains useful after cross-modal recomposition.</p>
+      <a class="project-evidence" href="{{ '/portfolio/2026-fault-semantic-core' | relative_url }}">Core idea & research overview <span aria-hidden="true">↗</span></a>
     </div>
   </article>
 </div>

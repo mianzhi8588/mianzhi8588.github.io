@@ -22,9 +22,9 @@ The study combines complementary views of vibration signals to separate fault ev
 ## Narrated research video
 
 <figure class="research-media research-media--landscape">
-  <video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/eaai-public-preview.jpg' | relative_url }}?v=1" aria-label="Physics-guided bearing diagnosis research overview">
-    <source src="{{ '/files/eaai-public-preview.mp4' | relative_url }}?v=1" type="video/mp4">
-    <track kind="captions" src="{{ '/files/eaai-public-preview.en.vtt' | relative_url }}?v=1" srclang="en" label="English">
+  <video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/eaai-public-preview.jpg' | relative_url }}?v=20261015" aria-label="Physics-guided bearing diagnosis research overview">
+    <source src="{{ '/files/eaai-public-preview.mp4' | relative_url }}?v=20261015" type="video/mp4">
+    <track kind="captions" src="{{ '/files/eaai-public-preview.en.vtt' | relative_url }}?v=20261015" srclang="en" label="English">
     Your browser does not support the video tag.
   </video>
   <figcaption>Research question, physical evidence, method overview, validation, qualitative findings, and contribution. The bearing illustration is a conceptual sketch rather than an apparatus drawing.</figcaption>
