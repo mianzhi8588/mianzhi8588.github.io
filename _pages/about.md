@@ -28,7 +28,7 @@ redirect_from:
 <p class="research-preview-note">Five ongoing studies in robot learning and intelligent sensing. Open a project for the research question, my contribution, and current findings.</p>
 
 <div class="current-research-grid">
-  <article class="current-research-card">
+  <article class="current-research-card current-research-card--wide">
     <div class="current-research-card__visual">
       <video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/robophys-public-preview.jpg' | relative_url }}?v=20261015" aria-label="RoboPhys narrated research overview">
         <source src="{{ '/files/robophys-public-preview.mp4' | relative_url }}?v=20261015" type="video/mp4">
@@ -89,7 +89,7 @@ redirect_from:
       <a class="project-evidence" href="{{ '/portfolio/2025-inertial-perception-overrange-recovery' | relative_url }}">Project overview <span aria-hidden="true">↗</span></a>
     </div>
   </article>
-  <article class="current-research-card current-research-card--wide">
+  <article class="current-research-card">
     <div class="current-research-card__visual"><video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/eswa-public-preview.jpg' | relative_url }}?v=1" aria-label="Fault-semantic core narrated research overview">
         <source src="{{ '/files/eswa-public-preview.mp4' | relative_url }}?v=1" type="video/mp4">
         <track kind="captions" src="{{ '/files/eswa-public-preview.en.vtt' | relative_url }}?v=1" srclang="en" label="English">
