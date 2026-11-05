@@ -40,7 +40,7 @@ The completed platform brings preprocessing, training, diagnosis, and visual ana
 - [Domain Adaptation With Joint Distribution Alignment Adversarial Learning for Open-Set Bearing Intelligent Fault Diagnosis]({{ '/publication/2025-domain-adaptation-open-set-bearing-fault-diagnosis' | relative_url }}) — *IEEE Sensors Journal*.
 - [TFMNet: An Interpretable Time-Frequency Mode Network for Mechanical Equipment Fault Diagnosis under Variable Speed Conditions]({{ '/publication/2026-tfmnet-variable-speed-fault-diagnosis' | relative_url }}) — Submitted manuscript; see the linked page for the current editorial status.
 - [Physics-Guided Multi-Representation Fusion for Robust Bearing Fault Diagnosis under Variable Operating Conditions]({{ '/publication/2026-physics-guided-multi-domain-representation-framework' | relative_url }}) — Submitted manuscript; see the linked page for the current editorial status.
-- [Temperature-Controlled Common-Manifold Representation Learning for Multimodal Machinery Fault Diagnosis]({{ '/publication/2026-flow-based-multimodal-representations-temperature-information' | relative_url }}) — Expert Systems with Applications · With Editor.
+- [Temperature-Conditioned Semantic–Residual Recomposition for Machinery Fault Diagnosis under Nonstationary Working Conditions]({{ '/publication/2026-flow-based-multimodal-representations-temperature-information' | relative_url }}) — Expert Systems with Applications · Under Review.
 
 ## Status
 

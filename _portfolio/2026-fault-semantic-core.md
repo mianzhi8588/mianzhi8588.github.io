@@ -51,4 +51,4 @@ These findings are specific to the evaluated settings. They support a useful org
 
 ## Related manuscript
 
-[Temperature-Conditioned Semantic–Residual Recomposition for Machinery Fault Diagnosis under Nonstationary Working Conditions]({{ '/publication/2026-flow-based-multimodal-representations-temperature-information' | relative_url }}) — Expert Systems with Applications · With Editor.
+[Temperature-Conditioned Semantic–Residual Recomposition for Machinery Fault Diagnosis under Nonstationary Working Conditions]({{ '/publication/2026-flow-based-multimodal-representations-temperature-information' | relative_url }}) — Expert Systems with Applications · Under Review.

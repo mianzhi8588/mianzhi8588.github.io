@@ -5,17 +5,17 @@ category: "underreview"
 permalink: /publication/2026-inertial-perception-recovery-overrange-conditions
 excerpt: "Recovering short-term saturated inertial signals using complementary information in multiaxis motion."
 date: 2026-05-31
-venue: "Communications Engineering (Nature Portfolio)"
+venue: "Measurement"
 paperurl: ""
-citation: "Wang, H., Yi, J., Zhang, J., Gong, J.*, et al. Structural recovery of multiaxis inertial signals during short-term saturation. Communications Engineering (Nature Portfolio), with editor."
+citation: "Wang, H., Yi, J., Zhang, J., Gong, J.*, et al. Structural recovery of multiaxis inertial signals during short-term saturation. Measurement, with editor."
 authors_display: "Wang, H., Yi, J., Zhang, J., Gong, J.*, et al."
-venue_short: "Communications Engineering"
+venue_short: "Measurement"
 cv_order: 5
 project_url: "/portfolio/2025-inertial-perception-overrange-recovery"
 status_label: "With Editor"
 ---
 
-The manuscript has been submitted and is currently at the editorial-assessment stage.
+Submitted to **Measurement** · **With Editor**.
 
 ## Research question
 
