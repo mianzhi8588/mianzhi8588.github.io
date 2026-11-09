@@ -7,15 +7,15 @@ excerpt: "Recovering short-term saturated inertial signals using complementary i
 date: 2026-05-31
 venue: "Measurement"
 paperurl: ""
-citation: "Wang, H., Yi, J., Zhang, J., Gong, J.*, et al. Structural recovery of multiaxis inertial signals during short-term saturation. Measurement, with editor."
+citation: "Wang, H., Yi, J., Zhang, J., Gong, J.*, et al. Structural recovery of multiaxis inertial signals during short-term saturation. Measurement, under review."
 authors_display: "Wang, H., Yi, J., Zhang, J., Gong, J.*, et al."
 venue_short: "Measurement"
 cv_order: 5
 project_url: "/portfolio/2025-inertial-perception-overrange-recovery"
-status_label: "With Editor"
+status_label: "Under Review"
 ---
 
-Submitted to **Measurement** · **With Editor**.
+Submitted to **Measurement** · **Under Review**.
 
 ## Research question
 
