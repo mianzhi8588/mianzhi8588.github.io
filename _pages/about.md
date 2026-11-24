@@ -25,9 +25,22 @@ redirect_from:
 </div>
 
 <div class="research-section-heading" id="selected-research"><div><p class="research-eyebrow">Selected work</p><h2>Selected research</h2></div><a href="{{ '/portfolio/' | relative_url }}">All projects <span aria-hidden="true">↗</span></a></div>
-<p class="research-preview-note">Five ongoing studies in robot learning and intelligent sensing. Open a project for the research question, my contribution, and current findings.</p>
+<p class="research-preview-note">Six ongoing studies in robot learning and intelligent sensing. Open a project for the research question, approach, and current findings.</p>
 
 <div class="current-research-grid">
+  <article class="current-research-card current-research-card--wide">
+    <a class="current-research-card__visual" href="{{ '/portfolio/2026-dexterous-hand-next-skill' | relative_url }}">
+      <img src="{{ '/images/rss-next-skill-overview.svg' | relative_url }}" alt="Contact-informed hand selection and fresh learning on new manipulation skills" width="960" height="540" loading="lazy">
+    </a>
+    <div class="current-research-card__copy">
+      <span>Dexterous manipulation · Hand design · Robot learning</span>
+      <h3><a href="{{ '/portfolio/2026-dexterous-hand-next-skill' | relative_url }}">Which Dexterous Hand Will Learn the Next Skill?</a></h3>
+      {% include research-status.html publication='/publication/2026-which-dexterous-hand-will-learn-the-next-skill' %}
+      <p>Can contact behavior on familiar tasks help us choose a hand for the next one? This study investigates support exchanges as a design signal for learning new manipulation skills.</p>
+      <a class="project-evidence" href="{{ '/portfolio/2026-dexterous-hand-next-skill' | relative_url }}">Research question & approach <span aria-hidden="true">↗</span></a>
+    </div>
+  </article>
+
   <article class="current-research-card current-research-card--wide">
     <div class="current-research-card__visual">
       <video controlslist="nodownload" oncontextmenu="return false;" controls playsinline preload="none" style="object-fit: contain;" poster="{{ '/images/robophys-public-preview.jpg' | relative_url }}?v=20261015" aria-label="RoboPhys narrated research overview">
