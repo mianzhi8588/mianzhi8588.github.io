@@ -30,7 +30,7 @@ redirect_from:
 <div class="current-research-grid">
   <article class="current-research-card current-research-card--wide">
     <a class="current-research-card__visual" href="{{ '/portfolio/2026-dexterous-hand-next-skill' | relative_url }}">
-      <img src="{{ '/images/rss-next-skill-overview.svg' | relative_url }}" alt="Contact-informed hand selection and fresh learning on new manipulation skills" width="960" height="540" loading="lazy">
+      <img src="{{ '/images/rss-next-skill-overview.svg' | relative_url }}?v=20261125-2" alt="Contact-informed hand selection and fresh learning on new manipulation skills" width="960" height="540" loading="lazy">
     </a>
     <div class="current-research-card__copy">
       <span>Dexterous manipulation · Hand design · Robot learning</span>
