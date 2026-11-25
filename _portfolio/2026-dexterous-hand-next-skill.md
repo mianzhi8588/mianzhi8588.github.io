@@ -20,7 +20,7 @@ A dexterous hand may need to learn many skills after it is built. Retraining its
 Two hands might both rotate an object successfully, yet differ in how they keep it supported when a finger releases and moves to a new contact. This study asks whether such contact behavior provides useful evidence about a hand's capacity to learn new skills.
 
 <figure class="research-media research-media--landscape">
-  <img src="{{ '/images/rss-next-skill-overview.svg' | relative_url }}?v=20261125-2" alt="Study overview: observe support exchanges on familiar tasks, fix the hand geometry, and evaluate fresh learning on new skills." width="960" height="540">
+  <img src="{{ '/images/rss-next-skill-overview.svg' | relative_url }}?v=20261125-3" alt="Study overview: observe support exchanges on familiar tasks, fix the hand geometry, and evaluate fresh learning on new skills." width="960" height="540">
   <figcaption>Research concept: contact behavior informs a design-time ranking; fresh controllers on fixed geometries test whether that ranking predicts learning on new skills. Schematic, not an experimental result.</figcaption>
 </figure>
 
