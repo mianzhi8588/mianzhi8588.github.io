@@ -5,18 +5,18 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% assign published = site.publications | where: 'category', 'published' | sort: 'cv_order' %}
+{% assign published = site.publications | where_exp: 'paper', "paper.category == 'published' or paper.category == 'accepted'" | sort: 'cv_order' %}
 {% assign submitted = site.publications | where: 'category', 'underreview' | sort: 'cv_order' %}
 {% assign working = site.publications | where: 'category', 'working' | sort: 'cv_order' %}
 
 <section class="publication-intro">
   <p class="research-eyebrow">Research output</p>
   <p>Intelligent sensing, multimodal diagnosis, reliable robot programs, and learned manipulation.</p>
-  <div class="publication-summary"><a href="#published"><strong>{{ published.size }}</strong> Published</a><a href="#submitted"><strong>{{ submitted.size }}</strong> Submitted</a><a href="#working">Work in progress <span aria-hidden="true">↓</span></a></div>
+  <div class="publication-summary"><a href="#published"><strong>{{ published.size }}</strong> Published &amp; Accepted</a><a href="#submitted"><strong>{{ submitted.size }}</strong> Submitted</a><a href="#working">Work in progress <span aria-hidden="true">↓</span></a></div>
   <p class="publication-status-note">Titles follow the latest manuscript versions; statuses reflect current author-reported submission progress. Under Review and With Editor indicate ongoing review or editorial assessment.</p>
 </section>
 
-<div class="research-section-heading" id="published"><div><p class="research-eyebrow">01 / Published work</p><h2>Journal publication</h2></div></div>
+<div class="research-section-heading" id="published"><div><p class="research-eyebrow">01 / Published &amp; accepted work</p><h2>Journal publications &amp; accepted papers</h2></div></div>
 <div class="paper-list">{% for paper in published %}{% include publication-row.html paper=paper %}{% endfor %}</div>
 
 <div class="research-section-heading" id="submitted"><div><p class="research-eyebrow">02 / Submitted work</p><h2>Manuscripts under consideration</h2></div></div>

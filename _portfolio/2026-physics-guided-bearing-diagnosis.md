@@ -5,7 +5,7 @@ collection: portfolio
 permalink: /portfolio/2026-physics-guided-bearing-diagnosis
 excerpt: "Organizing complementary vibration representations around physical fault evidence for diagnosis under noise and operating-condition shifts."
 date: 2026-05-01
-status: "EAAI · Revised and Resubmitted"
+status: "EAAI · Accepted"
 research_area: "Intelligent Diagnosis · Robust Learning"
 research_stage: current
 research_order: 3
@@ -48,4 +48,4 @@ The operating-condition experiments compare different approximately steady opera
 
 ## Related manuscript
 
-[Physics-Guided Multi-Representation Fusion for Robust Bearing Fault Diagnosis under Variable Operating Conditions]({{ '/publication/2026-physics-guided-multi-domain-representation-framework' | relative_url }}) — Engineering Applications of Artificial Intelligence · Revised and Resubmitted.
+[Physics-Guided Multi-Representation Fusion for Robust Bearing Fault Diagnosis under Variable Operating Conditions]({{ '/publication/2026-physics-guided-multi-domain-representation-framework' | relative_url }}) — Engineering Applications of Artificial Intelligence · Accepted.
