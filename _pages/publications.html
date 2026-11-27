@@ -5,7 +5,8 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% assign published = site.publications | where_exp: 'paper', "paper.category == 'published' or paper.category == 'accepted'" | sort: 'cv_order' %}
+{% assign accepted = site.publications | where: 'category', 'accepted' %}
+{% assign published = site.publications | where: 'category', 'published' | concat: accepted | sort: 'cv_order' %}
 {% assign submitted = site.publications | where: 'category', 'underreview' | sort: 'cv_order' %}
 {% assign working = site.publications | where: 'category', 'working' | sort: 'cv_order' %}
 

@@ -127,7 +127,8 @@ redirect_from:
 </div>
 
 <div class="research-section-heading"><div><p class="research-eyebrow">Research output</p><h2>Publications & manuscripts</h2></div><a href="{{ '/publications/' | relative_url }}">Full list & authors <span aria-hidden="true">↗</span></a></div>
-{% assign published_papers = site.publications | where_exp: 'paper', "paper.category == 'published' or paper.category == 'accepted'" | sort: 'cv_order' %}
+{% assign accepted_papers = site.publications | where: 'category', 'accepted' %}
+{% assign published_papers = site.publications | where: 'category', 'published' | concat: accepted_papers | sort: 'cv_order' %}
 {% assign submitted_papers = site.publications | where: 'category', 'underreview' | sort: 'cv_order' %}
 {% include home-paper-group.html heading='Published &amp; Accepted' papers=published_papers %}
 {% include home-paper-group.html heading='Submitted manuscripts' papers=submitted_papers %}
